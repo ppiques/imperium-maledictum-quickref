@@ -5,6 +5,19 @@ import criticalWounds from "../data/criticalWounds.json";
 import injuries from "../data/injuries.json";
 import "../styles/CriticalWounds.css";
 
+type CriticalWound = {
+  Roll: string;
+  Description: string;
+  Effect: string;
+  Treatment: string;
+};
+
+type Injury = {
+  Location: string;
+  Minor: string;
+  Major: string;
+};
+
 function CriticalWounds() {
   const criticalWoundsHeaders = ["Roll", "Description", "Effect", "Treatment"];
   const injuriesHeaders = ["Location", "Minor", "Major"];
@@ -13,10 +26,13 @@ function CriticalWounds() {
   const [query, setQuery] = useState("");
 
   // Filtrage des données pour chaque partie du corps
-  const filterData = (data) =>
-    data.filter((item) =>
+  const filterData = (data: CriticalWound[]) =>
+    data.filter((item: CriticalWound) =>
       criticalWoundsHeaders.some((header) =>
-        item[header]?.toString().toLowerCase().includes(query.toLowerCase())
+        item[header as keyof CriticalWound]
+          ?.toString()
+          .toLowerCase()
+          .includes(query.toLowerCase())
       )
     );
 
@@ -69,7 +85,7 @@ function CriticalWounds() {
       />
 
       <h3>Injuries</h3>
-      <Table headers={injuriesHeaders} data={injuries} />
+      <Table headers={injuriesHeaders} data={injuries as Injury[]} />
     </div>
   );
 }
