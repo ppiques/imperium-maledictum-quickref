@@ -83,58 +83,30 @@ const Table: React.FC<TableProps> = ({
   };
 
   const sortedData = React.useMemo(() => {
-    if (!sortConfig) return data; // Si sortConfig est null, ne pas trier les données
+    if (!sortConfig) return data;
+
+    const normalizeValue = (value: any): string | number => {
+      if (typeof value === "string" || typeof value === "number") {
+        return value;
+      }
+      if (typeof value === "boolean") {
+        return value ? 1 : 0;
+      }
+      if (typeof value === "bigint") {
+        return Number(value);
+      }
+      return "";
+    };
 
     return [...data].sort((a, b) => {
-      let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
-      let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
+      const aValue = normalizeValue(a[sortConfig.key]);
+      const bValue = normalizeValue(b[sortConfig.key]);
 
-      // Handle null values
-      if (aValue === null) return sortConfig.direction === "asc" ? -1 : 1;
-      if (bValue === null) return sortConfig.direction === "asc" ? 1 : -1;
-
-      // Gestion spéciale pour la colonne "Availability"
-      if (sortConfig.key === "Availability") {
-        const aString = typeof aValue === "string" ? aValue.toLowerCase() : "";
-        const bString = typeof bValue === "string" ? bValue.toLowerCase() : "";
-
-        const aIndex = availabilityOrder.indexOf(aString);
-        const bIndex = availabilityOrder.indexOf(bString);
-
-        const aFinalIndex = aIndex === -1 ? availabilityOrder.length : aIndex;
-        const bFinalIndex = bIndex === -1 ? availabilityOrder.length : bIndex;
-
-        return sortConfig.direction === "asc"
-          ? aFinalIndex - bFinalIndex
-          : bFinalIndex - aFinalIndex;
-      }
-
-      // Gestion spéciale pour "Cost (Mag)" : ignore les parenthèses
-      if (sortConfig.key === "Cost (Mag)") {
-        const extractNumber = (value: string | number) => {
-          if (typeof value === "string") {
-            const match = value.match(/\d+/); // Extrait les chiffres
-            return match ? parseInt(match[0], 10) : 0;
-          }
-          return typeof value === "number" ? value : 0;
-        };
-
-        const aNumber = extractNumber(aValue);
-        const bNumber = extractNumber(bValue);
-
-        return sortConfig.direction === "asc"
-          ? aNumber - bNumber
-          : bNumber - aNumber;
-      }
-
-      // Convertit les valeurs en nombres si possible
-      const aNumber = isNaN(Number(aValue)) ? aValue : Number(aValue);
-      const bNumber = isNaN(Number(bValue)) ? bValue : Number(bValue);
-
-      if (aNumber < bNumber) {
+      // Comparaison générique
+      if (aValue < bValue) {
         return sortConfig.direction === "asc" ? -1 : 1;
       }
-      if (aNumber > bNumber) {
+      if (aValue > bValue) {
         return sortConfig.direction === "asc" ? 1 : -1;
       }
       return 0;
