@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
         </div>
         <p>
           <a
-            href="https://github.com/ppiques/Imperium-Maledictum-Quickref"
+            href="https://github.com/ppiques/imperium-maledictum-quickref"
             target="_blank"
             rel="noopener noreferrer"
           >
