@@ -5,7 +5,7 @@ import "./Table.css";
 
 interface TableProps {
   headers: string[];
-  data: { [key: string]: string | number | null }[];
+  data: { [key: string]: string | number | null | React.ReactNode }[];
   disableSorting?: boolean;
   defaultSort?: { key: string; direction: "asc" | "desc" } | "unsorted";
 }

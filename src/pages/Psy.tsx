@@ -462,7 +462,10 @@ function Psy() {
   const filteredPsyPowers = psyPowers
     .filter((power) =>
       psyPowersHeaders.some((header) =>
-        power[header]?.toString().toLowerCase().includes(query.toLowerCase())
+        power[header as keyof typeof power]
+          ?.toString()
+          .toLowerCase()
+          .includes(query.toLowerCase())
       )
     )
     .map((power) => ({
@@ -473,14 +476,20 @@ function Psy() {
   // Filtrage des phénomènes psychiques
   const filteredPsychicPhenomena = psychicPhenomena.filter((phenomenon) =>
     psychicPhenomenaHeaders.some((header) =>
-      phenomenon[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      phenomenon[header as keyof typeof phenomenon]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   // Filtrage des périls du Warp
   const filteredPerilsOfTheWarp = perilsOfTheWarp.filter((peril) =>
     perilsOfTheWarpHeaders.some((header) =>
-      peril[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      peril[header as keyof typeof peril]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
@@ -508,14 +517,14 @@ function Psy() {
         headers={psychicPhenomenaHeaders}
         data={filteredPsychicPhenomena}
         disableSorting={true}
-        defaultSort={null}
+        defaultSort="unsorted"
       />
       <h3>Perils of the Warp</h3>
       <Table
         headers={perilsOfTheWarpHeaders}
         data={filteredPerilsOfTheWarp}
         disableSorting={true}
-        defaultSort={null}
+        defaultSort="unsorted"
       />
     </div>
   );

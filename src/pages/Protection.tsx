@@ -50,13 +50,19 @@ function Protection() {
   // Filtrage
   const filteredArmour = armourData.filter((armour) =>
     armourHeaders.some((header) =>
-      armour[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      armour[header as keyof typeof armour]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredForceFields = forceFields.filter((field) =>
     forceFieldHeaders.some((header) =>
-      field[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      field[header as keyof typeof field]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
