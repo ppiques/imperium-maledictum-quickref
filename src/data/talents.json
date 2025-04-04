@@ -20,7 +20,7 @@
   {
     "Name": "Air of Authority",
     "Requirement": "2 Advances in Presence",
-    "Description": "Make a Challenging (+0) Rapport Test to gain +1 Influence with a group.",
+    "Description": "Make a Challenging (+0) Presence or Rapport Test to gain +1 Influence with a group.",
     "Source": "Core Rulebook"
   },
   {
@@ -128,7 +128,7 @@
   {
     "Name": "Deadeye",
     "Requirement": "1 Advance in Ranged",
-    "Description": "+1 SL on Ranged Attacks. Gain Advantage when Aiming to target a Location.",
+    "Description": "+1 SL on Ranged Attacks when Aiming.",
     "Source": "Core Rulebook"
   },
   {
@@ -223,7 +223,7 @@
   },
   {
     "Name": "Faithful (Imperial Cult)",
-    "Requirement": "Adeptus Ministorum, 2 Advances in Lore (Theology)",
+    "Requirement": "Adeptus Ministorum OR 2 Advances in Lore (Theology) OR +2 Ministorum Influence",
     "Description": "Manifest faith for bonuses. Gain SL equal to Willpower Bonus in Tests.",
     "Source": "Core Rulebook"
   },
@@ -290,7 +290,7 @@
   {
     "Name": "Full-Auto Fanatic",
     "Requirement": "3 Advances in Ranged",
-    "Description": "Spend double bullets for Rapid Fire to target all individuals in a Zone.",
+    "Description": "Spend double bullets for Rapid Fire to target all individuals in Close Range of the target with Spread Trait.",
     "Source": "Core Rulebook"
   },
   {
@@ -382,7 +382,7 @@
   {
     "Name": "Martyrdom",
     "Requirement": "2 Advances in Fortitude",
-    "Description": "+SL to Tests equal to Willpower Bonus when suffering Critical Wounds.",
+    "Description": "+SL to Tests equal to Willpower Bonus when suffering from an untreated Critical Wound.",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -532,7 +532,7 @@
   {
     "Name": "Two-Handed Cleave",
     "Requirement": "2 Advances in Melee (Two-handed)",
-    "Description": "Gain Spread Trait with Two-handed weapons. Additional effects on subsequent purchases.",
+    "Description": "Gain Spread Trait with Two-handed melee weapons. Additional effects on subsequent purchases.",
     "Source": "Core Rulebook"
   },
   {
