@@ -85,29 +85,33 @@ const Table: React.FC<TableProps> = ({
   const sortedData = React.useMemo(() => {
     if (!sortConfig) return data;
 
-    const normalizeValue = (value: any): string | number => {
-      if (typeof value === "string" || typeof value === "number") {
-        return value;
-      }
-      if (typeof value === "boolean") {
-        return value ? 1 : 0;
-      }
-      if (typeof value === "bigint") {
-        return Number(value);
-      }
-      return "";
-    };
-
     return [...data].sort((a, b) => {
-      const aValue = normalizeValue(a[sortConfig.key]);
-      const bValue = normalizeValue(b[sortConfig.key]);
+      let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
+      let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
 
-      // Comparaison générique
-      if (aValue < bValue) {
-        return sortConfig.direction === "asc" ? -1 : 1;
+      // Gestion spéciale pour la colonne "Availability"
+      if (sortConfig.key === "Availability") {
+        const aString = typeof aValue === "string" ? aValue.toLowerCase() : "";
+        const bString = typeof bValue === "string" ? bValue.toLowerCase() : "";
+
+        const aIndex = availabilityOrder.indexOf(aString);
+        const bIndex = availabilityOrder.indexOf(bString);
+
+        const aFinalIndex = aIndex === -1 ? availabilityOrder.length : aIndex;
+        const bFinalIndex = bIndex === -1 ? availabilityOrder.length : bIndex;
+
+        return sortConfig.direction === "asc"
+          ? aFinalIndex - bFinalIndex
+          : bFinalIndex - aFinalIndex;
       }
-      if (aValue > bValue) {
-        return sortConfig.direction === "asc" ? 1 : -1;
+
+      if (aValue && bValue) {
+        if (aValue < bValue) {
+          return sortConfig.direction === "asc" ? -1 : 1;
+        }
+        if (aValue > bValue) {
+          return sortConfig.direction === "asc" ? 1 : -1;
+        }
       }
       return 0;
     });
