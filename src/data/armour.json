@@ -284,7 +284,7 @@
     "Locations": "Special",
     "Armour": "4",
     "Encumbrance": "4",
-    "Cost": "1,000",
+    "Cost": "1000",
     "Availability": "Exotic",
     "Traits": "Shield (4)",
     "Source": "Inquisitor Player's Guide"
@@ -294,7 +294,7 @@
     "Locations": "Special",
     "Armour": "4",
     "Encumbrance": "4",
-    "Cost": "1,500",
+    "Cost": "1500",
     "Availability": "Exotic",
     "Traits": "Shield (6)",
     "Source": "Inquisitor Player's Guide"
@@ -304,7 +304,7 @@
     "Locations": "Arms, Body, Legs",
     "Armour": "3",
     "Encumbrance": "3",
-    "Cost": "5,000",
+    "Cost": "5000",
     "Availability": "Exotic",
     "Traits": "-",
     "Source": "Inquisitor Player's Guide"
@@ -314,7 +314,7 @@
     "Locations": "Arms, Body, Legs",
     "Armour": "5",
     "Encumbrance": "4",
-    "Cost": "8,000",
+    "Cost": "8000",
     "Availability": "Exotic",
     "Traits": "Heavy (4), Loud",
     "Source": "Inquisitor Player's Guide"

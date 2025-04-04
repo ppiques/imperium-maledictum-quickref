@@ -105,6 +105,28 @@ const Table: React.FC<TableProps> = ({
           : bFinalIndex - aFinalIndex;
       }
 
+      // Gestion spéciale pour la colonne "Cost"
+      if (sortConfig.key === "Cost" || sortConfig.key === "Cost (Mag)") {
+        const normalizeNumber = (value: any): number => {
+          if (typeof value === "string") {
+            const parsed = parseFloat(value);
+            return isNaN(parsed) ? 0 : parsed;
+          }
+          if (typeof value === "number") {
+            return value;
+          }
+          return 0;
+        };
+
+        const aNumber = normalizeNumber(aValue);
+        const bNumber = normalizeNumber(bValue);
+
+        return sortConfig.direction === "asc"
+          ? aNumber - bNumber
+          : bNumber - aNumber;
+      }
+
+      // Comparaison générique
       if (aValue && bValue) {
         if (aValue < bValue) {
           return sortConfig.direction === "asc" ? -1 : 1;
