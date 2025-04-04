@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
 import rangedWeapons from "../data/rangedWeapons.json";

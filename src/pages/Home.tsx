@@ -1,4 +1,3 @@
-import React from "react";
 import Table from "../components/Table";
 import xpCosts from "../data/xpCosts.json";
 import names from "../data/names.json";
