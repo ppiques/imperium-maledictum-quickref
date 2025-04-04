@@ -1,0 +1,137 @@
+[
+  {
+    "Name": "Bleeder Rounds",
+    "Damage": "-",
+    "Cost": "x2",
+    "Availability": "Rare",
+    "Used With": "Solid Projectile Weapons, excluding Shotguns",
+    "Traits": "Inflict (Bleeding)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Executioner Rounds",
+    "Damage": "-",
+    "Cost": "x1",
+    "Availability": "Rare",
+    "Used With": "Bolt weapons, Shotguns",
+    "Traits": "Range (Extreme)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Hot-Shot Las Pack",
+    "Damage": "+2",
+    "Cost": "x3",
+    "Availability": "Scarce",
+    "Used With": "Las weapons with the Reliable trait",
+    "Traits": "Penetrating (2)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Inferno Shells",
+    "Damage": "-",
+    "Cost": "x2",
+    "Availability": "Rare",
+    "Used With": "Bolt weapons, Shotguns",
+    "Traits": "Inflict (Ablaze)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Man-Stopper Bullets",
+    "Damage": "-",
+    "Cost": "x3",
+    "Availability": "Scarce",
+    "Used With": "Solid Projectile Weapons, excluding Shotguns",
+    "Traits": "Penetrating (3)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Tox Rounds",
+    "Damage": "-",
+    "Cost": "x3",
+    "Availability": "Scarce",
+    "Used With": "Any Bolt weapon or Solid Projectile weapon, excluding Shotguns",
+    "Traits": "Inflict (Poisoned)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Blessed Rounds",
+    "Damage": "+X",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Any Bolt weapon, Crossbow, or Solid Projectile weapon",
+    "Traits": "Adds WilB to Dmg when attacking a daemon or creature with a Warp Threshold",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Exitus Hellfire",
+    "Damage": "+2",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Exitus Weapons",
+    "Traits": "Inflict (Poison)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Exitus Shield-breaker",
+    "Damage": "-",
+    "Cost": "x3",
+    "Availability": "Exotic",
+    "Used With": "Exitus Weapons",
+    "Traits": "Rend (6)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Exitus Turbo-penetrator",
+    "Damage": "+2",
+    "Cost": "x3",
+    "Availability": "Exotic",
+    "Used With": "Exitus Weapons",
+    "Traits": "Penetrating (8)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Poison Stake",
+    "Damage": "-",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Crossbow Weapons",
+    "Traits": "Inflict (Poison)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Psybolt Rounds",
+    "Damage": "-",
+    "Cost": "x3",
+    "Availability": "Exotic",
+    "Used With": "Bolt Weapons",
+    "Traits": "Double damage against Psykers and Daemons",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Purgatus Stake",
+    "Damage": "-",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Crossbow Weapons",
+    "Traits": "Rend (X)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Silver Stake",
+    "Damage": "-",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Crossbow Weapons",
+    "Traits": "Inflict (Stunned)",
+    "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Tainted Rounds",
+    "Damage": "+X",
+    "Cost": "x2",
+    "Availability": "Exotic",
+    "Used With": "Solid Projectile Weapons, excluding Shotguns",
+    "Traits": "Bonus Dmg equal to the wielder’s Corruption up to their (WilB)",
+    "Source": "Inquisition Player's Guide"
+  }
+]

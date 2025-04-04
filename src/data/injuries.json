@@ -1,0 +1,32 @@
+[
+  {
+    "Location": "Head (Eye)",
+    "Minor": "Your orbital bone is cracked, swelling obstructs your sight. You have Disadvantage on Awareness (Sight) Tests.",
+    "Major": "Your orbital bone is shattered, causing severe swelling and loss of vision. You have Disadvantage on Awareness (Sight) Tests and can't see out of the injured eye."
+  },
+  {
+    "Location": "Head (Jaw)",
+    "Minor": "Your ability to communicate is hampered. You have Disadvantage on Rapport Tests and Tests that rely on speech.",
+    "Major": "Your jaw is ruined. You cannot speak and will need to survive on a liquid diet for a few weeks."
+  },
+  {
+    "Location": "Head (Nose)",
+    "Minor": "Your nose is crushed, a swollen mass of blood and cartilage. You have Disadvantage on Awareness (Smell) Tests.",
+    "Major": "Your nose is completely shattered. You have no sense of smell."
+  },
+  {
+    "Location": "Torso",
+    "Minor": "Your strength and mobility are severely limited. You have Disadvantage on Strength and Agility Tests, and your Speed is reduced one step, to a minimum of Slow.",
+    "Major": "You have suffered internal damage, leading to an almost total loss of mobility. You must make a Challenging (+0) Endurance (Pain) Test when attempting any physical activity. On a failure, you are Incapacitated. You can't attempt any other physical activity until the next day, or until you are treated with a Challenging (+0) Medicae Test. On a success, you can attempt the activity, but have Disadvantage on the Test."
+  },
+  {
+    "Location": "Arms",
+    "Minor": "It is almost too painful to use your arm. You have Disadvantage on all Tests using the arm, such as swinging a weapon, steadying a rifle, or climbing.",
+    "Major": "The arm is completely unusable and you must use your other hand. You have Disadvantage on all Tests that require the use of two hands, and can't wield weapons with the Two-handed Trait. If you suffer a broken hand, you can still strap a shield to your arm but otherwise suffer the same penalties."
+  },
+  {
+    "Location": "Legs",
+    "Minor": "Staying mobile is incredibly painful. You have Disadvantage on Tests that rely on mobility, such as Reflexes and Athletics Tests, and your Speed is reduced one step, to a minimum of Slow.",
+    "Major": "As Minor Break. Additionally, the minimum Difficulty of Tests relying on mobility is Hard (-20)."
+  }
+]

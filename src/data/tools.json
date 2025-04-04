@@ -1,0 +1,346 @@
+[
+  {
+    "Name": "Auspex/Scanner",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Encumbrance": "1",
+    "Effect": "Detects motion, energy emissions, light outside of human vision, signs of life, and more within Medium Range. Requires a Tech Test to detect specific phenomena or overcome interference.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Auto-Quill",
+    "Cost": "150",
+    "Availability": "Scarce",
+    "Encumbrance": "2",
+    "Effect": "Transcribes spoken words or copies written text onto parchment, allowing for quick and accurate record-keeping.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Chirurgeon’s Kit (5 uses)",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "A Chirurgeon's Kit is required to treat many Critical Wounds as well as certain Injuries. A Chirurgeon's Kit is also required to gain the benefits of the Chirurgeon Talent. You can use the Chirurgeon's Kit five times before it must be replenished. The cost to replenish the Chirurgeon's Kit is equal to half the cost of a Chirurgeons Kit based on its availability. You may expend one use of the kit to remove a Bleeding Condition not gained from a Critical Wound with a Easy (+40) Medicae Test. Using the Chirurgeon's Kit to treat a wound or injury, or to remove a Poisoned Condition, also requires a Medicae Test. Unless stated otherwise, the Difficulty of the Test is Challenging (+0). On a failure, one use of the supplies is consumed to no effect.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Chrono",
+    "Cost": "20",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Displays the current time and automatically adjusts to local time after a few seconds on the ground.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Climbing Harness",
+    "Cost": "100",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "A climbing harness line is 50 metres in length and can support the weight of a Medium-sized creature or object. It takes an Action to set up a climbing harness. Additionally, the harness automatically arrests its payload should it detect the user falling too fast.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Combi-Tool",
+    "Cost": "300",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Contains probes, blades, and other tools to appease Machine Spirits and awaken slumbering ones.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Comm Leech",
+    "Cost": "1000",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Can be used to make a Challenging (+0) Tech Test to intercept electronic signals out to 3 miles, with the GM making the final determination of Test Difficulty and distance based on the current circumstances. Can intercept messages a number of minutes long equal to the SL. On a failure, the leech attempt is detected by the transmitter.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Dataslate",
+    "Cost": "100",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Can be used to interface with many machines by making a Routine (+20) Tech Test, though obscure or well-protected machinery might require a more difficult Test, or may simply lack the necessary interfaces entirely. A Dataslate can store and display multiple text data, picts, and vid files. Each can be locked with a biometric password, requiring a Hard (−20) Tech Test to bypass.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Diagnostor",
+    "Cost": "2000",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Identifies ailments in humans, used with Medicae and Perception Tests to reveal illnesses or diseases.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Disguise Kit",
+    "Cost": "100",
+    "Availability": "Very Rare",
+    "Encumbrance": "1",
+    "Effect": "Alters appearance to fool guards and pict scanners, requiring a Challenging (+0) or harder Dexterity Test for complex disguises.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Emperor’s Tarot",
+    "Cost": "10000",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Once per session, allows divination of the future, requiring a Difficult (-10) Discipline Test and one hour. Fate cannot be spent to alter the results of the Test. +2 SL or more gives glimpses of a promising future, recovering 1 Fate point. -2 SL or more loses 1 Fate point due to ill omens. Fumble burns one Fate point.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Entrenching Tool",
+    "Cost": "20",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Digging tool that can also be used as an Improvised (One-handed) melee weapon, or counting instead as an Axe if properly sharpened.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Excruciator Kit",
+    "Cost": "500",
+    "Availability": "Exotic",
+    "Encumbrance": "1",
+    "Effect": "Extracts information from unwilling prisoners, used with Presence (Interrogation) Tests.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Glow-Globe/Stabligh",
+    "Cost": "30",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Provides illumination for 5 hours, removing Poorly Lit and Dark Traits from your Zone. Takes 2 hours of non-use to recharge, or almost instantly if connected to a standard Imperial power source.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Grapnel Launcher",
+    "Cost": "550",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Combines a Climbing Harness with a pistol-like launcher that fires a magnetic hook on a line. The Grapnel Launcher can reach 50 metres and, once affixed, can lift two Medium-sized creatures or objects at a rate of 5 metres per round. Using the Grapnel Launcher is an Action, and requires an Routine (+20) Ranged (Pistols) Test.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Grav Chute",
+    "Cost": "2000",
+    "Availability": "Rare",
+    "Encumbrance": "2",
+    "Effect": "While active, allows controlled descent from heights, ignoring falling damage for 10 minutes before needing recharge. Recharging is done by connecting to a standard Imperial power supply for 10 hours.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Holy Icon",
+    "Cost": "10",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Grants +1 SL to Discipline (Fear) Tests for characters with sufficient faith.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Inhaler/Injector",
+    "Cost": "65",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Administers medication or stimulants quickly and effectively.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Instruments of Divination",
+    "Cost": "200",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Aids in divination, with effects depending on the psyker’s power and influence.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Lascutter",
+    "Cost": "170",
+    "Availability": "Common",
+    "Encumbrance": "2",
+    "Effect": "Cuts through solid objects like bulkheads and vault doors, requiring a Tech (Engineering) Test. Can be used as a Improvised (One-handed) weapon with Inflict (Ablaze), Loud, Rend(3).",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Laud Hailer",
+    "Cost": "100",
+    "Availability": "Scarce",
+    "Encumbrance": "1",
+    "Effect": "Amplifies voice or sounds to be heard above crowds up to 100 meters away.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mag Boots",
+    "Cost": "400",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "As an Action, can be activated to stick to a ferromagnetic surface. This allows ignoring the effects of zero or low gravity, but one's Speed is reduced to Slow. In normal gravity, can make a Challenging (+0) Athletics (Climbing) or Reflexes (Acrobatics) Test to walk on metallic walls and ceilings. Speed is Slow when doing so.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Magnoculars",
+    "Cost": "30",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Amplifies visual images, can be used in combination with Awareness (Sight) Tests to detect objects at Long Range or further.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Manacles",
+    "Cost": "50",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Restrains prisoners, requiring a Very Hard (-30) Dexterity (Lock Picking), Athletics (Might) or Tech (Security) Test to unlock without the key. This Test is made with Disadvantage if the user is attempting to unlock themself. Can be destroyed by dealing 10 Damage to them.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Micro-Bead/Vox Bead",
+    "Cost": "150",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Allows discreet communication within a mile, though dense obstructions may disrupt the signal.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Monotask Servo-Skull",
+    "Cost": "2,000",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Provides specific abilities like illumination, amplification, medical aid, scanning, or utility tasks.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Multicompass",
+    "Cost": "400",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Aids in navigation and exploration, employing sensors and gyroscopic cogitators to signal axial and magnetic north. Can be used in combination with Navigation (Surface) or other Tests relating to making one's way across unfamiliar terrain.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Multikey",
+    "Cost": "200",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Bypasses locks of Imperial design, requiring a Dexterity (Lock Picking) Test.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Pict Recorder",
+    "Cost": "200",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Records and stores hundreds of images and roughly 10 hours of video. Operating a handheld Pict Recorder requires an Action for each round it is in use, but does not require a Test.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Psy Focus",
+    "Cost": "100",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Grants +1 SL to Psychic Mastery Tests, aiding in accessing the powers of the Warp.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Regicide Set",
+    "Cost": "40",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "A board game of strategy and cunning, useful for social interactions.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Sacred Unguents (5 uses)",
+    "Cost": "100",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Calms Machine Spirits, aiding in maintenance and repair of Imperial technological items. As an Action, make a Challenging (+0) Tech (Engineering) Test to apply the Unguents. If successful, re-roll next failed Test using said item. Unguents dry up after one re-roll or if one day passes. Failing the test to apply the Sacred Unguents still uses one charge.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Screamer",
+    "Cost": "170",
+    "Availability": "Scarce",
+    "Encumbrance": "1",
+    "Effect": "Sets off alarms when detecting movement, sound, or pressure, requiring a Routine (+20) Tech (Security) Test to set. On failure, the Screamer goes off and alerts everyone within Long Range.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Signal Jammer",
+    "Cost": "250",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Disrupts vox and data transmissions within 1 kilometer, preventing communication. If not connected to a power source, a jammer can operate for 2 hours before its battery is depleted.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Stummer",
+    "Cost": "1000",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Cancels ambient noise, increasing the Difficulty of sonic Awareness Tests in the same Zone by three steps. Its power lasts for 20 minutes; recharging takes several minutes with a standard Imperial power source.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Vox-Caster",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Allows voice transmission to other Vox-Casters and Vox Beads within 100 kilometers.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Writing Kit",
+    "Cost": "20",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Contains parchment, quills, ink, and other items for recording information in areas with unreliable technology.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Bio-sample Extractor",
+    "Cost": "150",
+    "Availability": "Scarce",
+    "Encumbrance": "1",
+    "Effect": "Extracts and analyzes biological samples (flesh, blood, pheromones) with a Challenging (+0) Tech (Security) Test. Functions as an auspex for target tracing.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Consecrated Scrolls",
+    "Cost": "250",
+    "Availability": "Exotic",
+    "Encumbrance": "1",
+    "Effect": "Consecrated Scrolls, blessed with holy substances and inscriptions, aid psykers by allowing a reroll on Psychic Phenomena or Perils of the Warp tables. This action destroys the scroll. Requires personal crafting and crumbles upon absorbing Warp energy.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Liber Heresius/Inquisitorial Tome",
+    "Cost": "250",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Armored tome of Inquisition knowledge, unique to each, detailing cults, tactics, and schemes. Reading it as an Endeavour grants Advantage on related knowledge Tests and halves the XP cost of the first Lore (Forbidden), Rapport (Inquiry), or Presence (Interrogation) Skill/Specialisation Advance. Provides 'Know Thy Foe' Superiority gauging against a specific cult once.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Listening Vox",
+    "Cost": "300",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Compact, long-range audio recorder/transmitter. Records within a Zone, transmits up to 100 miles (requires paired Vox Caster/Cogitator). Battery lasts 24 hours. Concealment advised. Signal can be jammed; detectable by Auspex with an Hard (-20) Tech (Security) Test.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Polymorphine",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Exotic shapeshifting drug. Trained Callidus Assassins can mimic various forms, including xenos; untrained users are limited to Humans. Transformation takes 1d5 Rounds and a Challenging (+0) Fortitude (Endurance) Test. Failure results in Fatigued condition for 30 minutes. Success lasts up to 2 hours, granting Advantage on disguise-related Tests.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Soulguilt Scanner",
+    "Cost": "2000",
+    "Availability": "Exotic",
+    "Encumbrance": "1",
+    "Effect": "Investigative tool combining conventional (pheromone sniffers, brain activity scanners) and esoteric (Warp emanation reading) instruments. Identifies threats by detecting 'warbling resonance' around impure minds. Grants +2 SL on Awareness and Intuition Tests for hunting malcontents, heretics, or criminals.",
+    "Source": "Inquisitor Player's Guide"
+  }
+]

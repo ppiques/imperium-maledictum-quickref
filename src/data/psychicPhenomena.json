@@ -1,0 +1,77 @@
+[
+    {
+        "1d100": "11-45",
+        "Phenomenon": "Hoarfrost: The area is covered with a thin layer of frost. Breath fogs in the air, and an unnatural chill infiltrates past even the thickest clothing and armour.",
+        "Lingering": "The effect becomes permanent. The area can be heated temporarily by a huge expenditure of heat and energy, but eventually entropy and the chill of the grave reclaims it."
+    },
+    {
+        "1d100": "46-49",
+        "Phenomenon": "Banshee Howl: Loud screeching fills the area, periodically making it impossible to hear other sounds.",
+        "Lingering": "Deafening screeches occur daily. The voice seems familiar to all who hear it."
+    },
+    {
+        "1d100": "50-52",
+        "Phenomenon": "Bloody Tears: Images such as pictures, icons and statues in the area appear to weep blood.",
+        "Lingering": "The weeping becomes permanent. Any who drink the viscous blood dream of terrible portents."
+    },
+    {
+        "1d100": "53-55",
+        "Phenomenon": "Breath Leech: The air is sucked from the lungs of everyone present. Characters in your Zone must succeed at a Challenging (+0) Fortitude (Endurance) Test or become Stunned for one round.",
+        "Lingering": "The air becomes permanently stale and difficult to breathe. Treat the Zone as though it were under the permanent influence of a Choke Grenade."
+    },
+    {
+        "1d100": "56-58",
+        "Phenomenon": "Dark Foreboding: An whispering breeze fills the area, giving those nearby a feeling of nameless dread.",
+        "Lingering": "The area becomes permanently unsettling. Characters entering the Zone must make a Challenging (+0) Discipline (Fear) Test or become Frightened."
+    },
+    {
+        "1d100": "59-62",
+        "Phenomenon": "Distorted Reflection: Reflective surfaces in the area distort whatever they reflect, showing a twisted and disturbing version of reality.",
+        "Lingering": "Surfaces in the area never quite reflect what is truly present. Individuals may draw unholy inspiration from the strange images they perceive."
+    },
+    {
+        "1d100": "63-67",
+        "Phenomenon": "Falling Upwards: Gravity reverses for a few seconds. Characters in your Zone must succeed at a Challenging (+0) Reflexes (Acrobatics) Test or suffer a 10 metre fall.",
+        "Lingering": "Gravity permanently shifts in the area. Unnaturally high gravity inflicts the Overburdened condition one anyone in the Zone. Occasionally gravity reverses without warning, as for Falling Upwards above."
+    },
+    {
+        "1d100": "68-71",
+        "Phenomenon": "Grave Chill: Nearby surfaces become cold to the touch, and breath fogs in the air.",
+        "Lingering": "The area remains frigid in spite of attempts to warm it, and counts as a Cold environment."
+    },
+    {
+        "1d100": "72-76",
+        "Phenomenon": "Memory Worm: Everyone in the area finds it difficult to recall minor things such as people's names or the time.",
+        "Lingering": "The area becomes a permanent place of forgetfulness. It is difficult to recall most facts when in the area, and spending more than an hour there causes someone to forget something substantial."
+    },
+    {
+        "1d100": "77-81",
+        "Phenomenon": "Mounting Paranoia: Everyone in the area has the sudden unshakeable sensation that they are being watched.",
+        "Lingering": "The area becomes mired in a permanent aura of mistrust and paranoia. Anyone spending more than an hour in the area begins to suspect everyone around them of malign intent."
+    },
+    {
+        "1d100": "82-85",
+        "Phenomenon": "Rot and Decay: Any perishable goods in the area become stale and unpalatable, and insects and small animals nearby quickly perish.",
+        "Lingering": "The area gains a permanent faint smell of lingering rot. Living plants, small creatures, and foodstuffs all perish or decay here in hours, and new diseases crop up frequently in the surrounding area."
+    },
+    {
+        "1d100": "86-95",
+        "Phenomenon": "Veil of Darkness: All light sources dim substantially, causing the Zone to become Poorly Lit.",
+        "Lingering": "The effect becomes permanent."
+    },
+    {
+        "1d100": "96-100",
+        "Phenomenon": "Warp Echoes: Everyone in the Zone hears echoing voices and sounds from past events and things yet to be. Characters who hear this bewildering cacophony must pass a Challenging (+0) Discipline Test or be Stunned.",
+        "Lingering": "Whispering and distant voices haunt the Zone forever. They may mislead or inform listeners."
+    },
+    {
+        "1d100": "101-125",
+        "Phenomenon": "Psychic Breakthrough: Roll again on this table, rerolling results of 101+, and apply both the standard and Lingering effect of that result.",
+        "Lingering": "-"
+    },
+    {
+        "1d100": "126",
+        "Phenomenon": "Perils of the Warp: Something has gone terribly wrong. Roll again on the Perils of the Warp Table, exactly as if you had failed a test to control your accumulated Warp Charge.",
+        "Lingering": "-"
+    }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "Roll": "1-2",
+    "Result": "You catch a part of your anatomy. You suffer 1 Damage, which ignores Armour."
+  },
+  {
+    "Roll": "3-4",
+    "Result": "Your melee weapon is knocked from your hand, or your ranged weapon malfunctions or jams. In the next round, you will act last regardless of Initiative order, Talents, or special rules."
+  },
+  {
+    "Roll": "5-6",
+    "Result": "Your manoeuvre was misjudged, leaving you out of position, or you lose grip of a ranged weapon. You have Disadvantage on all Tests until the end of your next turn."
+  },
+  {
+    "Roll": "7",
+    "Result": "You stumble badly and fall Prone."
+  },
+  {
+    "Roll": "8",
+    "Result": "You mishandle your weapon, drop your ammunition, or otherwise cause yourself to become disoriented. You are Stunned until the end of your next turn."
+  },
+  {
+    "Roll": "9",
+    "Result": "You overextend yourself or stumble and twist your ankle. Your Speed is reduced to Slow for the duration of the current encounter. This does not count as a Critical Wound."
+  },
+  {
+    "Roll": "10",
+    "Result": "You completely mess up, hitting a random ally in range using your rolled units die to determine the SL of the hit. If that's not possible, you somehow hit yourself in the face and become Stunned."
+  }
+]

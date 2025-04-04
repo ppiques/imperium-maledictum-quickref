@@ -1,0 +1,28 @@
+{
+  "characteristicImprovement": {
+    "headers": ["New Value", "Cost per Advance"],
+    "data": [
+      { "New Value": "20-25", "Cost per Advance": 20 },
+      { "New Value": "26-30", "Cost per Advance": 25 },
+      { "New Value": "31-35", "Cost per Advance": 30 },
+      { "New Value": "36-40", "Cost per Advance": 40 },
+      { "New Value": "41-45", "Cost per Advance": 60 },
+      { "New Value": "46-50", "Cost per Advance": 80 },
+      { "New Value": "51-55", "Cost per Advance": 110 },
+      { "New Value": "56-60", "Cost per Advance": 140 },
+      { "New Value": "61-65", "Cost per Advance": 180 },
+      { "New Value": "66-70", "Cost per Advance": 220 },
+      { "New Value": "71-75", "Cost per Advance": 270 },
+      { "New Value": "76-80", "Cost per Advance": 320 }
+    ]
+  },
+  "skillSpecialisation": {
+    "headers": ["Advances", "Skill Total Increase", "XP Cost", "Cumulative XP Cost"],
+    "data": [
+      { "Advances": 1, "Skill Total Increase": "+5", "XP Cost": 50, "Cumulative XP Cost": 50 },
+      { "Advances": 2, "Skill Total Increase": "+10", "XP Cost": 100, "Cumulative XP Cost": 150 },
+      { "Advances": 3, "Skill Total Increase": "+15", "XP Cost": 150, "Cumulative XP Cost": 300 },
+      { "Advances": 4, "Skill Total Increase": "+20", "XP Cost": 200, "Cumulative XP Cost": 500 }
+    ]
+  }
+}

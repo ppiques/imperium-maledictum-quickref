@@ -1,0 +1,15 @@
+.talents-page {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.talents-info {
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #e0e0e0;
+  text-align: center;
+}

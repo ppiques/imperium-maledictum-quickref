@@ -1,0 +1,27 @@
+{
+    "Bleeding": "You have a lingering wound.\nBleeding (Minor): 1 Damage, which ignores Armour.\nBleeding (Major): 3 Damage, which ignores Armour.\n\nIf you exceed your Wound Maximum because of the Bleeding Condition, you suffer a Critical Wound as normal. Once this has occurred, you no longer suffer any damage due to Bleeding, but can’t recover Wounds until the Bleeding has been treated.",
+
+    "Blinded": "You can’t see.\nYou can only succeed on Tests that rely on sight, such as Awareness (Sight) and Ranged Tests, by rolling a 01-05.\nYou have Disadvantage on Melee and Dodge (Reflexes) Tests.\n\nUnless specified otherwise, a Blinded condition is lost after 1d10 rounds.",
+
+    "Deafened": "You can’t hear.\nYou can only succeed on Tests that rely on hearing, such as Awareness (Sound), by rolling a 01-05.\n\nUnless specified otherwise, a Deafened condition is lost after 1d10 minutes.",
+
+    "Fatigued": "You are exhausted and stressed, and desperately in need of rest.\nFatigued (Minor): You have Disadvantage on all Tests.\nFatigued (Major): All Tests you make have their difficulty increased to Very Hard (+30).\n\nIf you would gain Fatigued again while already under the effects of Fatigued (Major), you may continue to act for a number of minutes equal to your Toughness Bonus, after which you fall Unconscious.\n\nUnless specified otherwise, you may remove a Fatigued Condition by undertaking six hours of rest.",
+
+    "Ablaze": "You are on fire.\nAblaze (Minor): You suffer 1d5 Damage at the start of your turn, which ignores armour.\nAblaze (Major): You suffer 1d10 Damage at the start of your turn, which ignores armour.\n\nWhile you are Ablaze, you automatically fail all Stealth Tests. Unless specified otherwise, you may remove an Ablaze condition by dropping Prone and using your Action to make a successful Challenging (+0) Athletics Test.",
+
+    "Frightened": "You are frightened.\nFrightened (Minor): Due to your fear and heightened senses, you have Advantage on Awareness and Intuition Tests. However, you have Disadvantage on all Tests relating to confronting the source of your fear.\nFrightened (Major): You are terrified. You must run from the source of your fear in the most direct route possible, stopping only to open doors or otherwise free yourself from your current situation.\n\nUnless specified otherwise, at the end of each round, you may make a Challenging (+0) Discipline (Fear) Test to remove this Condition.",
+
+    "Incapacitated": "You can’t Move or take Actions.\nYou can’t defend yourself. Melee attacks against you automatically score a Critical Hit (see page 215).",
+
+    "Overburdened": "While Overburdened, you have Disadvantage on all Agility Tests and your Speed is reduced one step.",
+
+    "Poisoned": "You are sick or unwell.\nPoisoned (Minor): You have Disadvantage on Strength and Toughness Tests. The maximum SL you can achieve on any Test is equal to your Toughness Bonus.\nPoisoned (Major): You become Prone and Incapacitated.",
+
+    "Prone": "A Prone creature can only move by crawling (see page 202), unless they use their Move to stand up.\nYou have Disadvantage on Melee Tests.\nCreatures attacking you from within Immediate Range have Advantage on their attack Test.\nCreatures attacking you from outside Immediate Range have Disadvantage on their attack Test.",
+
+    "Restrained": "You are unable to move normally.\nRestrained (Minor): You cannot take move Move actions. You have Disadvantage on Tests involving movement of any kind, including Athletics, Dexterity, Melee, Reflexes, and Ranged Tests.\nRestrained (Major): You become Incapacitated.",
+
+    "Stunned": "You are dazed and disoriented.\nStunned (Minor): You can take either a Move or an Action, but not both.\nStunned (Major): Additionally, you have Disadvantage on all Tests.\n\nIf the duration of a Stunned condition is not specified, it lasts for 1d5 rounds.",
+
+    "Unconscious": "You have fallen unconscious, and are completely unaware of your surroundings, helpless, and Incapacitated.\nAnyone within Immediate Range with a weapon that does not have the Ineffective Trait can kill you without needing to make a Test."
+}

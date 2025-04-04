@@ -1,0 +1,26 @@
+[
+    {
+        "Quality": "Poor",
+        "Cost": "5,000",
+        "Examples": "Steerage, bilges, and pilgrim decks on bulk haulers",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Standard",
+        "Cost": "10,000",
+        "Examples": "Massed passenger quarters on merchant ships",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Good",
+        "Cost": "50,000",
+        "Examples": "Multi-person suites aboard passenger transporters",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Excellent",
+        "Cost": "100,000",
+        "Examples": "Private rooms on Chartist Captain vessels",
+        "Source": "Core Rulebook"
+    }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "Name": "Robes/Light Leathers",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "1",
+    "Encumbrance": "2",
+    "Cost": "10",
+    "Availability": "Common",
+    "Traits": "Subtle",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Heavy Leathers",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "3",
+    "Cost": "60",
+    "Availability": "Common",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Armoured Bodyglove",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "1",
+    "Cost": "1200",
+    "Availability": "Rare",
+    "Traits": "Subtle",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Armoured Greatcoat",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "1",
+    "Encumbrance": "3",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Traits": "Subtle",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Scrap-plate",
+    "Locations": "Body",
+    "Armour": "3",
+    "Encumbrance": "5",
+    "Cost": "300",
+    "Availability": "Rare",
+    "Traits": "Heavy (3)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Scrap-shield",
+    "Locations": "Special",
+    "Armour": "*",
+    "Encumbrance": "1",
+    "Cost": "50",
+    "Availability": "Common",
+    "Traits": "Shield (1)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Combat Shield",
+    "Locations": "Special",
+    "Armour": "*",
+    "Encumbrance": "1",
+    "Cost": "300",
+    "Availability": "Common",
+    "Traits": "Shield (2)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Boarding Shield",
+    "Locations": "Special",
+    "Armour": "*",
+    "Encumbrance": "2",
+    "Cost": "800",
+    "Availability": "Rare",
+    "Traits": "Shield (4)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Xenos Hide Vest",
+    "Locations": "Body",
+    "Armour": "6",
+    "Encumbrance": "2",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Flak Boots",
+    "Locations": "Legs",
+    "Armour": "2",
+    "Encumbrance": "2",
+    "Cost": "100",
+    "Availability": "Common",
+    "Traits": "Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Flak Helmet",
+    "Locations": "Head",
+    "Armour": "2",
+    "Encumbrance": "2",
+    "Cost": "150",
+    "Availability": "Common",
+    "Traits": "Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Flak Gauntlets (Pair)",
+    "Locations": "Arms",
+    "Armour": "2",
+    "Encumbrance": "1",
+    "Cost": "100",
+    "Availability": "Common",
+    "Traits": "Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Flak Vest",
+    "Locations": "Body",
+    "Armour": "3",
+    "Encumbrance": "3",
+    "Cost": "500",
+    "Availability": "Common",
+    "Traits": "Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Flak Jacket",
+    "Locations": "Arms, Body",
+    "Armour": "3",
+    "Encumbrance": "3",
+    "Cost": "800",
+    "Availability": "Scarce",
+    "Traits": "Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Astra Militarum Flak Armour",
+    "Locations": "All",
+    "Armour": "4",
+    "Encumbrance": "5",
+    "Cost": "1000",
+    "Availability": "Rare",
+    "Traits": "Loud, Flak",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mesh Boots",
+    "Locations": "Legs",
+    "Armour": "3",
+    "Encumbrance": "2",
+    "Cost": "600",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mesh Cowl",
+    "Locations": "Head",
+    "Armour": "3",
+    "Encumbrance": "2",
+    "Cost": "800",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mesh Gauntlets",
+    "Locations": "Arms",
+    "Armour": "3",
+    "Encumbrance": "1",
+    "Cost": "600",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mesh Vest",
+    "Locations": "Body",
+    "Armour": "4",
+    "Encumbrance": "2",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Xenos Mesh",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "4",
+    "Encumbrance": "3",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Carapace Helm",
+    "Locations": "Head",
+    "Armour": "5",
+    "Encumbrance": "2",
+    "Cost": "400",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Carapace Gauntlets",
+    "Locations": "Arms",
+    "Armour": "5",
+    "Encumbrance": "2",
+    "Cost": "300",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Carapace Greaves",
+    "Locations": "Legs",
+    "Armour": "5",
+    "Encumbrance": "2",
+    "Cost": "300",
+    "Availability": "Rare",
+    "Traits": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Enforcer Carapace",
+    "Locations": "All",
+    "Armour": "5",
+    "Encumbrance": "5",
+    "Cost": "1800",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Carapace Chestplate",
+    "Locations": "Body",
+    "Armour": "6",
+    "Encumbrance": "4",
+    "Cost": "800",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Tempestus Carapace",
+    "Locations": "All",
+    "Armour": "6",
+    "Encumbrance": "6",
+    "Cost": "4000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Light Power Armour",
+    "Locations": "All",
+    "Armour": "8",
+    "Encumbrance": "8",
+    "Cost": "500000",
+    "Availability": "Exotic",
+    "Traits": "Loud, Power Armour",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Power Armour",
+    "Locations": "All",
+    "Armour": "10",
+    "Encumbrance": "10",
+    "Cost": "1000000",
+    "Availability": "Exotic",
+    "Traits": "Loud, Power Armour",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Crusader Storm Shield",
+    "Locations": "Special",
+    "Armour": "4",
+    "Encumbrance": "4",
+    "Cost": "1,000",
+    "Availability": "Exotic",
+    "Traits": "Shield (4)",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Praesidium Protectiva",
+    "Locations": "Special",
+    "Armour": "4",
+    "Encumbrance": "4",
+    "Cost": "1,500",
+    "Availability": "Exotic",
+    "Traits": "Shield (6)",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Truesilver Weave",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "3",
+    "Encumbrance": "3",
+    "Cost": "5,000",
+    "Availability": "Exotic",
+    "Traits": "-",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Warded Armour",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "5",
+    "Encumbrance": "4",
+    "Cost": "8,000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Inquisitor Player's Guide"
+  }
+]

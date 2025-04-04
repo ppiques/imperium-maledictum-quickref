@@ -1,0 +1,372 @@
+{
+  "CriticalWounds": {
+    "Head": [
+      {
+        "Roll": "1",
+        "Description": "Black Eye",
+        "Effect": "You are struck in the eye. You have Disadvantage on Awareness (Sight) and Ranged Tests for 1 hour.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "2",
+        "Description": "Rattling Blow",
+        "Effect": "The blow floods your vision with flashing lights. You are Stunned until the end of your next turn.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "3",
+        "Description": "Laceration",
+        "Effect": "You suffer a laceration to the cheek. You are Bleeding.",
+        "Treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "4",
+        "Description": "Sliced Ear",
+        "Effect": "The attack slices your ear, leaving your ears ringing. You are Deafened until the end of your next turn, and are Bleeding.",
+        "Treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "5",
+        "Description": "Dislocated Jaw",
+        "Effect": "The blow dislocates your jaw, dislocating your jaw. You are Stunned until the start of your next turn.",
+        "Treatment": "A Challenging (+0) Medicae Test to pop the jaw back into place."
+      },
+      {
+        "Roll": "6",
+        "Description": "Struck Forehead",
+        "Effect": "You are struck in the head, causing blood to run down your face and impair your vision. You are Blinded and Bleeding.",
+        "Treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "7",
+        "Description": "Major Eye Wound",
+        "Effect": "You are hit in the eye, causing serious damage. You are Bleeding, and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
+        "Treatment": "A Difficult (-10) Medicae Test to treat the eye and stop the Bleeding."
+      },
+      {
+        "Roll": "8",
+        "Description": "Major Ear Wound",
+        "Effect": "The blow strikes you in the ear or otherwise damages your ear drums. You are Deafened. If you suffer this result again, your hearing is permanently lost.",
+        "Treatment": "A Difficult (-10) Medicae Test, usually using drugs to reduce swelling and inflammation in the ear."
+      },
+      {
+        "Roll": "9",
+        "Description": "Smashed Mouth",
+        "Effect": "The blow smashes out several teeth. You are Bleeding and must make a Challenging (+0) Fortitude (Pain) Test or also fall Prone.",
+        "Treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "10",
+        "Description": "Broken Nose",
+        "Effect": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the end of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone.",
+        "Treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "11",
+        "Description": "Mangled Ear",
+        "Effect": "The blow tears your ear apart. You are Deafened and Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test or also gain the Stunned Condition until the end of your next turn.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "12",
+        "Description": "Concussive Blow",
+        "Effect": "You take a concussive blow to the head. You are Deafened and Stunned for 1 minute, and are Bleeding.",
+        "Treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding and restore hearing."
+      },
+      {
+        "Roll": "13",
+        "Description": "Devastated Eye",
+        "Effect": "A strike to your eye causes it to burst. You are Bleeding (Major), and have Disadvantage on Awareness (Sight) Tests. If you only have one eye, you are Blinded.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "14",
+        "Description": "Mangled Jaw",
+        "Effect": "The blow shatters your jaw and destroys your tongue, sending teeth flying. You are Bleeding (Major). You must make a Challenging (+0) Fortitude (Pain) Test. On a success you are Stunned until the start of your next turn; on a failure you are Incapacitated until the end of your next turn and fall Prone. Additionally, your jaw is shattered, and you suffer the Broken Bone (Major) Injury to your jaw.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "15+",
+        "Description": "Shattered Skull",
+        "Effect": "Your head is caved in or erupts in a shower of bone and gore. You are dead.",
+        "Treatment": "None."
+      }
+    ],
+    "Arm": [
+      {
+        "Roll": "1",
+        "Description": "Jolted Wrist",
+        "Effect": "You are struck in the wrist, jarring your hand. Drop any item held in the hand.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "2",
+        "Description": "Dead Arm",
+        "Effect": "You are struck by a rattling blow in your arm, causing it to temporarily go numb. You have Disadvantage on all Tests using the arm for 1 minute.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "3",
+        "Description": "Laceration",
+        "Effect": "You suffer a laceration to the arm. You are Bleeding.",
+        "Treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "4",
+        "Description": "Sliced Hand",
+        "Effect": "Your hand is sliced open, sending jolts of pain through your arm. You are Bleeding and drop any item held in the hand.",
+        "Treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "5",
+        "Description": "Dislocated Shoulder",
+        "Effect": "The strike dislocates your shoulder from the socket. The arm is useless until popped back into place. At the start of each turn while you have a dislocated shoulder you must make a Challenging (+0) Fortitude (Pain) Test. On a failure, you are Stunned until the start of your next turn.",
+        "Treatment": "A Challenging (+0) Medicae Test to pop the shoulder back into place."
+      },
+      {
+        "Roll": "6",
+        "Description": "Severed Finger",
+        "Effect": "The attack tears off one of your fingers. You are Bleeding (Major).",
+        "Treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "7",
+        "Description": "Clean Break",
+        "Effect": "The attack fractures a bone in your arm. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "8",
+        "Description": "Deep Cut",
+        "Effect": "You suffer a deep gash on your arm, reducing your effectiveness. You are Bleeding (Major) and have Disadvantage on all Tests using the arm.",
+        "Treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "9",
+        "Description": "Mangled Hand",
+        "Effect": "The blow devastates your hand, breaking bones and potentially severing fingers. You are Bleeding (Major) and immediately drop any item held in the hand. Additionally, you lose 1d10 – 5 fingers. If your result is 0, you manage to keep all of your digits. Otherwise, you suffer the Amputation (Fingers) Injury.",
+        "Treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "10",
+        "Description": "Shattered Elbow",
+        "Effect": "The attack shatters the bones in your elbow. Your arm is completely useless, and you immediately drop any item held in the hand. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Hard (-20) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "11-12",
+        "Description": "Cleft Hand",
+        "Effect": "Your hand is played apart, causing a major injury and severing fingers. You are Bleeding (Major) and Stunned for 1 hour. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Hard (-20) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "13-14",
+        "Description": "Sliced Artery",
+        "Effect": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your arm is completely useless, and you immediately drop any item held in the hand.",
+        "Treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "15-16",
+        "Description": "Severed Hand",
+        "Effect": "Your hand is taken clean off. You are Bleeding (Major) and Stunned for 1 hour.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "17-19",
+        "Description": "Ruined Arm",
+        "Effect": "Your arm is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise to fully remove the arm."
+      },
+      {
+        "Roll": "20+",
+        "Description": "Brutal Dismemberment",
+        "Effect": "Your arm is completely destroyed and torn from your body, causing shock and catastrophic blood loss. You are dead.",
+        "Treatment": "None."
+      }
+    ],
+    "Body": [
+      {
+        "Roll": "1",
+        "Description": "Winded",
+        "Effect": "The blow knocks the wind out of you. You are Stunned until the end of your next turn.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "2",
+        "Description": "Low Blow",
+        "Effect": "You are struck in a sensitive area. You must make a Challenging (+0) Fortitude (Pain) Test or fall Prone.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "3",
+        "Description": "Laceration",
+        "Effect": "You suffer a laceration to the body. You are Bleeding.",
+        "Treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "4",
+        "Description": "Gut Shot",
+        "Effect": "You are hit hard in the stomach. You are Bleeding and knocked Prone.",
+        "Treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "5",
+        "Description": "Cracked Rib",
+        "Effect": "The attack cracks one of your ribs. You have Disadvantage on Strength and Agility Tests, and your Move is reduced one step.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "6",
+        "Description": "Hammering Blow",
+        "Effect": "You are thrown back by the force of the blow. You are Stunned for 1 minute and are Bleeding.",
+        "Treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "7",
+        "Description": "Broken Collarbone",
+        "Effect": "The attack fractures your collarbone — determine randomly if this is on your left or right. You drop any item held in the hand on that side and have Disadvantage on all Tests using the arm. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "8",
+        "Description": "Deep Cut",
+        "Effect": "You suffer a deep cut on your lower abdomen, which makes it difficult to move. You are Bleeding (Major), and your Speed is reduced one step.",
+        "Treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "9",
+        "Description": "Fractured Hip",
+        "Effect": "The attack shatters a bone in your hip. You are Bleeding (Major), and have Disadvantage on Tests that rely on mobility, and your Move is reduced one step. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "10",
+        "Description": "Shattered Ribs",
+        "Effect": "The attack shatters multiple ribs, leaving shards of bone peppered throughout your flesh. You have Disadvantage on any physical Test, and your Move is reduced two steps to a minimum of Slow.",
+        "Treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "11",
+        "Description": "Punctured Lung",
+        "Effect": "The attack punctures your lung, perhaps embedding shrapnel, a bullet, or a fragment of your own bone. You gain a Fatigued Condition and a Bleeding (Major) Condition.",
+        "Treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "12-13",
+        "Description": "Sliced Artery",
+        "Effect": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your arm is completely useless, and you immediately drop any item held in the hand.",
+        "Treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "14-15",
+        "Description": "Played Flesh",
+        "Effect": "Your flesh is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "16-17",
+        "Description": "Injured Spine",
+        "Effect": "You suffer a substantial injury to your spine, making it difficult to stand and move; you are Bleeding (Major) and Prone.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "18+",
+        "Description": "Torn Apart",
+        "Effect": "You are split in two or otherwise torn apart. Creatures within Short Range are showered in blood and gore. You are dead.",
+        "Treatment": "None."
+      }
+    ],
+    "Leg": [
+      {
+        "Roll": "1",
+        "Description": "Twisted Ankle",
+        "Effect": "You twist your ankle, causing you to stumble. You fall Prone.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "2",
+        "Description": "Dead Leg",
+        "Effect": "You are struck by a rattling blow in your leg, causing it to temporarily go numb. Your Speed is reduced one step for 1 minute.",
+        "Treatment": "None."
+      },
+      {
+        "Roll": "3",
+        "Description": "Laceration",
+        "Effect": "You suffer a laceration to the leg. You are Bleeding.",
+        "Treatment": "A Routine (+20) Medicae Test to stop the bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "4",
+        "Description": "Sliced Calf",
+        "Effect": "Your calf is sliced open, sending jolts of pain through your leg. You are Bleeding and drop any item held in the hand.",
+        "Treatment": "A Challenging (+0) Medicae Test to stop the Bleeding; application of bandages; or the laceration will close naturally after 1 hour."
+      },
+      {
+        "Roll": "5",
+        "Description": "Dislocated Knee",
+        "Effect": "The strike dislocates your knee. You have Disadvantage on Tests that rely on mobility, and your Move is reduced one step. At the start of each turn while you have a dislocated knee you must make a Challenging (+0) Fortitude (Pain) Test. On a failure, you are Stunned until the start of your next turn.",
+        "Treatment": "A Challenging (+0) Medicae Test to pop the knee back into place."
+      },
+      {
+        "Roll": "6",
+        "Description": "Severed Toe",
+        "Effect": "The attack tears off one of your toes. You are Bleeding (Major).",
+        "Treatment": "A Challenging (+0) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "7",
+        "Description": "Clean Break",
+        "Effect": "The attack fractures a bone in your leg. Your leg is completely useless, and you drop any item held in the hand. Additionally, you must make a Challenging (+0) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Difficult (-10) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "8",
+        "Description": "Deep Cut",
+        "Effect": "You suffer a deep cut on your leg, reducing your effectiveness. You are Bleeding (Major) and have Disadvantage on all Tests using the leg, such as jumping or climbing.",
+        "Treatment": "A Difficult (-10) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "9",
+        "Description": "Mangled Foot",
+        "Effect": "The blow devastates your foot, breaking bones and potentially severing toes. You are Bleeding (Major), immediately fall Prone, and your Move is reduced one step. Additionally, you lose 1d10 – 5 toes. If your result is 0, you manage to keep all of your digits. Otherwise, you suffer the Amputation (Toes) Injury.",
+        "Treatment": "A Difficult (-10) Medicae Test performed by someone with the Chirurgeon Talent."
+      },
+      {
+        "Roll": "10",
+        "Description": "Shattered Knee",
+        "Effect": "The attack shatters the bones in your knee. Your leg is completely useless, and you immediately drop any item held in the hand. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Hard (-20) Medicae Test to treat shock. This Test does not count as treating the broken bone."
+      },
+      {
+        "Roll": "11-12",
+        "Description": "Cleft Foot",
+        "Effect": "Your foot is played apart, causing a major injury and severing toes. You are Bleeding (Major) and Stunned for 1 hour. Additionally, you must make a Difficult (-10) Fortitude (Pain) Test or be Stunned for one minute.",
+        "Treatment": "A Hard (-20) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "13-14",
+        "Description": "Sliced Artery",
+        "Effect": "You suffer a serious wound to a major artery. You are Bleeding (Major), Fatigued from blood loss, your leg is completely useless, and you immediately drop any item held in the hand.",
+        "Treatment": "A Hard (-20) Medicae Test using a chirurgeon’s kit to stop the Bleeding."
+      },
+      {
+        "Roll": "15-16",
+        "Description": "Severed Foot",
+        "Effect": "Your foot is taken clean off. You are Bleeding (Major) and Stunned for 1 hour.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
+      },
+      {
+        "Roll": "17-19",
+        "Description": "Ruined Leg",
+        "Effect": "Your leg is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your leg is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the leg, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+        "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise to fully remove the leg."
+      },
+      {
+        "Roll": "20+",
+        "Description": "Brutal Dismemberment",
+        "Effect": "Your leg is completely destroyed and torn from your body, causing shock and catastrophic blood loss. You are dead.",
+        "Treatment": "None."
+      }
+    ]
+  }
+}

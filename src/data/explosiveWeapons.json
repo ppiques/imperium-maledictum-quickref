@@ -1,0 +1,172 @@
+[
+  {
+    "Name": "Blasting Charge",
+    "Specialisation": "Thrown",
+    "Damage": "10",
+    "Encumbrance": "0",
+    "Cost": "40",
+    "Availability": "Common",
+    "Traits": "Loud, Spread, Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Choke Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "40",
+    "Availability": "Scarce",
+    "Traits": "Unstable, Inflict (Stunned), Thrown (Medium)",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Demolition Charge",
+    "Specialisation": "Engineering",
+    "Damage": "16",
+    "Encumbrance": "0",
+    "Cost": "50",
+    "Availability": "Common",
+    "Traits": "Loud, Spread, Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Fire Bomb",
+    "Specialisation": "Thrown",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "10",
+    "Availability": "Common",
+    "Traits": "Blast, Loud, Inflict (Ablaze), Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Frag Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "6",
+    "Encumbrance": "0",
+    "Cost": "50",
+    "Availability": "Common",
+    "Traits": "Blast, Loud, Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Frag Missile",
+    "Specialisation": "Ordnance",
+    "Damage": "8",
+    "Encumbrance": "1",
+    "Cost": "200",
+    "Availability": "Scarce",
+    "Traits": "Blast, Loud, Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Krak Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "12",
+    "Encumbrance": "0",
+    "Cost": "60",
+    "Availability": "Scarce",
+    "Traits": "Loud, Penetrating (4), Spread, Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Krak Missile",
+    "Specialisation": "Ordnance",
+    "Damage": "16",
+    "Encumbrance": "1",
+    "Cost": "400",
+    "Availability": "Scarce",
+    "Traits": "Loud, Penetrating (6), Spread, Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Melta Bomb",
+    "Specialisation": "Engineering",
+    "Damage": "16",
+    "Encumbrance": "2",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Traits": "Rend (12), Spread, Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Photon Flash Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "200",
+    "Availability": "Rare",
+    "Traits": "Loud, Inflict (Blinded), Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Smoke Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "30",
+    "Availability": "Common",
+    "Traits": "Blast, Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Web Grenade",
+    "Specialisation": "Thrown",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "150",
+    "Availability": "Rare",
+    "Traits": "Blast, Inflict (Restrained), Thrown (Medium), Unstable",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Empyrean Brain Mines",
+    "Specialisation": "Engineering",
+    "Damage": "-",
+    "Encumbrance": "1",
+    "Cost": "1,000",
+    "Availability": "Exotic",
+    "Traits": "Loud, Inflict (Stunned), Unstable",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Hallucinogen Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "200",
+    "Availability": "Exotic",
+    "Traits": "Blast, Loud, Unstable",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Psychotroke Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "300",
+    "Availability": "Exotic",
+    "Traits": "Blast, Loud, Unstable",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Psyk-out Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "400",
+    "Availability": "Exotic",
+    "Traits": "Blast, Inflict (Stunned), Loud, Unstable",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Rad Grenade",
+    "Specialisation": "Thrown, Ordnance",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "400",
+    "Availability": "Exotic",
+    "Traits": "Blast, Inflict (Fatigued), Loud, Unstable",
+    "Source": "Inquisitor Player's Guide"
+  }
+]

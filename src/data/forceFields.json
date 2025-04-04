@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Refractor Field",
+    "Protection": "1d10",
+    "Overload": "10",
+    "Encumbrance": "0",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Effect": "While the field is active, the user automatically fails most Stealth Tests.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Conversion Field",
+    "Protection": "2d10",
+    "Overload": "20",
+    "Encumbrance": "0",
+    "Cost": "6000",
+    "Availability": "Exotic",
+    "Effect": "If the Conversion Field reduces 10 or more Damage from a single attack, it inflicts the Blinded Condition on all creatures in the Zone for one round. This does not affect the user.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Icon of the Just",
+    "Protection": "1d10+5",
+    "Overload": "15",
+    "Encumbrance": "0",
+    "Cost": "7000",
+    "Availability": "Exotic",
+    "Effect": "Has Shield (4). Daemons or creatures with a Warp Threshold have a -20 penalty to Tests aagainst the bearer.",
+    "Source": "Core Rulebook"
+  }
+]

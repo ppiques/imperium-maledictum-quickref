@@ -1,0 +1,214 @@
+{
+  "names": {
+    "headers": [
+      "1d100",
+      "Low Gothic",
+      "High Gothic",
+      "Archaic",
+      "Informal",
+      "Esoteric"
+    ],
+    "data": [
+      {
+        "1d100": "01-04",
+        "Low Gothic": "Arz",
+        "High Gothic": "Azararch",
+        "Archaic": "Aenisse",
+        "Informal": "Able",
+        "Esoteric": "Alpha"
+      },
+      {
+        "1d100": "05-08",
+        "Low Gothic": "Barik",
+        "High Gothic": "Baranoth",
+        "Archaic": "Barbosa",
+        "Informal": "Axer",
+        "Esoteric": "Bot"
+      },
+      {
+        "1d100": "09-12",
+        "Low Gothic": "Canto",
+        "High Gothic": "Castella",
+        "Archaic": "Caradoc",
+        "Informal": "Beakie",
+        "Esoteric": "Conscript"
+      },
+      {
+        "1d100": "13-16",
+        "Low Gothic": "Cil",
+        "High Gothic": "Davrus",
+        "Archaic": "Draco",
+        "Informal": "Bones",
+        "Esoteric": "Designate"
+      },
+      {
+        "1d100": "17-20",
+        "Low Gothic": "Darrial",
+        "High Gothic": "Fausta",
+        "Archaic": "Drusilla",
+        "Informal": "Bolt",
+        "Esoteric": "Diamond"
+      },
+      {
+        "1d100": "21-24",
+        "Low Gothic": "Enoch",
+        "High Gothic": "Flavia",
+        "Archaic": "Eizen",
+        "Informal": "Burner",
+        "Esoteric": "Exactius"
+      },
+      {
+        "1d100": "25-28",
+        "Low Gothic": "Horst",
+        "High Gothic": "Galliach",
+        "Archaic": "Genevieve",
+        "Informal": "Crusher",
+        "Esoteric": "Fatal"
+      },
+      {
+        "1d100": "29-32",
+        "Low Gothic": "Gaius",
+        "High Gothic": "Harthos",
+        "Archaic": "Hanette",
+        "Informal": "Cutter",
+        "Esoteric": "Gamma"
+      },
+      {
+        "1d100": "33-36",
+        "Low Gothic": "Galatia",
+        "High Gothic": "Icharus",
+        "Archaic": "Ingrita",
+        "Informal": "Dokk",
+        "Esoteric": "Grace"
+      },
+      {
+        "1d100": "37-40",
+        "Low Gothic": "Kelle",
+        "High Gothic": "Irissa",
+        "Archaic": "Jaq",
+        "Informal": "Echo",
+        "Esoteric": "Harrow"
+      },
+      {
+        "1d100": "41-44",
+        "Low Gothic": "Kulem",
+        "High Gothic": "Karpath",
+        "Archaic": "Jocasta",
+        "Informal": "Flair",
+        "Esoteric": "Incubus"
+      },
+      {
+        "1d100": "45-48",
+        "Low Gothic": "Magdala",
+        "High Gothic": "Lothos",
+        "Archaic": "Karollon",
+        "Informal": "Grunt",
+        "Esoteric": "Jewel"
+      },
+      {
+        "1d100": "49-52",
+        "Low Gothic": "Merra",
+        "High Gothic": "Lucindia",
+        "Archaic": "Killian",
+        "Informal": "Lax",
+        "Esoteric": "Killswitch"
+      },
+      {
+        "1d100": "53-56",
+        "Low Gothic": "Mordicai",
+        "High Gothic": "Mycandra",
+        "Archaic": "Lemant",
+        "Informal": "Lho",
+        "Esoteric": "Lumen"
+      },
+      {
+        "1d100": "57-60",
+        "Low Gothic": "Narcia",
+        "High Gothic": "Noctine",
+        "Archaic": "Lethe",
+        "Informal": "Mag",
+        "Esoteric": "Mortis"
+      },
+      {
+        "1d100": "61-64",
+        "Low Gothic": "Noros",
+        "High Gothic": "Novianna",
+        "Archaic": "Naveen",
+        "Informal": "Marrow",
+        "Esoteric": "Norn"
+      },
+      {
+        "1d100": "65-68",
+        "Low Gothic": "Pennette",
+        "High Gothic": "Octavia",
+        "Archaic": "Pollonia",
+        "Informal": "Newt",
+        "Esoteric": "Optima"
+      },
+      {
+        "1d100": "69-72",
+        "Low Gothic": "Quinten",
+        "High Gothic": "Partheos",
+        "Archaic": "Sabanth",
+        "Informal": "Pincer",
+        "Esoteric": "Promethium"
+      },
+      {
+        "1d100": "73-76",
+        "Low Gothic": "Quineel",
+        "High Gothic": "Regia",
+        "Archaic": "Tessera",
+        "Informal": "Red",
+        "Esoteric": "Reject"
+      },
+      {
+        "1d100": "77-80",
+        "Low Gothic": "Rhia",
+        "High Gothic": "Scythia",
+        "Archaic": "Tzarelle",
+        "Informal": "Scab",
+        "Esoteric": "Stalker"
+      },
+      {
+        "1d100": "81-84",
+        "Low Gothic": "Silvanto",
+        "High Gothic": "Severan",
+        "Archaic": "Verity",
+        "Informal": "Shiv",
+        "Esoteric": "The Unnamed"
+      },
+      {
+        "1d100": "85-88",
+        "Low Gothic": "Sesselie",
+        "High Gothic": "Tyruss",
+        "Archaic": "Wynnif",
+        "Informal": "Starr",
+        "Esoteric": "Vulture"
+      },
+      {
+        "1d100": "89-92",
+        "Low Gothic": "Uri",
+        "High Gothic": "Venria",
+        "Archaic": "Yasta",
+        "Informal": "Steel",
+        "Esoteric": "Whitenoise"
+      },
+      {
+        "1d100": "93-96",
+        "Low Gothic": "Xandra",
+        "High Gothic": "Ventium",
+        "Archaic": "Zadora",
+        "Informal": "Tranq",
+        "Esoteric": "X"
+      },
+      {
+        "1d100": "97-00",
+        "Low Gothic": "Zariel",
+        "High Gothic": "Yemmise",
+        "Archaic": "Zarkov",
+        "Informal": "Wurm",
+        "Esoteric": "Zilch"
+      }
+    ]
+  }
+}

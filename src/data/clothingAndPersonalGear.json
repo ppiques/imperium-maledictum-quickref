@@ -1,0 +1,106 @@
+[
+  {
+    "Name": "Backpack/Slings",
+    "Cost": "20",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Increases maximum Encumbrance by 4 when worn.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Cameleoline Cloak",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Grants +2 SL on Stealth Tests until movement or loud noise.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Explosive Collar",
+    "Cost": "150",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Requires a Very Hard (-30) Tech (Engineering) Test to remove with Disadvantage if attempted by the wearer; detonates if improperly removed or via remote action.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Filtration Plugs",
+    "Cost": "20",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Grants +2 SL on Fortitude Tests against harmful gases and in Hazard Zones.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Photo-Visors/Contacts",
+    "Cost": "300",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Ignores penalties from Poorly Lit and Dark Environmental Traits; grants Advantage on Tests to resist Blinded Condition.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Rebreather",
+    "Cost": "200",
+    "Availability": "Scarce",
+    "Encumbrance": "1",
+    "Effect": "Allows breathing in toxic atmospheres and underwater for up to 1 hour; ignores penalties from unhealthy air. One tank lasts for 1 hour, a tank costs 20 solars and two tanks are 1 Encumbrance.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Respirator/Gas Mask",
+    "Cost": "50",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Automatically passes Tests to resist airborne pathogens; bulky and obscures senses, imposes Disadvantage on Awareness (Sight) Tests.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Survival Gear",
+    "Cost": "50",
+    "Availability": "Common",
+    "Encumbrance": "3",
+    "Effect": "Includes essentials for wilderness survival such as a bedroll, Insulated tent, canteen, rope, firestarters, candles, hydro-purifier tabs, and other basics except food and water; can be used with Fortitude (Endurance) to endure Exposure.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Synskin",
+    "Cost": "3000",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Grants +1 SL to Stealth (Hide) Tests if not worn with other clothes or armour; counts as Armoured Bodyglove.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Void Suit",
+    "Cost": "2000",
+    "Availability": "Scarce",
+    "Encumbrance": "5",
+    "Effect": "Provides air and support in vacuum; includes rebreather and micro-thrusters; grants 2 AP to all locations and is Encumbrance 4 when worn. Air supply lasts for 10 hours, takes 3 hours to recharge in normal Atmosphere or can be recharged with an oxygen canister for an Action. Each canister costs 30 solars and are 1 encumbrance.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Hexagrammic Wards",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Power charms and faith canticles worn to defend against psychic attacks. Grants Disadvantage on the first psychic power targeting the wearer. Recharges after an hour of meditation.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Null Hood",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Encumbrance": "1",
+    "Effect": "Heavy collar with hood projection, creates nullifying psychic matrix. Dampens enemy psychic attacks, used by psychic Inquisitors. Enemy psykers have Disadvantage on psychic power Tests targeting the wearer.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Psyocculum",
+    "Cost": "5000",
+    "Availability": "Exotic",
+    "Encumbrance": "0",
+    "Effect": "Visor with psychically-treated lenses and circuitry, allows viewing of the Immaterium. Advantage on Tests to perceive daemons or creatures with a Warp Threshold, Disadvantage on regular Perception Tests. +10 to Ranged Attacks against daemons or creatures with a Warp Threshold.",
+    "Source": "Inquisitor Player's Guide"
+  }
+]

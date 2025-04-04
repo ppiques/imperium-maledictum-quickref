@@ -1,0 +1,47 @@
+{
+    "Blast": "When you use a weapon with the Blast Trait to attack, target a Zone within range and make a single Ranged Skill (Ordnance or Thrown) Test, depending on whether the weapon is a Launcher or a thrown Grenade. All characters in the target Zone can use their Reaction to make an opposed Reflexes (Dodge) Test versus the result of your Test. If you win the Opposed Test, you deal Damage equal to your weapon Damage plus the difference in SL. This means that some characters in the target Zone may take severe damage, while others take none at all.",
+
+    "Burst": "When you use a weapon with the Burst Trait, you may choose to declare that you are firing a burst rather than a single shot. If you do so, you may add +1 SL to your Ranged Test, and must reduce the ammunition in the weapon by 1. Weapons with Rapid Fire are always treating as having the Burst trait, though you cannot use both of these Traits on a single attack.",
+
+    "Close": "Ranged weapons with this Trait can be used in Immediate Range without incurring Disadvantage on the attack roll.",
+
+    "Defensive": "You have Advantage on Opposed Tests when defending from melee attacks with this weapon.",
+
+    "Flamer": "A Flamer weapon spews a stream of burning chemical liquid. The wielder can guide the flowing torrent of flame to set multiple foes ablaze. Attacks made with a Flamer have Spread and ignore Cover. Instead of targeting a creature with the Flamer, you can choose to target a Zone within range. The Zone becomes a Minor Hazard until the end of your next turn.",
+
+    "Heavy": "Weapons with this Trait impose Disadvantage on attacks if your StrB is less than the rating. If you do not meet the requirement, you cannot use the weapon effectively : Armour with this Trait impose Disadvantage on Agility Tests, Melee weapons with this Trait impose Disadvantage on Weapon Skill Tests, Ranged weapons with this Trait impose Disadvantage on Ballistic Skill Tests. Instead of moving, a character can brace a Heavy ranged weapon on a suitable terrain feature such as a piece of cover. If they do so, they may ignore the Heavy trait until they next take a move action.",
+
+    "Ineffective": "Some weapons are not very good at penetrating armour. All Armour is doubled against Ineffective weapons.",
+
+    "Inflict": "If an attack with this weapon deals Wounds, the target suffers the Condition. If the weapon or attack does not list a damage rating, the attack only needs to hit to inflict the Condition. Conditions have a default duration and means of removal, but specific equipment or Conditions may stipulate other durations or requirements to end the Condition instead. Otherwise, the Condition lasts for one round.",
+
+    "Loud": "The equipment is noticeably noisy. A weapon with the Loud Trait alerts enemies within Long range of its use. Armour with the Loud Trait imposes Disadvantage on Stealth Tests.",
+
+    "Penetrating": "Attacks from this weapon ignore Armour equal to the weapon’s Penetrating rating. This is added to any other effects that ignore Armour.",
+
+    "Rapid Fire": "When you fire this weapon, you can declare that you are Rapid Firing. If you do so, you may either choose to grant the weapon the Spread Trait, or you may gain Advantage on the attack roll and increase the weapon’s damage by its Rapid Fire rating. In either case, reduce the weapon’s magazine by its Rapid Fire rating. You cannot Rapid Fire if your magazine currently contains less ammunition than its Rapid Fire rating. Weapons with Rapid Fire are always treated as having the Burst trait, though you cannot combine both. You must choose which Trait to use, or you may choose neither.",
+
+    "Reach": "You can use a Reach weapon to attack any creature within your Zone without becoming Engaged with the target. When you are Engaged with an enemy, you have Disadvantage on Melee Tests to defend yourself with a Reach weapon.",
+
+    "Reliable": "When using this weapon to attack, if you Fumble in combat roll 1d10. On a result of 4+, you ignore the Fumble result.",
+
+    "Rend": "When an attack with this weapon that dealt one or more Wounds resolves, the outermost Armour on the Hit Location is reduced by the Rend rating until it is repaired. Armour can be reduced more than once in this way, and if it is reduced to 0 it is completely destroyed.",
+
+    "Shield": "When you use this shield to brace against incoming fire, you gain additional Armour equal to the Rating.",
+
+    "Spread": "All creatures within Immediate Range of the target, other than the attacker, must make a Challenging (+0) Reflexes (Dodge) Test or suffer half Damage from the attack. If a weapon already has the Spread Trait and would gain it in another way, such as by using Rapid Fire, creatures within Immediate Range who fail their Reflexes Test suffer full damage instead.",
+
+    "Subtle": "Weapons with this Trait are quiet and may be easily hidden, imposing Disadvantage on Awareness Tests to detect the weapon's use or find it hidden on your person. Armour with this Trait is not obviously defensive at first glance, imposing Disadvantage on Awareness Tests made to see if you are wearing armour. Additionally, Subtle Armour can be worn in addition to any other Armour that does not have the Subtle Trait. When worn in this way, add both Armour values together to determine total Armour in the appropriate location.",
+
+    "Supercharge": "You can declare that you are Supercharging the weapon when you attack. Doing so adds additional Damage to the attack equal to the rating, at the cost of doubling the ammunition expended.",
+
+    "Thrown": "A melee weapon with the Thrown Trait can be used to make a ranged attack by throwing it. Thrown weapons list the Range they can be thrown at in parentheses.",
+
+    "Two-handed": "A Two-handed weapon is large and requires two hands to wield effectively.",
+
+    "Unstable": "If you Fumble when attacking with this weapon, on a result of 5+ on the Fumble Table, the weapon self-destructs instead, typically dealing its Damage to the arm wielding the weapon, or a random arm if the weapon is Two-handed.",
+
+    "Power Armour": "While Power Armour is active, it has an Encumbrance of 0 and grants the wearer +10 Strength. If the power source — usually a back mounted power pack — is severely damaged, deactivated, or drained, these bonuses are lost. The rare Power Armour packs found outside of the Adeptus Astartes or the Adeptus Sororitas are often of inferior quality, and last for a number of hours equal to its Armour value. Additionally, if an attack that inflicts a Critical Hit does not Wound you, you ignore the Critical Hit.",
+
+    "Flak": "Flak armour provides an additional +1 Armour against Damage from explosives and grenades with the Blast or Spread Traits."
+}

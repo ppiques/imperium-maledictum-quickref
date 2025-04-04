@@ -1,0 +1,90 @@
+[
+    {
+        "Name": "Aim",
+        "Description": "On next turn, increase Range by one, and may target a hit location without penalty. Firing or moving cancel the benefit. Cannot be combined with Rapid or Burst Fire."
+    },
+    {
+        "Name": "Attack",
+        "Description": "Make a Test to try to hit a target."
+    },
+    {
+        "Name": "Charge",
+        "Description": "Move as far as your Speed allows and make a melee attack with Advantage. Can't charge a target in your Zone. You gain Disadvantage on Melee and Reflexes Tests to defend until your next turn."
+    },
+    {
+        "Name": "Defend",
+        "Description": "Choose an ally in Immediate Range. Until your next turn, redirects attacks from your ally to yourself. Alternatively, defend your current Zone from one other Zone to deny entry if reasonably feasible."
+    },
+    {
+        "Name": "Disengage",
+        "Description": "Move beyond Immediate Range without incurring a free Attack."
+    },
+    {
+        "Name":"Dodge",
+        "Description": "Until your next turn, gain Advantage on the next Melee or Reflexes (Dodge) Test to defend yourself. Gain an additional Reflexes (Dodge) Test to avoid ranged attacks without using reaction."
+    },
+    {
+        "Name": "Flee",
+        "Description": "Spend both Action and Move to escape the battle."
+    },
+    {
+        "Name": "Grapple",
+        "Description": "Make an Athletics (Might) or Melee (Brawling) Test opposed to target's Athletics (Might), Melee (Brawling) or Reflexes (Dodge). If you succeed, target is Restrained."
+    },
+    {
+        "Name": "Help",
+        "Description": "Assist an ally on their next Test, granting them Advantage."
+    },
+    {
+        "Name": "Hide",
+        "Description": "Make a Stealth Test to conceal yourself using a suitable element of the environment. Finding the character necessitates a greater SL on an Awareness Test than what was achieved on the Stealth Test."
+    },
+    {
+        "Name": "Improvise",
+        "Description":"Improvise an Action. GM determines if Action is possible and if a Test is needed."
+    },
+    {
+        "Name": "Manifest",
+        "Description": "Manifest a Psychic Power."
+    },
+    {
+        "Name": "Overwatch",
+        "Description": "Prepare for a specific event. Declare a trigger and the Action you will take. If the trigger doesn't happen this turn, take a different Action acting last in the Initiative order."
+    },
+    {
+        "Name": "Reload",
+        "Description":"Reload a Weapon."
+    },
+    {
+        "Name": "Retreat",
+        "Description": "Use your turn to prepare a safe Retreat. Any party member may also use the Retreat action on their turn to join the Retreat."
+    },
+    {
+        "Name": "Run",
+        "Description": "Allows movement to an adjacent Zone. Can be used alongside standard Move."
+    },
+    {
+        "Name": "Search",
+        "Description": "Take time to examine your surroundings with an Awareness (Sight) Test."
+    },
+    {
+        "Name": "Seize the Initiative",
+        "Description": "Give up this Turn's action to go to the top of the Initiative order."
+    },
+    {
+        "Name": "Shove",
+        "Description": "Choose a target within Immediate Range. Make an Athletics (Might) Test opposed by the target's Athletics (Might) or Dodge (Reflexes). Shove the target by SL numbers. You are no longer Engaged with them. If 3 or more SL, may Shove target to an Adjacent Zone."
+    },
+    {
+        "Name": "Take Cover",
+        "Description": "Take cover against ranged attacks in a Zone with the Cover Trait. Light Cover provides +2 Armour, Medium Cover provides +4 Armour, Heavy Cover provides +6 Armour."
+    },
+    {
+        "Name": "Target Location",
+        "Description": "Choose a Target's Hit Location. Make an attack with Disadvantage. On a success, hit chosen location. Can be used to ignore Cover."
+    },
+    {
+        "Name": "Use an Object or Feature",
+        "Description": "Activate a Zone Feature or interact with a complex object."
+    }
+]

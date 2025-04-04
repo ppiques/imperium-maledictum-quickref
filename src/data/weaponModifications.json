@@ -1,0 +1,92 @@
+[
+  {
+    "Name": "Exterminator Cartridge",
+    "Cost": "100",
+    "Availability": "Common",
+    "Type": "Combat Attachments",
+    "Used With": "Any Melee or Ranged weapon with the Two-Handed Trait.",
+    "Effects": "Flamer attached to the weapon. Can be used as an Action as a Ranged Attack. Once fired, the Cartridge is expended and takes 5 minutes to replace or reload. Reloads are Common and cost 5 solars.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Melee Attachment",
+    "Cost": "50",
+    "Availability": "Scarce",
+    "Type": "Combat Attachments",
+    "Used With": "Any Ranged Weapon with the Two-Handed Trait.",
+    "Effects": "Functions as a Sword and can be affixed or removed as an Action. While not attached, counts as a Knife.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Mono-edge",
+    "Cost": "250",
+    "Availability": "Rare",
+    "Type": "Combat Attachments",
+    "Used With": "Mundane melee weapons",
+    "Effects": "Gives Penetrating (2) Trait, or increasing the rating by 2 if weapon already has the Trait. At the GM's discretion, can be used on other mundane weapons.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Photo Sight/Omnispex",
+    "Cost": "200",
+    "Availability": "Rare",
+    "Type": "Sights",
+    "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "Effects": "Removes Disavdantage when firing into a Zone that is Dark or Poorly Lit.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Laser Sight",
+    "Cost": "50",
+    "Availability": "Scarce",
+    "Type": "Sights",
+    "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "Effects": "Adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. If the target sees the red-dot, they may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Telescopic Sight/Omniscope",
+    "Cost": "50",
+    "Availability": "Common",
+    "Type": "Sights",
+    "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
+    "Effects": "Increases Range by one step, but removes Close Trait. Can be used as Magnoculars.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Backpack Ammo Supply",
+    "Cost": "Same as linked Weapon",
+    "Availability": "Same as linked Weapon",
+    "Type": "Support Attachments",
+    "Used With": "Any Ranged Weapon",
+    "Effects": "Quadruples linked weapon's magazine size. Adds +2 Encumbrance when worn. Takes 5 minutes to reload. If you suffer a Critical Hit while wearing it, roll 1d10. On 7+, the Backpack detonates, dealing double the weapon's damage to your Torso, and is permanently destroyed. Enough ammo to fill the Backpack costs four times the listed price for reloads for the linked weapon.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Bipod",
+    "Cost": "30",
+    "Availability": "Common",
+    "Type": "Support Attachments",
+    "Used With": "Any Ranged Weapon",
+    "Effects": "Allows weapon with Heavy trait to brace anywhere.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Fire Selector",
+    "Cost": "140",
+    "Availability": "Rare",
+    "Type": "Support Attachments",
+    "Used With": "Bolt, Launcher, Low-Tech, and Solid Projectile ranged weapons",
+    "Effects": "Choose to load up to three different ammunition types. Divide magazine as desired. Can switch between loaded ammunition as a Free action. Removes Reliable Trait.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Silencer",
+    "Cost": "400",
+    "Availability": "Common",
+    "Type": "Support Attachments",
+    "Used With": "Solid Projectile ranged weapons",
+    "Effects": "Removes Weapon's Loud Trait while attached.",
+    "Source": "Core Rulebook"
+  }
+]

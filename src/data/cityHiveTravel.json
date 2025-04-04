@@ -1,0 +1,26 @@
+[
+    {
+        "Quality": "Poor",
+        "Cost": "3",
+        "Examples": "Rickshaw, habway tube, vertical lift-plate",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Standard",
+        "Cost": "8",
+        "Examples": "Mass conveyor, transit carriage, riding beast",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Good",
+        "Cost": "20",
+        "Examples": "Autocarriage, mag-chariot, Servitor-drawn rickshaw",
+        "Source": "Core Rulebook"
+    },
+    {
+        "Quality": "Excellent",
+        "Cost": "50",
+        "Examples": "Enclosed autocarriage with driver, opulent palanquin, seats on jump shuttles",
+        "Source": "Core Rulebook"
+    }
+]

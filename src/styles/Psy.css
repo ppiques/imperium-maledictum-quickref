@@ -1,0 +1,49 @@
+.psy-page {
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.table td,
+.table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.table tr[class^="discipline-"] {
+  background-color: inherit;
+}
+
+.psy-info {
+  background-color: #333;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  color: #e0e0e0;
+  text-align: center;
+}
+
+.table tr.discipline-biomancy {
+  background-color: rgba(41, 175, 41, 0.1); /* Vert clair */
+}
+
+.table tr.discipline-divination {
+  background-color: rgba(226, 112, 131, 0.1); /* Rose clair */
+}
+
+.table tr.discipline-pyromancy {
+  background-color: rgba(202, 132, 27, 0.1); /* Orange clair */
+}
+
+.table tr.discipline-telekinesis {
+  background-color: rgba(34, 166, 206, 0.1); /* Bleu clair */
+}
+
+.table tr.discipline-telepathy {
+  background-color: rgba(206, 15, 158, 0.1); /* Violet clair */
+}
+
+.table tr.discipline-minor {
+  background-color: rgba(209, 203, 203, 0.1); /* Gris clair */
+}
