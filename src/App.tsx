@@ -15,7 +15,7 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <BrowserRouter basename="/Imperium-Maledictum-Quickref/">
+    <BrowserRouter basename="/Imperium-Maledictum-Quickref">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

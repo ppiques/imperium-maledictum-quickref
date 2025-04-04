@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/Imperium-Maledictum-Quickref/", // Set this to your repository name
+  base: "/Imperium-Maledictum-Quickref",
 });
