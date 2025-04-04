@@ -65,31 +65,46 @@ function Weapons() {
   // Filtrage des armes à distance
   const filteredRangedWeapons = rangedWeapons.filter((weapon) =>
     rangedHeaders.some((header) =>
-      weapon[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      weapon[header as keyof typeof weapon]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredMeleeWeapons = meleeWeapons.filter((weapon) =>
     meleeHeaders.some((header) =>
-      weapon[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      weapon[header as keyof typeof weapon]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredAmmunition = customAmmunitions.filter((ammo) =>
     ammunitionHeaders.some((header) =>
-      ammo[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      ammo[header as keyof typeof ammo]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredExplosiveWeapons = explosiveWeapons.filter((weapon) =>
     explosiveHeaders.some((header) =>
-      weapon[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      weapon[header as keyof typeof weapon]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredModifications = weaponModifications.filter((mod) =>
     modificationHeaders.some((header) =>
-      mod[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      mod[header as keyof typeof mod]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 

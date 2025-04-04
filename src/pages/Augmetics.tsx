@@ -13,7 +13,10 @@ function Augmetics() {
   // Filtrage des équipements
   const filteredAugmetics = augmetics.filter((item) =>
     augmeticsHeaders.some((header) =>
-      item[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      item[header as keyof typeof item]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 

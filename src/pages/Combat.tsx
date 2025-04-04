@@ -34,7 +34,7 @@ function Combat() {
 
   const filteredCombatActions = combatActions.filter((combatActions) =>
     combatActionsHeaders.some((header) =>
-      combatActions[header]
+      combatActions[header as keyof typeof combatActions]
         ?.toString()
         .toLowerCase()
         .includes(query.toLowerCase())
@@ -42,13 +42,19 @@ function Combat() {
   );
   const filteredTraits = traitsArray.filter((traits) =>
     traitsHeaders.some((header) =>
-      traits[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      traits[header as keyof typeof traits]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
   const filteredConditions = conditionsArray.filter((conditions) =>
     traitsHeaders.some((header) =>
-      conditions[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      conditions[header as keyof typeof conditions]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
@@ -76,14 +82,14 @@ function Combat() {
         headers={hitLocationsHeaders}
         data={hitLocations}
         disableSorting={true}
-        defaultSort={null}
+        defaultSort="unsorted"
       />
       <h3>Fumbles</h3>
       <Table
         headers={fumblesHeaders}
         data={fumbles}
         disableSorting={true}
-        defaultSort={null}
+        defaultSort="unsorted"
       />
     </div>
   );

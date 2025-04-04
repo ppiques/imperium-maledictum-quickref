@@ -7,9 +7,8 @@ interface TableProps {
   headers: string[];
   data: { [key: string]: string | number | null }[];
   disableSorting?: boolean;
-  defaultSort?: { key: string; direction: "asc" | "desc" }; // Tri par défaut
+  defaultSort?: { key: string; direction: "asc" | "desc" } | "unsorted";
 }
-
 // Fonction pour normaliser les noms des traits
 const normalizeTraitName = (trait: string): string => {
   return trait.replace(/\s*\(.*?\)/, "").trim(); // Supprime tout ce qui est entre parenthèses
@@ -31,7 +30,7 @@ const Table: React.FC<TableProps> = ({
   const [sortConfig, setSortConfig] = useState<{
     key: string;
     direction: "asc" | "desc";
-  }>(defaultSort);
+  } | null>(defaultSort === "unsorted" ? null : defaultSort);
 
   // Ordre personnalisé pour la colonne "Availability"
   const availabilityOrder = ["common", "scarce", "rare", "exotic"];
@@ -84,7 +83,7 @@ const Table: React.FC<TableProps> = ({
   };
 
   const sortedData = React.useMemo(() => {
-    if (!sortConfig) return data;
+    if (!sortConfig) return data; // Si sortConfig est null, ne pas trier les données
 
     return [...data].sort((a, b) => {
       let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];

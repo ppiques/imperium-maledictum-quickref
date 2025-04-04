@@ -31,13 +31,19 @@ function Equipment() {
   const filteredClothingAndPersonalGear = clothingAndPersonalGear.filter(
     (item) =>
       clothingAndPersonalGearHeaders.some((header) =>
-        item[header]?.toString().toLowerCase().includes(query.toLowerCase())
+        item[header as keyof typeof item]
+          ?.toString()
+          .toLowerCase()
+          .includes(query.toLowerCase())
       )
   );
 
   const filteredTools = tools.filter((item) =>
     toolsHeaders.some((header) =>
-      item[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      item[header as keyof typeof item]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 

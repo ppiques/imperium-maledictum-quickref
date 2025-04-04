@@ -13,7 +13,10 @@ function Talents() {
   // Filtrage des équipements
   const filteredTalents = talents.filter((talent) =>
     talentsHeaders.some((header) =>
-      talent[header]?.toString().toLowerCase().includes(query.toLowerCase())
+      talent[header as keyof typeof talent]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
     )
   );
 
