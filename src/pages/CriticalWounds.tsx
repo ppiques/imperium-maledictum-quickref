@@ -61,6 +61,7 @@ function CriticalWounds() {
         headers={criticalWoundsHeaders}
         data={headWounds}
         disableSorting={true}
+        defaultSort={"unsorted"}
       />
 
       <h3>Arm Wounds</h3>
@@ -68,6 +69,7 @@ function CriticalWounds() {
         headers={criticalWoundsHeaders}
         data={armWounds}
         disableSorting={true}
+        defaultSort={"unsorted"}
       />
 
       <h3>Body Wounds</h3>
@@ -75,6 +77,7 @@ function CriticalWounds() {
         headers={criticalWoundsHeaders}
         data={bodyWounds}
         disableSorting={true}
+        defaultSort={"unsorted"}
       />
 
       <h3>Leg Wounds</h3>
@@ -82,6 +85,7 @@ function CriticalWounds() {
         headers={criticalWoundsHeaders}
         data={legWounds}
         disableSorting={true}
+        defaultSort={"unsorted"}
       />
 
       <h3>Injuries</h3>
