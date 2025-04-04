@@ -192,6 +192,12 @@
     "Source": "Core Rulebook"
   },
   {
+    "Name": "Duelist",
+    "Requirement": "2 Advances in Melee (One-handed)",
+    "Description": "All non-Subtle One-handed melee weapons count as having the Defensive trait. Can be retaken twice to gain Duellist Feint and Duellist Guard.",
+    "Source": "Core Rulebook"
+  },
+  {
     "Name": "Eidetic Memory",
     "Requirement": "-",
     "Description": "Recall visual details perfectly. No Tests needed for memory recall.",
@@ -258,6 +264,12 @@
     "Source": "Core Rulebook"
   },
   {
+    "Name": "Flesh is Weak",
+    "Requirement": "2 Advances in Tech (Augmetics)",
+    "Description": "Can graft augmetics equal to double your Toughness Bonus.",
+    "Source": "Core Rulebook"
+  },
+  {
     "Name": "Forger",
     "Requirement": "2 Advances in both Linguistics and Lore",
     "Description": "Forge documents to gain Influence. Influence depends on Test difficulty.",
@@ -304,6 +316,80 @@
     "Requirement": "Ambidextrous, 2 Advances in Ranged (Pistols)",
     "Description": "No Disadvantage when attacking with two ranged weapons simultaneously.",
     "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Hatred",
+    "Description": "Wield your fury as a weapon. Choose the object of your hatred. Difficult (-10) Discipline (Composure) Test to avoid being overcome by hate. Advantage on Discipline (Fear) Tests and +1 SL to attack Tests against the hated group. Must attempt to destroy the hated group. Can attempt another Discipline Test at the end of each turn to end the effect.",
+    "Requirement": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Hit and Run",
+    "Requirement": "3 Advances in Reflexes (Acrobatics)",
+    "Description": "As a Free Action, when you deal one or more Wounds, make a Reflexes (Acrobatics) Test to Disengage and move to an adjacent Zone.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Holdout Expert",
+    "Description": "Conceal one small item. Hard (-20) Awareness (Touch), Dexterity (Pickpocket), or Logic (Investigation) Test to discover. Challenging (+0) if technology is used.",
+    "Requirement": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Hypno-Indoctrination",
+    "Description": "Roll twice on the Random Talents Table. You now have those Talents. Can only be taken once.",
+    "Requirement": "-",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Icon Bearer",
+    "Requirements": "1 Advance in Lore (Theology) and 1 Advance in Presence",
+    "Description": "Allies within Medium Range gain the icon's benefit when you hold a Holy Icon.",
+    "Requirement": "1 Advance in Lore (Theology), 1 Advance in Presence",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Ignorance is my Shield",
+    "Requirements": "Less than 30 Intelligence, cannot have Advances in any (Forbidden) Specialisation",
+    "Description": "+4 SL on Tests to resist Corruption, psychic powers, and daemonic forces. -4 SL on Tests related to researching Daemons, psykers, and xenos.",
+    "Requirement": "Intelligence < 30",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Inspiring Presence",
+    "Requirement": "2 Advances in Presence (Leadership)",
+    "Description": "Allies in your Zone gain Advantage on Discipline Tests.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Inheritor",
+    "Requirement": "Must be taken at character creation",
+    "Description": "+1 Influence with an appropriate Faction, potential Inheritance (5,000 solars). May have access to specialisations or be a member of xenos-tainted bloodlines (GM's discretion).",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Lawbringer",
+    "Requirement": "2 Advances in Lore (Imperium)",
+    "Description": "+SL to Rapport or Presence Tests when referencing broken laws, equal to Advances in Lore (Imperium).",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Lickspittle",
+    "Requirement": "-",
+    "Description": "Advantage on Tests to ingratiate oneself with a superior.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Martyrdom",
+    "Requirement": "2 Advances in Fortitude",
+    "Description": "+SL to Tests equal to Willpower Bonus when suffering Critical Wounds.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Medicae Maverick",
+    "Requirement": "1 Advance in any Medicae (Forbidden) Specialisation",
+    "Description": "Action: Turn a Major Break into a Minor Break or fix a Minor Break instantly. +1 Critical Wound, but negates Break effects.",
+    "Source": "Inquisitor Player's Guide"
   },
   {
     "Name": "Mental Fortress",
@@ -417,6 +503,12 @@
     "Name": "Superior Commander",
     "Requirement": "4 Advances in Presence (Leadership)",
     "Description": "Use your Action to direct allies. Allies can Move or take an Action immediately.",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Suppressing Fire",
+    "Requirement": "2 Advances in Ranged",
+    "Description": "Use Rapid Fire to suppress ennemies.",
     "Source": "Core Rulebook"
   },
   {
