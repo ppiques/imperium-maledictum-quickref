@@ -40,13 +40,19 @@ const Table: React.FC<TableProps> = ({
     const conditionMatch = trait.match(/\((.*?)\)/); // Extrait le texte entre parenthèses
     const normalizedTrait = normalizeTraitName(trait);
 
-    if (traitsDescriptions[normalizedTrait]) {
-      let tooltipText = traitsDescriptions[normalizedTrait];
+    if (
+      traitsDescriptions[normalizedTrait as keyof typeof traitsDescriptions]
+    ) {
+      let tooltipText =
+        traitsDescriptions[normalizedTrait as keyof typeof traitsDescriptions];
 
       // Ajoute la description de la condition si elle existe
       if (normalizedTrait === "Inflict" && conditionMatch) {
         const conditionName = conditionMatch[1]; // Nom de la condition
-        const conditionDescription = conditionsDescriptions[conditionName]; // Description de la condition
+        const conditionDescription =
+          conditionsDescriptions[
+            conditionName as keyof typeof conditionsDescriptions
+          ];
 
         if (conditionDescription) {
           tooltipText += `<br /><br /><b>(${conditionName}: ${conditionDescription})</b>`; // Ajoute un saut de ligne et met la condition en italique
@@ -83,6 +89,10 @@ const Table: React.FC<TableProps> = ({
     return [...data].sort((a, b) => {
       let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
       let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
+
+      // Handle null values
+      if (aValue === null) return sortConfig.direction === "asc" ? -1 : 1;
+      if (bValue === null) return sortConfig.direction === "asc" ? 1 : -1;
 
       // Gestion spéciale pour la colonne "Availability"
       if (sortConfig.key === "Availability") {
