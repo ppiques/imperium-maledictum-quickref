@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
-import cityHiveTravel from "../data/CityHiveTravel.json";
+import cityHiveTravel from "../data/cityHiveTravel.json";
 import planetaryTravel from "../data/planetaryTravel.json";
 import systemTravel from "../data/systemTravel.json";
 import interstellarTravel from "../data/interstellarTravel.json";
