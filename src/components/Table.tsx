@@ -105,8 +105,17 @@ const Table: React.FC<TableProps> = ({
           : bFinalIndex - aFinalIndex;
       }
 
-      // Gestion spéciale pour la colonne "Cost"
-      if (sortConfig.key === "Cost" || sortConfig.key === "Cost (Mag)") {
+      // Gestion spéciale pour les colonnes numériques
+      if (
+        sortConfig.key === "Cost" ||
+        sortConfig.key === "Cost (Mag)" ||
+        sortConfig.key === "Encumbrance" ||
+        sortConfig.key === "Armour" ||
+        sortConfig.key === "Overload" ||
+        sortConfig.key === "Warp Rating" ||
+        sortConfig.key === "Damage" ||
+        sortConfig.key === "Magazine"
+      ) {
         const normalizeNumber = (value: any): number => {
           if (typeof value === "string") {
             const parsed = parseFloat(value);
