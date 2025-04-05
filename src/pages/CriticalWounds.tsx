@@ -12,12 +12,6 @@ type CriticalWound = {
   Treatment: string;
 };
 
-type Injury = {
-  Location: string;
-  Minor: string;
-  Major: string;
-};
-
 function CriticalWounds() {
   const criticalWoundsHeaders = ["Roll", "Description", "Effect", "Treatment"];
   const injuriesHeaders = ["Location", "Minor", "Major"];
