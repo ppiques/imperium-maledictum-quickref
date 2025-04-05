@@ -153,6 +153,9 @@ const Table: React.FC<TableProps> = ({
       ) {
         const normalizeNumber = (value: any): number => {
           if (typeof value === "string") {
+            if (value.includes("x")) {
+              value = value.slice(1);
+            }
             const parsed = parseFloat(value);
             return isNaN(parsed) ? 0 : parsed;
           }
