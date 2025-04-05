@@ -32,6 +32,11 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/talents">
+                Character
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/Combat">
                 Combat
               </Link>
@@ -54,11 +59,6 @@ function Navbar() {
             <li className="nav-item">
               <Link className="nav-link" to="/services">
                 Services
-              </Link>
-            </li>
-            <li className="nav-item">
-              <Link className="nav-link" to="/talents">
-                Talents
               </Link>
             </li>
             <li className="nav-item">

@@ -1,0 +1,102 @@
+[
+  {
+    "Skill": "Athletics",
+    "Characteristic": "STR",
+    "Specialisations": "Climbing, Might, Riding, Running, Swimming"
+  },
+  {
+    "Skill": "Awareness",
+    "Characteristic": "PER",
+    "Specialisations": "Sight, Smell, Hearing, Taste, Touch, Psyniscience (Restricted)"
+  },
+  {
+    "Skill": "Dexterity",
+    "Characteristic": "AG",
+    "Specialisations": "Lock Picking, Pickpocket, Sleight of Hand, Defuse (Restricted)"
+  },
+  {
+    "Skill": "Discipline",
+    "Characteristic": "WIL",
+    "Specialisations": "Composure, Fear, Psychic"
+  },
+  {
+    "Skill": "Fortitude",
+    "Characteristic": "TGH",
+    "Specialisations": "Endurance, Pain, Poison"
+  },
+  {
+    "Skill": "Intuition",
+    "Characteristic": "PER",
+    "Specialisations": "Human, Group (Various), Surroundings"
+  },
+  {
+    "Skill": "Linguistics",
+    "Characteristic": "INT",
+    "Specialisations": "Cypher, High Gothic, Forbidden (Various, Restricted)"
+  },
+  {
+    "Skill": "Logic",
+    "Characteristic": "INT",
+    "Specialisations": "Evaluation, Investigation"
+  },
+  {
+    "Skill": "Lore",
+    "Characteristic": "INT",
+    "Specialisations": "Academics, Adeptus Terra, Planet, Sector, Theology (Restricted), Forbidden (Various, Restricted)"
+  },
+  {
+    "Skill": "Medicae",
+    "Characteristic": "INT",
+    "Specialisations": "Animal, Human, Forbidden (Various, Restricted)"
+  },
+  {
+    "Skill": "Melee",
+    "Characteristic": "WS",
+    "Specialisations": "Brawling, One-handed, Two-handed"
+  },
+  {
+    "Skill": "Navigation",
+    "Characteristic": "INT",
+    "Specialisations": "Surface, Tracking, Void, Warp (Restricted)"
+  },
+  {
+    "Skill": "Piloting",
+    "Characteristic": "AG",
+    "Specialisations": "Aeronautica, Civilian, Military (Restricted), Minor Voidship (Restricted), Major Voidship (Restricted)"
+  },
+  {
+    "Skill": "Presence",
+    "Characteristic": "WIL",
+    "Specialisations": "Interrogation, Intimidation, Leadership"
+  },
+  {
+    "Skill": "Psychic Mastery",
+    "Characteristic": "WIL",
+    "Specialisations": "Biomancy, Divination, Pyromancy, Telekinesis, Telepathy, Various (Restricted)"
+  },
+  {
+    "Skill": "Ranged",
+    "Characteristic": "BS",
+    "Specialisations": "Long Guns, Ordnance, Pistols, Thrown"
+  },
+  {
+    "Skill": "Rapport",
+    "Characteristic": "FEL",
+    "Specialisations": "Animals, Charm, Deception, Haggle, Inquiry"
+  },
+  {
+    "Skill": "Reflexes",
+    "Characteristic": "AG",
+    "Specialisations": "Acrobatics, Balance, Dodge"
+  },
+  {
+    "Skill": "Stealth",
+    "Characteristic": "AG",
+    "Specialisations": "Conceal, Hide, Move Silently"
+  },
+  {
+    "Skill": "Tech",
+    "Characteristic": "INT",
+    "Specialisations": "Augmetics (Restricted), Engineering, Security"
+  }
+]
