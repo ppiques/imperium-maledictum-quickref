@@ -36,6 +36,15 @@ function CriticalWounds() {
       )
     );
 
+  const filteredInjuries = injuries.filter((injuries) =>
+    injuriesHeaders.some((header) =>
+      injuries[header as keyof typeof injuries]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    )
+  );
+
   const headWounds = filterData(criticalWounds?.CriticalWounds?.Head || []);
   const armWounds = filterData(criticalWounds?.CriticalWounds?.Arm || []);
   const bodyWounds = filterData(criticalWounds?.CriticalWounds?.Body || []);
@@ -89,7 +98,7 @@ function CriticalWounds() {
       />
 
       <h3>Injuries</h3>
-      <Table headers={injuriesHeaders} data={injuries as Injury[]} />
+      <Table headers={injuriesHeaders} data={filteredInjuries} />
     </div>
   );
 }
