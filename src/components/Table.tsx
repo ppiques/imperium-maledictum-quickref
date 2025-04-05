@@ -34,6 +34,15 @@ const Table: React.FC<TableProps> = ({
 
   // Ordre personnalisé pour la colonne "Availability"
   const availabilityOrder = ["common", "scarce", "rare", "exotic"];
+  const difficultyOrder = [
+    "Easy (+40)",
+    "Average (+20)",
+    "Routine (+20)",
+    "Challenging (+0)",
+    "Difficult (-10)",
+    "Hard (-20)",
+    "Very Hard (-30)",
+  ];
 
   const handleMouseEnter = (trait: string, event: React.MouseEvent) => {
     const conditionMatch = trait.match(/\((.*?)\)/); // Extrait le texte entre parenthèses
@@ -89,7 +98,7 @@ const Table: React.FC<TableProps> = ({
       let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
       let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
 
-      // Gestion spéciale pour la colonne "Availability"
+      // Gestion spéciale pour les colonnes string non triées par l'alphabétique
       if (sortConfig.key === "Availability") {
         const aString = typeof aValue === "string" ? aValue.toLowerCase() : "";
         const bString = typeof bValue === "string" ? bValue.toLowerCase() : "";
@@ -99,6 +108,32 @@ const Table: React.FC<TableProps> = ({
 
         const aFinalIndex = aIndex === -1 ? availabilityOrder.length : aIndex;
         const bFinalIndex = bIndex === -1 ? availabilityOrder.length : bIndex;
+
+        return sortConfig.direction === "asc"
+          ? aFinalIndex - bFinalIndex
+          : bFinalIndex - aFinalIndex;
+      }
+
+      if (sortConfig.key === "Difficulty") {
+        const normalizeDifficulty = (value: any): string => {
+          if (typeof value === "string") {
+            return value.toLowerCase().trim();
+          }
+          return "";
+        };
+
+        const aString = normalizeDifficulty(aValue);
+        const bString = normalizeDifficulty(bValue);
+
+        const aIndex = difficultyOrder
+          .map((d) => d.toLowerCase())
+          .indexOf(aString);
+        const bIndex = difficultyOrder
+          .map((d) => d.toLowerCase())
+          .indexOf(bString);
+
+        const aFinalIndex = aIndex === -1 ? difficultyOrder.length : aIndex;
+        const bFinalIndex = bIndex === -1 ? difficultyOrder.length : bIndex;
 
         return sortConfig.direction === "asc"
           ? aFinalIndex - bFinalIndex
