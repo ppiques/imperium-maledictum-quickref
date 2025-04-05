@@ -1,0 +1,38 @@
+[
+  {
+    "Name": "Barrier",
+    "Description": "Impedes movement between Zones. Action required to bypass with a GM-determined Test (e.g., Tech (Security), Athletics (Climbing)). Success allows passage, failure ends turn."
+  },
+  {
+    "Name": "Cover",
+    "Description": "Protection against ranged attacks. Light (+2 Armour), Medium (+4 Armour), Heavy (+6 Armour). Move to gain benefit if starting turn in Zone; Take Cover Action if entering Zone."
+  },
+  {
+    "Name": "Dark",
+    "Description": "Hiding Advantage, Awareness/Ranged Tests succeed on 01-05, Disadvantage on Dexterity, Melee, Reflexes, Tech Tests. Poorly Lit if some illumination."
+  },
+  {
+    "Name": "Difficult Terrain",
+    "Description": "Speed reduced by one step (min. Slow), Disadvantage on Athletics (Running) and Reflexes (Dodge) Tests. Entering uses remaining movement."
+  },
+  {
+    "Name": "Feature",
+    "Description": "Interactive objects/details triggering or removing other Traits (e.g., doors, cogitators, containers). No direct effect."
+  },
+  {
+    "Name": "Hazard",
+    "Description": "Dangerous effects. Minor (5 Damage), Major (10 Damage), Deadly (15 Damage) when entering or starting turn in Zone."
+  },
+  {
+    "Name": "Obscured",
+    "Description": "Lightly: Hiding Advantage, Disadvantage on Awareness/Ranged Tests. Heavily: Blinded, outside creatures cannot see or target within Zone."
+  },
+  {
+    "Name": "Poorly Lit",
+    "Description": "Hiding possible, Disadvantage on Awareness (Sight) and Ranged Tests."
+  },
+  {
+    "Name": "Warp-touched",
+    "Description": "Advantage on Psychic Power Tests, additional Warp Charge equal to SL, Minor Exposure (Routine (+20) Fortitude Test for Corruption), GM can trigger Psychic Phenomena."
+  }
+]

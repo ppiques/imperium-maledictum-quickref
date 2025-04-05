@@ -4,6 +4,7 @@ import SearchBar from "../components/SearchBar";
 import combatActions from "../data/combatActions.json";
 import traits from "../data/traits.json";
 import conditions from "../data/conditions.json";
+import environmentalTraits from "../data/environmentalTraits.json";
 import hitLocations from "../data/hitLocations.json";
 import fumbles from "../data/fumbles.json";
 import "../styles/Combat.css";
@@ -24,6 +25,7 @@ function Combat() {
   const combatActionsHeaders = ["Name", "Description"];
   const traitsHeaders = ["Name", "Description"];
   const conditionsHeaders = ["Name", "Description"];
+  const environmentalTraitsHeaders = ["Name", "Description"];
   const hitLocationsHeaders = ["Units Result", "Location"];
   const fumblesHeaders = ["Roll", "Result"];
 
@@ -31,7 +33,6 @@ function Combat() {
   const [query, setQuery] = useState("");
 
   // Filtrer les traits en fonction de la recherche
-
   const filteredCombatActions = combatActions.filter((combatActions) =>
     combatActionsHeaders.some((header) =>
       combatActions[header as keyof typeof combatActions]
@@ -40,6 +41,17 @@ function Combat() {
         .includes(query.toLowerCase())
     )
   );
+
+  const filteredEnvironmentalTraits = environmentalTraits.filter(
+    (environmentalTraits) =>
+      combatActionsHeaders.some((header) =>
+        environmentalTraits[header as keyof typeof environmentalTraits]
+          ?.toString()
+          .toLowerCase()
+          .includes(query.toLowerCase())
+      )
+  );
+
   const filteredTraits = traitsArray.filter((traits) =>
     traitsHeaders.some((header) =>
       traits[header as keyof typeof traits]
@@ -52,6 +64,24 @@ function Combat() {
   const filteredConditions = conditionsArray.filter((conditions) =>
     traitsHeaders.some((header) =>
       conditions[header as keyof typeof conditions]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    )
+  );
+
+  const filteredHitLocations = hitLocations.filter((hitLocations) =>
+    hitLocationsHeaders.some((header) =>
+      hitLocations[header as keyof typeof hitLocations]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    )
+  );
+
+  const filteredFumbles = fumbles.filter((fumbles) =>
+    fumblesHeaders.some((header) =>
+      fumbles[header as keyof typeof fumbles]
         ?.toString()
         .toLowerCase()
         .includes(query.toLowerCase())
@@ -77,17 +107,22 @@ function Combat() {
       <Table headers={traitsHeaders} data={filteredTraits} />
       <h3>Conditions</h3>
       <Table headers={conditionsHeaders} data={filteredConditions} />
+      <h3>Environmental Traits</h3>
+      <Table
+        headers={environmentalTraitsHeaders}
+        data={filteredEnvironmentalTraits}
+      />
       <h3>Hit Locations</h3>
       <Table
         headers={hitLocationsHeaders}
-        data={hitLocations}
+        data={filteredHitLocations}
         disableSorting={true}
         defaultSort="unsorted"
       />
       <h3>Fumbles</h3>
       <Table
         headers={fumblesHeaders}
-        data={fumbles}
+        data={filteredFumbles}
         disableSorting={true}
         defaultSort="unsorted"
       />
