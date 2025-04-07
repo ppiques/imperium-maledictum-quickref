@@ -1,18 +1,4 @@
-/* Style général pour la page */
 .home-page {
   padding: 20px;
   min-height: 100vh;
-}
-
-.tables-container {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.table-wrapper {
-  flex: 1;
-  min-width: 300px;
-  max-width: 500px;
 }

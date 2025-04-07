@@ -3,6 +3,7 @@ import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
 import talents from "../data/talents.json";
 import skills from "../data/skills.json";
+import xpCosts from "../data/xpCosts.json";
 import "../styles/Talents.css";
 
 function Talents() {
@@ -45,6 +46,24 @@ function Talents() {
       <Table headers={talentsHeaders} data={filteredTalents} />
       <h3>Skills</h3>
       <Table headers={skillsHeaders} data={filteredSkills} />
+      <div className="tables-container">
+        <div className="table-wrapper">
+          <h3>Characteristic Improvement XP Cost</h3>
+          <Table
+            headers={xpCosts.characteristicImprovement.headers}
+            data={xpCosts.characteristicImprovement.data}
+            disableSorting={true}
+          />
+        </div>
+        <div className="table-wrapper">
+          <h3>Skill and Specialisation XP Cost</h3>
+          <Table
+            headers={xpCosts.skillSpecialisation.headers}
+            data={xpCosts.skillSpecialisation.data}
+            disableSorting={true}
+          />
+        </div>
+      </div>
     </div>
   );
 }

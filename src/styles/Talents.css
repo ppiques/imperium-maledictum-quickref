@@ -13,3 +13,20 @@
   color: #e0e0e0;
   text-align: center;
 }
+
+.tables-container {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.table-wrapper {
+  flex: 1 1 45%;
+  max-width: 600px;
+  margin: 0 10px;
+}
+
+.table-wrapper table {
+  width: 100%;
+}
