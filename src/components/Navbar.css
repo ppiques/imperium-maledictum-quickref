@@ -1,4 +1,3 @@
-/* filepath: src/components/Navbar.css */
 .navbar {
   background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
   border-bottom: 3px solid #8b6b1f;
@@ -115,27 +114,43 @@
   box-shadow: 0 0 5px #d4af37;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1080px) {
   .navbar-toggler {
     display: block;
+    background: none;
+    border: none;
+    color: #d4af37;
+    font-size: 1.5rem;
+    cursor: pointer;
   }
 
-  .navbar-collapse {
+  .collapse {
     display: none;
-    flex-direction: column;
-    align-items: flex-start;
   }
 
-  .navbar-collapse.active {
+  .collapse.active {
     display: flex;
+    flex-direction: column;
+    background-color: #0d0d0d;
+    padding: 1rem;
+    border-top: 1px solid #8b6b1f;
+    position: absolute;
+    left: 0; /* Aligne le menu avec le bord gauche de l'écran */
+    width: 100%; /* Fait en sorte que le menu prenne toute la largeur */
+    z-index: 1000; /* Assure que le menu est au-dessus des autres éléments */
   }
 
   .navbar-nav {
     flex-direction: column;
-    width: 100%;
   }
 
   .nav-item {
     margin: 0.5rem 0;
+  }
+
+  .nav-link {
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: left;
   }
 }
