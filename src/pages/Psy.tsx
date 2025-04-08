@@ -499,7 +499,8 @@ function Psy() {
       <div className="psy-info">
         <p>
           Each new Psychic Power costs <strong>100 XP</strong>. Minor Psychic
-          Powers costs <strong>60 XP</strong>.
+          Powers costs <strong>60 XP</strong>. <br /> Powers noted with an {"*"}{" "}
+          are <strong>Overt</strong>.
         </p>
       </div>
       <SearchBar
