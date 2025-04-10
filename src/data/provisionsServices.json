@@ -1,0 +1,26 @@
+[
+  {
+    "Quality": "Poor",
+    "Cost": "5",
+    "Examples": "Runoff water, corpse-starch, acynadi paste",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Standard",
+    "Cost": "10",
+    "Examples": "Basic recaf, orza loaf, fresh mala, fried klop cubes",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Good",
+    "Cost": "40",
+    "Examples": "Persepolis recaf blends, grilled grox steak, ovana soup",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Excellent",
+    "Cost": "80",
+    "Examples": "Vintage Kothir, marinated cloud-ray flank, seasoned yixtail",
+    "Source": "Core Rulebook"
+  }
+]

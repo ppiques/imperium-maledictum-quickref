@@ -1,0 +1,26 @@
+[
+  {
+    "Quality": "Poor",
+    "Cost": "20",
+    "Examples": "Tavern back rooms, communal hab floors, barns",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Standard",
+    "Cost": "50",
+    "Examples": "Shared hab quarters, mid-hive worker rooms",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Good",
+    "Cost": "100",
+    "Examples": "Single hab room, mid-hive hostelry with staff",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Excellent",
+    "Cost": "200",
+    "Examples": "Private upper-hive suites, linked rooms with servants",
+    "Source": "Core Rulebook"
+  }
+]

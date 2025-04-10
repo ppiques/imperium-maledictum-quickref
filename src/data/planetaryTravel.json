@@ -1,26 +1,26 @@
 [
-    {
-        "Quality": "Poor",
-        "Cost": "200",
-        "Examples": "Transport autocarriages, windsailers, megafuna trawlers",
-        "Source": "Core Rulebook"
-    },
-    {
-        "Quality": "Standard",
-        "Cost": "500",
-        "Examples": "Interhive conveyor, land train, bulk transport aircraft",
-        "Source": "Core Rulebook"
-    },
-    {
-        "Quality": "Good",
-        "Cost": "1,000",
-        "Examples": "Passenger aircraft, personal land train car, hired convoy",
-        "Source": "Core Rulebook"
-    },
-    {
-        "Quality": "Excellent",
-        "Cost": "5,000",
-        "Examples": "High-speed shuttle, light gunship, armoured airship",
-        "Source": "Core Rulebook"
-    }
+  {
+    "Quality": "Poor",
+    "Cost": "200",
+    "Examples": "Transport autocarriages, windsailers, megafuna trawlers",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Standard",
+    "Cost": "500",
+    "Examples": "Interhive conveyor, land train, bulk transport aircraft",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Good",
+    "Cost": "1,000",
+    "Examples": "Passenger aircraft, personal land train car, hired convoy",
+    "Source": "Core Rulebook"
+  },
+  {
+    "Quality": "Excellent",
+    "Cost": "5,000",
+    "Examples": "High-speed shuttle, light gunship, armoured airship",
+    "Source": "Core Rulebook"
+  }
 ]
