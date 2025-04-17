@@ -23,7 +23,7 @@
     "Name": "Armoured Bodyglove",
     "Locations": "Arms, Body, Legs",
     "Armour": "2",
-    "Encumbrance": "1",
+    "Encumbrance": "2",
     "Cost": "1200",
     "Availability": "Rare",
     "Traits": "Subtle",
@@ -32,7 +32,7 @@
   {
     "Name": "Armoured Greatcoat",
     "Locations": "Arms, Body, Legs",
-    "Armour": "1",
+    "Armour": "2",
     "Encumbrance": "3",
     "Cost": "500",
     "Availability": "Rare",
