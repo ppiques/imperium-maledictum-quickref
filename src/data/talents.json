@@ -520,7 +520,7 @@
   {
     "Name": "Tactical Movement",
     "Requirement": "1 Advance in both Athletics and Discipline",
-    "Description": "Take Cover as a Free Action. Gain Advantage resisting forced movement.",
+    "Description": "Take Cover as a Free Action.",
     "Source": "Core Rulebook"
   },
   {
