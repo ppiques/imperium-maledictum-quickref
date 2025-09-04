@@ -342,5 +342,133 @@
     "Encumbrance": "1",
     "Effect": "Investigative tool combining conventional (pheromone sniffers, brain activity scanners) and esoteric (Warp emanation reading) instruments. Identifies threats by detecting 'warbling resonance' around impure minds. Grants +2 SL on Awareness and Intuition Tests for hunting malcontents, heretics, or criminals.",
     "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Adeptus Administratum Forms",
+    "Cost": "10",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Contains standard Adeptus Administratum forms, from licences to requisitions. Having pre-filled forms may grant narrative advantages or serve as props to confuse those outside the Administratum.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Administratum Seal and Notary Kit",
+    "Cost": "50",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Allows proper sealing and notarisation of Administratum documents. Without it, paperwork may be lost or rejected. Often personalised for higher officials.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Adeptus Administratum Sigil of Office",
+    "Cost": "250",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Represents official rank within the Administratum. Grants +1 SL on Fellowship Tests with characters impressed by such an object.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Archaeo-auspex",
+    "Cost": "2500",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Reveals ancient energy emissions or radiation. Using it as an Action may reveal hidden technology or lost sites. Requires a Tech (Engineering) Test to interpret or overcome interference.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Infantryman’s Grooming Kit",
+    "Cost": "10",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Standard-issue hygiene kit containing basic grooming items. Provides +1 SL on Presence or Rapport Tests when appearance matters.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Locator Beacon",
+    "Cost": "2500",
+    "Availability": "Rare",
+    "Encumbrance": "2",
+    "Effect": "Emits a signal locatable by auspex or vehicle scanners. Typical range: Long. Mastercrafted versions reach Extreme Range or planetary scale. Requires a Challenging (+0) Tech (Security) Test to activate.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Microfauna Inhibitor Spray",
+    "Cost": "10",
+    "Availability": "Common",
+    "Encumbrance": "0",
+    "Effect": "Repels insect life. Each container provides five applications lasting ~2 hours. Grants Advantage on Tests to resist Environmental Hazards tied to microfauna. Bearer suffers Disadvantage on Awareness (Smell, Taste).",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Munitorum Grade-5 Adhesion Tape",
+    "Cost": "10",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Durable adhesive tape usable for sealing, repairs, or strapping. Requires 2 Damage or a Difficult (–10) Athletics Test to break. Holds up to Encumbrance 2 effectively.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Personal Cogitator",
+    "Cost": "10000",
+    "Availability": "Rare",
+    "Encumbrance": "4",
+    "Effect": "Portable cogitator for field tasks. Allows a Challenging (+0) Tech Test every 5 minutes to undertake calculations or programming. May link to devices like auspex for data.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Salvation Augur",
+    "Cost": "10",
+    "Availability": "Scarce",
+    "Encumbrance": "0",
+    "Effect": "Detects toxic or radiological hazards. Emits alarms, colour changes, or vibrations. No Test required for basic detection. Tech (+20) Test may reveal exact concentration and nature of hazard.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Survey Augur",
+    "Cost": "1500",
+    "Availability": "Rare",
+    "Encumbrance": "2",
+    "Effect": "Geophysical scanner for measuring material density. Provides detailed scans of a Zone with a Challenging (+0) Tech Test. Grants Advantage to allies’ ranged attacks against targets in the scanned Zone.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Tactical Hololith Table",
+    "Cost": "7500",
+    "Availability": "Exotic",
+    "Encumbrance": "2",
+    "Effect": "Projects 3D tactical maps. Grants Advantage on Tests to Know Thy Battlefield when gaining Superiority before an encounter.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Trip-augur",
+    "Cost": "250",
+    "Availability": "Rare",
+    "Encumbrance": "0",
+    "Effect": "Small security devices sensing motion. Can be linked to vox devices to send alarms when triggered. Sensitive enough to estimate approximate intruder numbers.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Veriscant Multi-lens Array",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Encumbrance": "1",
+    "Effect": "Multi-lens array granting +1 SL on Awareness (Sight), Intuition (Surroundings), or Logic (Investigation) Tests. Ignores penalties from Dark or Poorly Lit Zones.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Void Breach Kit",
+    "Cost": "250",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Emergency kit for sealing hull breaches. Requires a Challenging (+0) Dexterity Test to use. Success seals breaches for hours depending on conditions.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Weapon Maintenance Kit",
+    "Cost": "50",
+    "Availability": "Common",
+    "Encumbrance": "1",
+    "Effect": "Contains cleaning agents, lubricants, and repair tools. A Routine (+20) Tech (Engineering) Test restores a weapon, removing the effects of the first Fumble rolled while it is being used.",
+    "Source": "Macharian Requisition Guide"
   }
 ]

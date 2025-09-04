@@ -168,5 +168,55 @@
     "Availability": "Exotic",
     "Traits": "Blast, Inflict (Fatigued), Loud, Unstable",
     "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Breaching Charge",
+    "Specialisation": "Ordnance",
+    "Damage": "12",
+    "Encumbrance": "1",
+    "Cost": "150",
+    "Availability": "Scarce",
+    "Traits": "Loud, Rend (12), Unstable",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Incendiary Charges",
+    "Specialisation": "Engineering",
+    "Damage": "6*",
+    "Encumbrance": "1",
+    "Cost": "100",
+    "Availability": "Scarce",
+    "Traits": "Blast, Inflict (Ablaze*), Loud, Spread, Unstable",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Emergency Flare",
+    "Specialisation": "Engineering",
+    "Damage": "4*",
+    "Encumbrance": "1",
+    "Cost": "50",
+    "Availability": "Scarce",
+    "Traits": "Ineffective, Inflict (Ablaze*), Loud",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Mines",
+    "Specialisation": "Engineering",
+    "Damage": "12",
+    "Encumbrance": "1",
+    "Cost": "50",
+    "Availability": "Common",
+    "Traits": "Blast, Loud, Penetrating (2), Unstable",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Scare Gas Grenade",
+    "Specialisation": "Thrown",
+    "Damage": "-",
+    "Encumbrance": "0",
+    "Cost": "200",
+    "Availability": "Rare",
+    "Traits": "Inflict (Frightened*), Loud, Thrown (Medium), Unstable",
+    "Source": "Macharian Requisition Guide"
   }
 ]

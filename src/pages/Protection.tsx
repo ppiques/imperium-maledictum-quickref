@@ -3,6 +3,7 @@ import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
 import armourData from "../data/armour.json";
 import forceFields from "../data/forceFields.json";
+import armourModifications from "../data/armourModifications.json";
 import "../styles/Protection.css";
 
 function Protection() {
@@ -21,6 +22,13 @@ function Protection() {
     "Protection",
     "Overload",
     "Encumbrance",
+    "Cost",
+    "Availability",
+    "Effect",
+    "Source",
+  ];
+  const armourModificationsHeaders = [
+    "Name",
     "Cost",
     "Availability",
     "Effect",
@@ -66,6 +74,15 @@ function Protection() {
     )
   );
 
+  const filteredArmourModifications = armourModifications.filter((field) =>
+    armourModificationsHeaders.some((header) =>
+      field[header as keyof typeof field]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    )
+  );
+
   return (
     <div className="protection-page">
       <h2>Protection</h2>
@@ -99,6 +116,11 @@ function Protection() {
           {tooltip}
         </div>
       )}
+      <h3>Armour Modifications</h3>
+      <Table
+        headers={armourModificationsHeaders}
+        data={filteredArmourModifications}
+      />
     </div>
   );
 }

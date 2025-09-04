@@ -88,5 +88,59 @@
     "Used With": "Solid Projectile ranged weapons",
     "Effects": "Removes Weapon's Loud Trait while attached.",
     "Source": "Core Rulebook"
+  },
+  {
+    "Name": "Black Market Focusing Crystal (Combat)",
+    "Cost": "20% of weapon's base cost",
+    "Availability": "Rare",
+    "Type": "Combat Attachment",
+    "Used With": "Any Las Weapon",
+    "Effects": "Grants Penetrating (2) and Unstable. Cost varies with type of lasgun.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Collapsible Stock (Support)",
+    "Cost": "100",
+    "Availability": "Scarce",
+    "Type": "Support Attachment",
+    "Used With": "Any Ranged Weapon with the Two-handed Trait",
+    "Effects": "While folded: reduces Encumbrance by 1, grants -1 SL to attacks, Awareness (Sight) Tests to spot the weapon have -1 SL. Folding/unfolding requires an Action.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Foregrip (Support)",
+    "Cost": "150",
+    "Availability": "Rare",
+    "Type": "Support Attachment",
+    "Used With": "Any Ranged Weapon with the Two-handed Trait and base Encumbrance 2 or less",
+    "Effects": "Weapon gains Close trait. Grants +1 SL when firing at targets within Close or Short Range.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Infrascope (Sight)",
+    "Cost": "200",
+    "Availability": "Rare",
+    "Type": "Sight Attachment",
+    "Used With": "Any Ranged Weapon",
+    "Effects": "Grants +1 SL on Ranged Tests vs heat-emitting targets. Ignores Dark and Poorly Lit Environmental Traits. May impair vision in some conditions.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Strobing Phosphor-lumen (Combat)",
+    "Cost": "800",
+    "Availability": "Scarce",
+    "Type": "Combat Attachment",
+    "Used With": "Any Ranged Weapon with the Two-handed Trait",
+    "Effects": "The Zone loses Dark or Poorly Lit Traits. Hostile creatures in Zone must pass Hard (–20) Reflexes Test or be Blinded until end of next turn.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Suspensor (Support)",
+    "Cost": "500",
+    "Availability": "Exotic",
+    "Type": "Support Attachment",
+    "Used With": "Any Ranged Weapon",
+    "Effects": "Weapon gains Reliable trait. Reduces value of Heavy trait by 2.",
+    "Source": "Macharian Requisition Guide"
   }
 ]

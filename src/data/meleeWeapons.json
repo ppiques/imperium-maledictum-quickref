@@ -388,5 +388,155 @@
     "Availability": "Exotic",
     "Traits": "Rend (4)",
     "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Tran’lo ‘Burnout’ Chainsword",
+    "Specialisation": "One-handed",
+    "Damage": "3+StrB",
+    "Encumbrance": "1",
+    "Cost": "650",
+    "Availability": "Rare",
+    "Traits": "Loud, Rend (2)",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Viridan Mk II Chain Halberd",
+    "Specialisation": "Two-handed",
+    "Damage": "5+StrB",
+    "Encumbrance": "4",
+    "Cost": "1200",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud, Reach, Rend (4), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Death World Combat Blade",
+    "Specialisation": "One-handed",
+    "Damage": "2+StrB",
+    "Encumbrance": "1",
+    "Cost": "250",
+    "Availability": "Scarce",
+    "Traits": "Heavy (3), Penetrating (1), Reliable",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Death World Combat Blade",
+    "Specialisation": "Two-handed",
+    "Damage": "3+StrB",
+    "Encumbrance": "1",
+    "Cost": "250",
+    "Availability": "Scarce",
+    "Traits": "Heavy (3), Penetrating (2), Reliable, Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Heavy Lascutter",
+    "Specialisation": "Two-handed",
+    "Damage": "6+StrB",
+    "Encumbrance": "3",
+    "Cost": "3000",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud, Penetrating (4), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Heavy Rock Cutter",
+    "Specialisation": "Two-handed",
+    "Damage": "6+StrB",
+    "Encumbrance": "5",
+    "Cost": "5000",
+    "Availability": "Scarce",
+    "Traits": "Heavy (4), Loud, Penetrating (5), Rend (3), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Heavy Rock Drill",
+    "Specialisation": "Two-handed",
+    "Damage": "6+StrB",
+    "Encumbrance": "5",
+    "Cost": "4000",
+    "Availability": "Scarce",
+    "Traits": "Heavy (4), Loud, Rend (5), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Heavy Rock Saw",
+    "Specialisation": "Two-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "3",
+    "Cost": "3500",
+    "Availability": "Scarce",
+    "Traits": "Bulky, Heavy (4), Loud, Rend (4), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Servo Claw",
+    "Specialisation": "Brawling",
+    "Damage": "4+StrB",
+    "Encumbrance": "1",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Traits": "Heavy (4), Penetrating (4)",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Staff of Office",
+    "Specialisation": "Two-handed",
+    "Damage": "2+StrB",
+    "Encumbrance": "2",
+    "Cost": "8000",
+    "Availability": "Exotic",
+    "Traits": "Defensive, Ornamental, Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Compliance Pattern Power Maul",
+    "Specialisation": "One-handed",
+    "Damage": "5+StrB",
+    "Encumbrance": "1",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Penetrating (3), Two-handed",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Macharian Regimental Power Sword",
+    "Specialisation": "One-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "1",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Traits": "Master-crafted, Ornamental, Penetrating (4)",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Mortis Alpha Ceremonial Blade",
+    "Specialisation": "Two-handed",
+    "Damage": "6+StrB",
+    "Encumbrance": "2",
+    "Cost": "11000",
+    "Availability": "Exotic",
+    "Traits": "Durable, Master-crafted, Ornamental, Penetrating (4)",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Shock Knuckles",
+    "Specialisation": "Brawling",
+    "Damage": "StrB",
+    "Encumbrance": "0",
+    "Cost": "1000",
+    "Availability": "Rare",
+    "Traits": "Inflict (Stunned), Loud, Subtle",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Shock Staff",
+    "Specialisation": "Two-handed",
+    "Damage": "1+StrB",
+    "Encumbrance": "2",
+    "Cost": "150",
+    "Availability": "Common",
+    "Traits": "Defensive, Inflict (Stunned), Loud, Two-handed",
+    "Source": "Macharian Requisition Guide"
   }
 ]

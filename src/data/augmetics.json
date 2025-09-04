@@ -152,5 +152,54 @@
     "Availability": "Exotic",
     "Effect": "Brain-integrated cogitator for enhanced information storage and recall. Grants +1 SL on Logic (Investigation or Lore) Tests and +5 Intelligence.",
     "Source": "Inquisitor's Player's Guide"
+  },
+  {
+    "Name": "Aortic Supercharger",
+    "Cost": "3000",
+    "Availability": "Rare",
+    "Effect": "Augmetic reinforcement to the heart that enhances endurance. Once per session, the bearer may automatically pass a Test to resist becoming Fatigued.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Augmetic Organs",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Effect": "Grants +1 SL on Toughness Tests and extends natural lifespan by 3 + 1d10 decades. Augmetic Organs must be replaced after about 50 years. Chirurgeons suffer +1 step in Difficulty when treating a character with these organs.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Implanted Weapon",
+    "Cost": "3000",
+    "Availability": "Rare",
+    "Effect": "Allows implantation of a weapon with Encumbrance value up to 3. Benefits: loses the Two-handed Trait; after a Charge Action, no Disadvantage on Melee and Reflex Tests to defend; Aim Action with an implanted ranged weapon grants Advantage on Aimed Shot; if replacing a limb, that Hit Location’s Armour equals the weapon’s Encumbrance (no other Armour applies); weapon’s Encumbrance does not count towards total carry value. The cost does not include the weapon itself.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Internal Compartment",
+    "Cost": "1500",
+    "Availability": "Rare",
+    "Effect": "Hidden storage compartment for an item with Encumbrance value 0, no bigger than the Compartment’s body area. A character may have a maximum number of compartments equal to half their Toughness Bonus, rounded down.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Simple Prosthesis",
+    "Cost": "200",
+    "Availability": "Scarce",
+    "Effect": "Basic prosthetic replacement functioning as a standard augmetic counterpart but without providing +1 Armour or bonus SL to related Tests.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Skinplant",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Effect": "Intracutaneous implant visible when triggered by a programmed stimulus (touch, light, or external control). Comes with a trigger and a display such as an image, dim light, or chrono.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Toxiphage",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Effect": "Detects and neutralizes poisons in the bearer’s body. Automatically passes the first Test to resist Poisoned each day. If poisoned surreptitiously, the augment gives the bearer a silent warning.",
+    "Source": "Macharian Requisition Guide"
   }
 ]

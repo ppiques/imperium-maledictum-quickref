@@ -133,5 +133,32 @@
     "Used With": "Solid Projectile Weapons, excluding Shotguns",
     "Traits": "Bonus Dmg equal to the wielder’s Corruption up to their (WilB)",
     "Source": "Inquisition Player's Guide"
+  },
+  {
+    "Name": "Amputator Rounds",
+    "Damage": "+0",
+    "Cost": "x3",
+    "Availability": "Rare",
+    "Used With": "Solid Projectile Weapons",
+    "Traits": "Penetrating (1), If attack causes Critical Hit to Head Arm or Leg Roll twice on Crit table and pick highest result.",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "CX-19 Web Agent",
+    "Damage": "+0",
+    "Cost": "x2",
+    "Availability": "Rare",
+    "Used With": "Web Guns",
+    "Traits": "Inflict (Restrained), Once per mission gain Spread",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Promethium Rounds",
+    "Damage": "+0",
+    "Cost": "x2",
+    "Availability": "Scarce",
+    "Used With": "Solid Projectile Weapons, excluding Shotguns",
+    "Traits": "Inflict (Ablaze), Spread, Can target a Zone to create Minor Hazard for 1d10+5 rounds.",
+    "Source": "Macharian Requisition Guide"
   }
 ]

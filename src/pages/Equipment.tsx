@@ -3,6 +3,7 @@ import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
 import clothingAndPersonalGear from "../data/clothingAndPersonalGear.json";
 import tools from "../data/tools.json";
+import medicaeEquipment from "../data/medicaeEquipement.json";
 import "../styles/Equipment.css";
 
 function Equipment() {
@@ -16,6 +17,15 @@ function Equipment() {
   ];
 
   const toolsHeaders = [
+    "Name",
+    "Cost",
+    "Availability",
+    "Encumbrance",
+    "Effect",
+    "Source",
+  ];
+
+  const medicaeEquipmentHeaders = [
     "Name",
     "Cost",
     "Availability",
@@ -47,6 +57,15 @@ function Equipment() {
     )
   );
 
+  const filteredMedicaeEquipment = medicaeEquipment.filter((item) =>
+    medicaeEquipmentHeaders.some((header) =>
+      item[header as keyof typeof item]
+        ?.toString()
+        .toLowerCase()
+        .includes(query.toLowerCase())
+    )
+  );
+
   return (
     <div className="equipment-page">
       <h2>Equipment</h2>
@@ -61,6 +80,11 @@ function Equipment() {
       />
       <h3>Tools</h3>
       <Table headers={toolsHeaders} data={filteredTools} />
+      <h3>Medicae Equipment</h3>
+      <Table
+        headers={medicaeEquipmentHeaders}
+        data={filteredMedicaeEquipment}
+      />
     </div>
   );
 }

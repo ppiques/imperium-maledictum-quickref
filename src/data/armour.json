@@ -318,5 +318,75 @@
     "Availability": "Exotic",
     "Traits": "Heavy (4), Loud",
     "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Darkshroud Flak Armour",
+    "Locations": "All",
+    "Armour": "3",
+    "Encumbrance": "3 (4)",
+    "Cost": "2000",
+    "Availability": "Exotic",
+    "Traits": "-",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Flak-weave Greatcoat",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "2 (3)",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Traits": "-",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Macharian Honour Guard Armour",
+    "Locations": "All",
+    "Armour": "6 (front), 3 (back)",
+    "Encumbrance": "3 (4)",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (4)",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Void Armour",
+    "Locations": "All",
+    "Armour": "5",
+    "Encumbrance": "5 (6)",
+    "Cost": "4000",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Light Protection Suit",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "1 (3)",
+    "Cost": "200",
+    "Availability": "Common",
+    "Traits": "-",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Medium Protection Suit",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "3",
+    "Encumbrance": "2 (4)",
+    "Cost": "500",
+    "Availability": "Common",
+    "Traits": "-",
+    "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Heavy Protection Suit",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "4",
+    "Encumbrance": "3 (5)",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Traits": "Heavy (4), Loud",
+    "Source": "Macharian Requisition Guide"
   }
 ]
