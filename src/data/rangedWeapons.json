@@ -378,7 +378,7 @@
     "Range": "Long",
     "Magazine": "6",
     "Encumbrance": "3",
-    "Cost (Mag)": "24000 (2700)",
+    "Cost (Mag)": "240000 (27000)",
     "Availability": "Exotic",
     "Traits": "Loud, Penetrating (5), Rapid Fire (3), Spread, Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -390,7 +390,7 @@
     "Range": "Long",
     "Magazine": "4",
     "Encumbrance": "2",
-    "Cost (Mag)": "10000 (2500)",
+    "Cost (Mag)": "100000 (10000)",
     "Availability": "Exotic",
     "Traits": "Loud, Penetrating (4), Rapid Fire (2), Spread, Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -401,8 +401,8 @@
     "Damage": "6",
     "Range": "Long",
     "Magazine": "1",
-    "Encumbrance": "1",
-    "Cost (Mag)": "10000 (2500)",
+    "Encumbrance": "2",
+    "Cost (Mag)": "100000 (10000)",
     "Availability": "Exotic",
     "Traits": "Penetrating (4), Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -420,13 +420,13 @@
     "Source": "Inquisitor Player's Guide"
   },
   {
-    "Name": "Periculus Crossbow",
+    "Name": "Purgatus Crossbow",
     "Specialisation": "Long Gun",
     "Damage": "7",
     "Range": "Long",
     "Magazine": "1",
     "Encumbrance": "1",
-    "Cost (Mag)": "900 (90)",
+    "Cost (Mag)": "1900 (190)",
     "Availability": "Exotic",
     "Traits": "Penetrating (4), Reliable",
     "Source": "Inquisitor Player's Guide"
@@ -452,7 +452,7 @@
     "Encumbrance": "2",
     "Cost (Mag)": "4000 (200)",
     "Availability": "Rare",
-    "Traits": "Flames, Inflict (Ablaze), Loud, Two-handed",
+    "Traits": "Flamer, Inflict (Ablaze), Loud, Two-handed",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -464,7 +464,7 @@
     "Encumbrance": "0",
     "Cost (Mag)": "1000 (200)",
     "Availability": "Exotic",
-    "Traits": "Blast, Close",
+    "Traits": "Spread, Close",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -476,7 +476,7 @@
     "Encumbrance": "1",
     "Cost (Mag)": "1500 (300)",
     "Availability": "Exotic",
-    "Traits": "Blast",
+    "Traits": "Spread",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -486,7 +486,7 @@
     "Range": "Long",
     "Magazine": "8",
     "Encumbrance": "3",
-    "Cost (Mag)": "1500 (100)",
+    "Cost (Mag)": "15000 (1000)",
     "Availability": "Exotic",
     "Traits": "Heavy (4), Loud, Penetrating (2), Rapid Fire (4), Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -498,7 +498,7 @@
     "Range": "Short",
     "Magazine": "6",
     "Encumbrance": "0",
-    "Cost (Mag)": "800 (40)",
+    "Cost (Mag)": "8000 (400)",
     "Availability": "Exotic",
     "Traits": "Close, Loud, Penetrating (2)",
     "Source": "Inquisitor Player's Guide"
@@ -510,7 +510,7 @@
     "Range": "Long",
     "Magazine": "4",
     "Encumbrance": "1",
-    "Cost (Mag)": "1000 (50)",
+    "Cost (Mag)": "10000 (500)",
     "Availability": "Exotic",
     "Traits": "Loud, Heavy (4), Penetrating (2), Rapid Fire (2), Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -522,7 +522,7 @@
     "Range": "Extreme",
     "Magazine": "6",
     "Encumbrance": "2",
-    "Cost (Mag)": "1200 (80)",
+    "Cost (Mag)": "12000 (800)",
     "Availability": "Exotic",
     "Traits": "Loud, Penetrating (2), Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -532,7 +532,7 @@
     "Specialisation": "Long Gun",
     "Damage": "10",
     "Range": "Extreme",
-    "Magazine": "2",
+    "Magazine": "6",
     "Encumbrance": "2",
     "Cost (Mag)": "10000 (1000)",
     "Availability": "Exotic",
@@ -543,10 +543,10 @@
     "Name": "Pulse Pistol",
     "Specialisation": "Pistol",
     "Damage": "6",
-    "Range": "Short",
+    "Range": "Medium",
     "Magazine": "6",
     "Encumbrance": "0",
-    "Cost (Mag)": "800 (80)",
+    "Cost (Mag)": "8000 (800)",
     "Availability": "Exotic",
     "Traits": "Close, Loud, Penetrating (6), Subtle",
     "Source": "Inquisitor Player's Guide"
@@ -555,10 +555,10 @@
     "Name": "Pulse Carbine",
     "Specialisation": "Long Gun",
     "Damage": "7",
-    "Range": "Medium",
+    "Range": "Long",
     "Magazine": "4",
     "Encumbrance": "1",
-    "Cost (Mag)": "1000 (100)",
+    "Cost (Mag)": "10000 (1000)",
     "Availability": "Exotic",
     "Traits": "Close, Loud, Burst, Penetrating (6)",
     "Source": "Inquisitor Player's Guide"
@@ -567,10 +567,10 @@
     "Name": "Pulse Rifle",
     "Specialisation": "Long Gun",
     "Damage": "7",
-    "Range": "Long",
+    "Range": "Extreme",
     "Magazine": "8",
     "Encumbrance": "1",
-    "Cost (Mag)": "1200 (100)",
+    "Cost (Mag)": "12000 (1000)",
     "Availability": "Exotic",
     "Traits": "Penetrating (6), Rapid Fire (2), Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -582,7 +582,7 @@
     "Range": "Medium",
     "Magazine": "4",
     "Encumbrance": "0",
-    "Cost (Mag)": "800 (80)",
+    "Cost (Mag)": "8000 (800)",
     "Availability": "Exotic",
     "Traits": "Burst, Close, Penetrating (4), Reliable",
     "Source": "Inquisitor Player's Guide"
@@ -594,7 +594,7 @@
     "Range": "Long",
     "Magazine": "6",
     "Encumbrance": "1",
-    "Cost (Mag)": "1200 (120)",
+    "Cost (Mag)": "12000 (1200)",
     "Availability": "Exotic",
     "Traits": "Penetrating (4), Rapid Fire (3), Reliable, Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -608,7 +608,7 @@
     "Encumbrance": "1",
     "Cost (Mag)": "1000 (50)",
     "Availability": "Rare",
-    "Traits": "Inflict (Prone), Loud, Reliable, Two-handed",
+    "Traits": "Inflict (Prone), Loud, Spread, Reliable, Two-handed",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -620,7 +620,7 @@
     "Encumbrance": "0",
     "Cost (Mag)": "800 (40)",
     "Availability": "Rare",
-    "Traits": "Close, Inflict (Prone), Loud, Reliable",
+    "Traits": "Close, Inflict (Prone), Loud, Reliable, Spread",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -630,7 +630,7 @@
     "Range": "Short",
     "Magazine": "1",
     "Encumbrance": "0",
-    "Cost (Mag)": "5000 (500)",
+    "Cost (Mag)": "50000 (5000)",
     "Availability": "Exotic",
     "Traits": "Close, Subtle",
     "Source": "Inquisitor Player's Guide"
@@ -642,7 +642,7 @@
     "Range": "Short",
     "Magazine": "3",
     "Encumbrance": "2",
-    "Cost (Mag)": "2000 (200)",
+    "Cost (Mag)": "25000 (2500)",
     "Availability": "Exotic",
     "Traits": "Close, Inflict (Stunned), Penetrating (6)",
     "Source": "Inquisitor Player's Guide"
@@ -654,7 +654,7 @@
     "Range": "Short",
     "Magazine": "4",
     "Encumbrance": "0",
-    "Cost (Mag)": "1000 (100)",
+    "Cost (Mag)": "10000 (1000)",
     "Availability": "Exotic",
     "Traits": "Burst, Close, Inflict (Poisoned), Penetrating (2)",
     "Source": "Inquisitor Player's Guide"
@@ -666,7 +666,7 @@
     "Range": "Long",
     "Magazine": "6",
     "Encumbrance": "1",
-    "Cost (Mag)": "1500 (150)",
+    "Cost (Mag)": "15000 (1500)",
     "Availability": "Exotic",
     "Traits": "Inflict (Poisoned), Penetrating (2), Rapid Fire (3), Two-handed",
     "Source": "Inquisitor Player's Guide"

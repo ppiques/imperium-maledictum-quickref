@@ -244,7 +244,7 @@
     "Specialisation": "One-handed",
     "Damage": "3+StrB",
     "Encumbrance": "1",
-    "Cost": "4000",
+    "Cost": "8000",
     "Availability": "Exotic",
     "Traits": "Penetrating (2)",
     "Source": "Inquisitor Player's Guide"
@@ -254,7 +254,7 @@
     "Specialisation": "One-handed",
     "Damage": "2+StrB",
     "Encumbrance": "1",
-    "Cost": "2000",
+    "Cost": "5000",
     "Availability": "Exotic",
     "Traits": "Inflict (Poisoned), Inflict (Bleeding)",
     "Source": "Inquisitor Player's Guide"
@@ -274,9 +274,9 @@
     "Specialisation": "One-handed",
     "Damage": "5+StrB",
     "Encumbrance": "1",
-    "Cost": "5000",
+    "Cost": "150000",
     "Availability": "Exotic",
-    "Traits": "Penetrating (2)",
+    "Traits": "-",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -284,9 +284,9 @@
     "Specialisation": "Two-handed",
     "Damage": "6+StrB",
     "Encumbrance": "2",
-    "Cost": "6000",
+    "Cost": "200000",
     "Availability": "Exotic",
-    "Traits": "Heavy (4), Inflict (Stunned), Penetrating (2), Two-handed",
+    "Traits": "Heavy (4), Two-handed",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -294,7 +294,7 @@
     "Specialisation": "One-handed",
     "Damage": "5+StrB",
     "Encumbrance": "1",
-    "Cost": "8000",
+    "Cost": "250000",
     "Availability": "Exotic",
     "Traits": "Penetrating (2)",
     "Source": "Inquisitor Player's Guide"
@@ -304,9 +304,9 @@
     "Specialisation": "Two-handed",
     "Damage": "6+StrB",
     "Encumbrance": "2",
-    "Cost": "10000",
+    "Cost": "300000",
     "Availability": "Exotic",
-    "Traits": "Heavy (4), Inflict (Stunned), Penetrating (2), Two-handed",
+    "Traits": "Heavy (4), Penetrating (2), Two-handed",
     "Source": "Inquisitor Player's Guide"
   },
   {
@@ -314,7 +314,7 @@
     "Specialisation": "Two-handed",
     "Damage": "2+StrB",
     "Encumbrance": "2",
-    "Cost": "10000",
+    "Cost": "200000",
     "Availability": "Exotic",
     "Traits": "Defensive, Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -324,7 +324,7 @@
     "Specialisation": "Two-handed",
     "Damage": "1+StrB",
     "Encumbrance": "2",
-    "Cost": "1000",
+    "Cost": "150000",
     "Availability": "Rare",
     "Traits": "Defensive, Two-handed",
     "Source": "Inquisitor Player's Guide"
@@ -332,10 +332,10 @@
   {
     "Name": "Aeldari Power Sword",
     "Specialisation": "One-handed",
-    "Damage": "4+StrB",
+    "Damage": "4+StrB or 4+AgB",
     "Encumbrance": "1",
-    "Cost": "5000",
-    "Availability": "Rare",
+    "Cost": "150000",
+    "Availability": "Exotic",
     "Traits": "Penetrating (4)",
     "Source": "Inquisitor Player's Guide"
   },
@@ -344,7 +344,7 @@
     "Specialisation": "Two-handed",
     "Damage": "5+StrB",
     "Encumbrance": "2",
-    "Cost": "1500",
+    "Cost": "150000",
     "Availability": "Exotic",
     "Traits": "Defensive, Heavy (4), Two-handed, Penetrating (4)",
     "Source": "Inquisitor Player's Guide"
@@ -354,7 +354,7 @@
     "Specialisation": "Two-handed",
     "Damage": "4+StrB",
     "Encumbrance": "2",
-    "Cost": "3500",
+    "Cost": "10000",
     "Availability": "Rare",
     "Traits": "Two-handed, Penetrating (4)",
     "Source": "Inquisitor Player's Guide"
@@ -364,7 +364,7 @@
     "Specialisation": "One-handed",
     "Damage": "4+StrB",
     "Encumbrance": "1",
-    "Cost": "4000",
+    "Cost": "500000",
     "Availability": "Exotic",
     "Traits": "Penetrating (4 or X)",
     "Source": "Inquisitor Player's Guide"
@@ -374,7 +374,7 @@
     "Specialisation": "Two-handed",
     "Damage": "5+StrB",
     "Encumbrance": "2",
-    "Cost": "10000",
+    "Cost": "1000000",
     "Availability": "Exotic",
     "Traits": "Depends on specific Daemonblade",
     "Source": "Inquisitor Player's Guide"
@@ -384,7 +384,7 @@
     "Specialisation": "One-handed",
     "Damage": "4+StrB",
     "Encumbrance": "1",
-    "Cost": "10000",
+    "Cost": "1000000",
     "Availability": "Exotic",
     "Traits": "Rend (4)",
     "Source": "Inquisitor Player's Guide"
