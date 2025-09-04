@@ -216,7 +216,7 @@
     "Encumbrance": "0",
     "Cost": "200",
     "Availability": "Rare",
-    "Traits": "Inflict (Frightened*), Loud, Thrown (Medium), Unstable",
+    "Traits": "Inflict (Frightened), Loud, Thrown (Medium), Unstable",
     "Source": "Macharian Requisition Guide"
   }
 ]
