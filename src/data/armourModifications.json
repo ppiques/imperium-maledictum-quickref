@@ -3,35 +3,35 @@
     "Name": "Additional Armour Plating",
     "Cost": "Half of base Armour cost",
     "Availability": "Scarce",
-    "Effects": "Increases Armour Value by 1. Prevents further modifications. Any armour not Mesh gains the Loud trait.",
+    "Effect": "Increases Armour Value by 1. Prevents further modifications. Any armour not Mesh gains the Loud trait.",
     "Source": "Macharian Requisition Guide"
   },
   {
     "Name": "Auspex Array Helmet",
     "Cost": "1200",
     "Availability": "Rare",
-    "Effects": "While wearing, gain Advantage on Tests to avoid being ambushed. Can use an Action to reveal energy emissions, life signs, and movement up to Medium Range. May require Tech Test to interpret or overcome interference.",
+    "Effect": "While wearing, gain Advantage on Tests to avoid being ambushed. Can use an Action to reveal energy emissions, life signs, and movement up to Medium Range. May require Tech Test to interpret or overcome interference.",
     "Source": "Macharian Requisition Guide"
   },
   {
     "Name": "Ceramite Plating & Coating",
     "Cost": "Half of base Armour cost",
     "Availability": "Rare",
-    "Effects": "Adds +2 Armour against Flamer and Spread weapons. Grants Loud trait. Prevents further modifications.",
+    "Effect": "Adds +2 Armour against Flamer and Spread weapons. Grants Loud trait. Prevents further modifications.",
     "Source": "Macharian Requisition Guide"
   },
   {
     "Name": "Mounted Pict Recorder",
     "Cost": "1200",
     "Availability": "Rare",
-    "Effects": "Records from front of armour piece for 10 hours. Data can be accessed via cogitator or Tech-Priest extraction. Used for evidence or analysis.",
+    "Effect": "Records from front of armour piece for 10 hours. Data can be accessed via cogitator or Tech-Priest extraction. Used for evidence or analysis.",
     "Source": "Macharian Requisition Guide"
   },
   {
     "Name": "Reinforced Mirror-visor",
     "Cost": "1000",
     "Availability": "Rare",
-    "Effects": "While worn, grants Advantage on Tests to resist effects causing the Blinded Condition.",
+    "Effect": "While worn, grants Advantage on Tests to resist effects causing the Blinded Condition.",
     "Source": "Macharian Requisition Guide"
   }
 ]
