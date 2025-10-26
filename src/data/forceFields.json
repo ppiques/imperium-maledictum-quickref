@@ -26,7 +26,7 @@
     "Encumbrance": "0",
     "Cost": "7000",
     "Availability": "Exotic",
-    "Effect": "Has Shield (4). Daemons or creatures with a Warp Threshold have a -20 penalty to Tests against the bearer.",
+    "Effect": "Daemons or creatures with a Warp Threshold have a -20 penalty to Tests against the bearer.",
     "Source": "Inquisitor Player's Guide"
   }
 ]
