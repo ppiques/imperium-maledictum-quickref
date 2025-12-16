@@ -92,7 +92,7 @@
   {
     "Name": "Combat Master",
     "Requirement": "2 Advances in Melee",
-    "Description": "Count as one more person for outnumbering in combat. Can be taken multiple times.",
+    "Description": "Count as one more person for outnumbering in combat.",
     "Source": "Core Rulebook"
   },
   {
