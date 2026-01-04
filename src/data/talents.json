@@ -496,7 +496,7 @@
   {
     "Name": "Slippery",
     "Requirement": "2 Advances in Reflexes",
-    "Description": "Disengage as a Free Action. Opponents attacking you during disengagement have Disadvantage.",
+    "Description": "Opponents attacking you when moving out of Engagement have Disadvantage. Take twice to disengage as a free action.",
     "Source": "Core Rulebook"
   },
   {
