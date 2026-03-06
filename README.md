@@ -9,6 +9,10 @@ Hosted demo: https://ppiques.github.io/imperium-maledictum-quickref
 Data is stored as JSON under `src/data` and rendered with reusable components such as `Table` and `SearchBar`.
 The project is intended for quick deployment as a static site.
 
+## ⚠️ Disclaimer
+
+*Imperium Maledictum* is not my proprietary work. This project is a fan-made reference tool and can be removed at any time upon request from the rights holder.
+
 ---
 
 ## 🛠 Getting started
