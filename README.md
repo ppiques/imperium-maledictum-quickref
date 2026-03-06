@@ -1,10 +1,10 @@
 # Imperium Maledictum Quick Reference
 
+## https://ppiques.github.io/imperium-maledictum-quickref
+
 A lightweight **React + TypeScript + Vite** application that provides easy access to the data tables used
 in the *Imperium Maledictum* role‑playing game.  The site serves as a searchable reference for talents, skills,
 weapons, armour, psychic powers, and other game elements.
-
-Hosted demo: https://ppiques.github.io/imperium-maledictum-quickref
 
 Data is stored as JSON under `src/data` and rendered with reusable components such as `Table` and `SearchBar`.
 The project is intended for quick deployment as a static site.
