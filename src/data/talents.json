@@ -145,7 +145,7 @@
   },
   {
     "Name": "Devoted Servant",
-    "Requirement": "3 Advances in Melee",
+    "Requirement": "-",
     "Description": "Gain Advantage on Tests related to your chosen service expertise.",
     "Source": "Core Rulebook"
   },
