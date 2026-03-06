@@ -14,6 +14,32 @@ const normalizeTraitName = (trait: string): string => {
   return trait.replace(/\s*\(.*?\)/, "").trim(); // Supprime tout ce qui est entre parenthèses
 };
 
+// Helper function to parse requirement strings for logical sorting
+const parseRequirement = (
+  requirement: string
+): { priority: number; value: number } => {
+  if (requirement === "-") {
+    return { priority: 0, value: 0 }; // No requirement always easiest
+  }
+
+  // Extract characteristic requirement (e.g., "Agility 45")
+  const charMatch = requirement.match(/([A-Z]\w+)\s(\d+)/);
+  const charValue = charMatch ? parseInt(charMatch[2]) : 0;
+
+  // Extract advance requirement (e.g., "2 Advances", "3 Advances")
+  const advanceMatch = requirement.match(/(\d+)\s+Advance/);
+  const advanceCount = advanceMatch ? parseInt(advanceMatch[1]) : 0;
+
+  // Determine priority: advances only easiest, characteristics harder, then special
+  if (advanceCount > 0 && charValue === 0) {
+    return { priority: 1, value: advanceCount }; // Priority 1: advances only
+  } else if (charValue > 0) {
+    return { priority: 2, value: charValue * 100 + advanceCount }; // Priority 2: characteristics (with possible advances)
+  } else {
+    return { priority: 3, value: 0 }; // Priority 3: special requirements
+  }
+};
+
 const Table: React.FC<TableProps> = ({
   headers,
   data,
@@ -138,6 +164,42 @@ const Table: React.FC<TableProps> = ({
         return sortConfig.direction === "asc"
           ? aFinalIndex - bFinalIndex
           : bFinalIndex - aFinalIndex;
+      }
+
+      if (sortConfig.key === "Requirement") {
+        const aString = typeof aValue === "string" ? aValue : "";
+        const bString = typeof bValue === "string" ? bValue : "";
+
+        const aParsed = parseRequirement(aString);
+        const bParsed = parseRequirement(bString);
+
+        // Always put "-" requirements first regardless of sort direction
+        const isDash = (p: { priority: number }) => p.priority === 0;
+        if (isDash(aParsed) || isDash(bParsed)) {
+          if (isDash(aParsed) && isDash(bParsed)) {
+            return 0;
+          }
+          return isDash(aParsed) ? -1 : 1;
+        }
+
+        // Compare by priority (higher number = harder) respecting direction
+        if (aParsed.priority !== bParsed.priority) {
+          return sortConfig.direction === "asc"
+            ? aParsed.priority - bParsed.priority
+            : bParsed.priority - aParsed.priority;
+        }
+
+        // Then by value
+        if (aParsed.value !== bParsed.value) {
+          return sortConfig.direction === "asc"
+            ? aParsed.value - bParsed.value
+            : bParsed.value - aParsed.value;
+        }
+
+        // If equal, fallback to alphabetical
+        return sortConfig.direction === "asc"
+          ? aString.localeCompare(bString)
+          : bString.localeCompare(aString);
       }
 
       // Gestion spéciale pour les colonnes numériques
