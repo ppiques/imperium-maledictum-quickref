@@ -648,5 +648,119 @@
     "Requirement": "2 Advances in Logic (Investigation), Stealth, or Tech (Security)",
     "Description": "Negate Subtlety loss after encounters. Logic (Investigation) for physical evidence, Stealth for movement, Tech (Security) for device sabotage.",
     "Source": "Inquisitor Player's Guide"
+  },
+  {
+  "Name": "Architectural Mind",
+  "Requirement": "2 Advances in Tech (Engineering)",
+  "Description": "In machine-heavy environments, you may use Tech (Engineering) instead of Navigation (Surface or Tracking). When searching architectural schematics or maps of such locations, you may use Tech (Engineering) instead of any Lore or Logic Test.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+  "Name": "Battle Protocols",
+  "Requirement": "2 Advances in Tech (Automata)",
+  "Description": "Spend an Action to make a Challenging (+0) Tech (Automata) Test on a friendly Construct in immediate range. On success, choose one protocol active for SL turns (from end of current turn). Only one protocol may be active at a time. If the target is a Familiar, you may instead alter its Combat or Preservation Instincts. Aegis Protocol: Advantage on Defend or Overwatch Tests. Conqueror Protocol: Advantage on melee attacks. Protector Protocol: Advantage on ranged attacks.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+  "Name": "Burden of Knowledge",
+  "Requirement": "2 Advances in Tech (Forbidden)",
+  "Description": "When making a Tech Test, after rolling but before resolving results, you may gain 1 Corruption to add your Advances in Tech (Forbidden) to the Test. This may be done multiple times for the same cost.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+  "Name": "Cartogrammetrist",
+  "Requirement": "2 Advances in Navigation (Surface)",
+  "Description": "As an Endeavour, you may inload geophysical data for a single world. Gain Advantage on Navigation Tests regarding that world, Lore Tests about its physical features, and Piloting Tests within its atmosphere or surface. Inloading data for a new world deletes previous data.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+  "Name": "Cognis Communion",
+  "Requirement": "2 Advances in Tech (Security)",
+  "Description": "When wielding a weapon with the Secrets of Mars Trait, you may use Tech instead of Weapon Skill.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+  "Name": "Emotionless Clarity",
+  "Requirement": "Rite of Pure Thought Augmetic",
+  "Description": "When attempting to learn something through conversation, you may use Logic instead of Intuition or Rapport.",
+  "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Faithful (Cult of Mars)",
+    "Requirement": "Member of the Adeptus Mechanicus or +2 Adeptus Mechanicus Influence, or 2 Advances in Lore (Theology – Cult Mechanicus)",
+    "Description": "Once per session, when making a Test related to your faith, you may add your Willpower Bonus as SL.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Field Biologis",
+    "Requirement": "2 Advances in Tech (Biologis)",
+    "Description": "You may use Tech (Biologis) to heal Constructs with biological components. The Difficulty cannot exceed Challenging (+0). On a Critical Success, the construct gains Advantage on Tests until the end of the scene.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Necromechanic",
+    "Requirement": "2 Advances in Tech (Augmetics)",
+    "Description": "You may perform a necromechanical autopsy on cranial augmetics or destroyed machines. Make a Challenging (+0) Tech (Augmetics) Test to learn one piece of information about the subject’s demise. With 3+ SL, you may access an audio, sensory, or visual recording of the subject’s final moments.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Martian Pistoleer",
+    "Requirement": "2 Advances in Ranged (Pistol)",
+    "Description": "You do not suffer Disadvantage for attacking with Pistols at Immediate Range. Increase the range of Pistols you wield by one step.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Opus Machina",
+    "Requirement": "2 Advances in Lore (Cult Mechanicus)",
+    "Description": "At the start of each in-game day, roll d100 and record the result. Once that day, replace the result of any d100 Tech Test (yours or a creature within medium range) with this value after the roll but before results are described. Advantage/Disadvantage still apply.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "The Strength and Certainty of Steel",
+    "Requirement": "At least 6 Augments installed",
+    "Description": "Disadvantage on Intuition (People), Presence and Rapport Tests against non-Adeptus Mechanicus characters. Advantage on Group (Adeptus Mechanicus), Intuition (People), Presence and Rapport Tests against Adeptus Mechanicus or similarly augmented characters.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Skitarii Compliance Protocols",
+    "Requirement": "Transhuman Ideal Talent",
+    "Description": "Advantage on Discipline and Fortitude Tests. Disadvantage on Tests resisting orders from a superior Skitarii, Tech-Priest, or your Patron.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Skit-Code Discipline",
+    "Requirement": "Transhuman Ideal Talent, 1 Advance in Discipline",
+    "Description": "Advantage on Tests to resist the Frightened Condition. Gain +1 SL to Discipline Tests for each ally with this Talent in the same Zone. Combat communications cannot be understood outside the Adeptus Mechanicus. Can be bought again so you may act immediately after an ally with this Talent in Initiative and gain +1 SL to all Tests",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Techsorcist",
+    "Requirement": "1+ Influence with the Inquisition",
+    "Description": "Gain access to Tech (Forbidden). You can create hexagrammic wards (≈1000 solars, 1 hour). While worn or attached, the first Psychic Power targeting the bearer suffers Disadvantage and the ward burns out. It can be restored with 1 hour of prayer. You do not risk Corruption when using mechadendrites on minor sources of corruption.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Transhuman Ideal",
+    "Requirement": "Flesh is Weak Talent or Character Creation",
+    "Description": "Maximum number of Augmetics you may install equals triple your Toughness Bonus.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Transhuman Rapport",
+    "Requirement": "Intelligence 45, 2 Advances in Logic",
+    "Description": "When making a Rapport Test against an Adeptus Mechanicus character, you may use Logic (or an appropriate specialisation) instead.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Wasteland Stalker",
+    "Requirement": "1 Advance in Stealth",
+    "Description": "Gain +2 Armour while benefiting from Cover.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Xenotechnician's Benevolence",
+    "Requirement": "2 Advances in Tech (Xenos)",
+    "Description": "Choose a xenos species. During the next mission, Corruption from interacting with that species' technology is halved (rounded down). If you understand a Xenos machine's function, you may spend an Action and a Fate Point to activate, disrupt, or shut it down without a Test.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]
