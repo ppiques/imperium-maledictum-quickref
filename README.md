@@ -1,54 +1,67 @@
-# React + TypeScript + Vite
+# Imperium Maledictum Quick Reference
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight **React + TypeScript + Vite** application that provides easy access to the data tables used
+in the *Imperium Maledictum* role‑playing game.  The site serves as a searchable reference for talents, skills,
+weapons, armour, psychic powers, and other game elements.
 
-Currently, two official plugins are available:
+Hosted demo: https://ppiques.github.io/imperium-maledictum-quickref
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Data is stored as JSON under `src/data` and rendered with reusable components such as `Table` and `SearchBar`.
+The project is intended for quick deployment as a static site.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Getting started
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+# install dependencies
+npm install
+
+# start development server with hot reload
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Visit http://localhost:3000 and navigate through the pages in the sidebar.
+Search and sort any column; the `Requirement` column now sorts logically (no requirement first,
+then advances-only, then characteristic requirements).
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Changes you make to `src/` files automatically reload the browser.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+## 📁 Project structure
+
+- `src/pages/` – individual page components (Home, Talents, Weapons, etc.)
+- `src/components/` – reusable UI pieces (`Table.tsx`, `SearchBar.tsx`, etc.)
+- `src/data/` – JSON datasets driving the tables
+- `src/styles/` – per-page and component CSS
+- `public/` – static assets and fallback HTML
+
+## ✅ Features
+
+- Live search across talents, skills, and more
+- Sortable tables with custom logic (e.g. requirements, availability, difficulty)
+- Hover tooltips for trait descriptions
+- Responsive layout with simple navigation
+
+## 🧪 Testing changes locally
+
+Run the development server (see above).  No git push required – you can verify any modification
+immediately in the browser.
+
+## 📦 Building for production
+
+```bash
+npm run build   # outputs to dist/
 ```
+
+Deploy the `dist` folder to your favourite static hosting provider.
+
+## 🙌 Contributions
+
+Feel free to adjust data files, add new pages, or improve sorting/search behavior.
+This repo is a personal quick‑reference project, so pull requests are welcome but not required.
+Furthermore, if you spot any mistakes in the data, feel free to open an issue about it.
+
+## 📜 License
+
+This project is released under the **CC0 1.0 Universal** license, dedicating all content to the public domain. See [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+
