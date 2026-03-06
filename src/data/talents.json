@@ -477,8 +477,8 @@
   },
   {
     "Name": "Secret Identity",
-    "Requirement": "Requires Rapport (Deception)",
-    "Description": "Maintain a false identity. Gain +1 Influence with chosen Faction when dressed appropriately.",
+    "Requirement": "-",
+    "Description": "Maintain a false identity. Gain +1 Influence with chosen Faction when dressed and behaving appropriately.",
     "Source": "Core Rulebook"
   },
   {
