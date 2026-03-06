@@ -310,7 +310,7 @@
   {
     "Name": "Luck",
     "Warp Rating": "1",
-    "Difficulty": "Easy (+40)",
+    "Difficulty": "Challenging (+0)",
     "Range": "Self",
     "Target": "Self",
     "Duration": "Instant",
