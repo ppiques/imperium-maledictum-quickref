@@ -128,7 +128,7 @@
   {
     "Name": "Deadeye",
     "Requirement": "1 Advance in Ranged",
-    "Description": "+1 SL on Ranged Attacks when Aiming.",
+    "Description": "+1 SL on Ranged Attacks when Aiming. Can be bought again to gain Advantage on Target Location Tests while Aiming.",
     "Source": "Core Rulebook"
   },
   {
