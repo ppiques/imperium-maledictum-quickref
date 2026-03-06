@@ -12,7 +12,7 @@
   {
     "Skill": "Dexterity",
     "Characteristic": "AG",
-    "Specialisations": "Lock Picking, Pickpocket, Sleight of Hand, Defuse (Restricted)"
+    "Specialisations": "Lock Picking, Pickpocket, Sleight of Hand, Defuse (Restricted), Disguise"
   },
   {
     "Skill": "Discipline",
@@ -32,7 +32,7 @@
   {
     "Skill": "Linguistics",
     "Characteristic": "INT",
-    "Specialisations": "Cypher, High Gothic, Forbidden (Various, Restricted)"
+    "Specialisations": "Cypher, High Gothic, Forbidden (Various, Restricted), Cant Mechanicus (Restricted)"
   },
   {
     "Skill": "Logic",
@@ -42,12 +42,12 @@
   {
     "Skill": "Lore",
     "Characteristic": "INT",
-    "Specialisations": "Academics, Adeptus Terra, Planet, Sector, Theology (Restricted), Forbidden (Various, Restricted)"
+    "Specialisations": "Academics, Adeptus Terra, Planet, Sector, Theology (Restricted), Forbidden (Various, Restricted), Major Ordos (Various, Restricted), Cult Mechanicus (Restricted)"
   },
   {
     "Skill": "Medicae",
     "Characteristic": "INT",
-    "Specialisations": "Animal, Human, Forbidden (Various, Restricted)"
+    "Specialisations": "Animal, Human, Forbidden (Various, Restricted), Chem-Use"
   },
   {
     "Skill": "Melee",
@@ -82,7 +82,7 @@
   {
     "Skill": "Rapport",
     "Characteristic": "FEL",
-    "Specialisations": "Animals, Charm, Deception, Haggle, Inquiry"
+    "Specialisations": "Animals, Charm, Deception, Haggle, Inquiry, Xeno-Cant"
   },
   {
     "Skill": "Reflexes",
@@ -92,11 +92,11 @@
   {
     "Skill": "Stealth",
     "Characteristic": "AG",
-    "Specialisations": "Conceal, Hide, Move Silently"
+    "Specialisations": "Conceal, Hide, Move Silently, Disguise"
   },
   {
     "Skill": "Tech",
     "Characteristic": "INT",
-    "Specialisations": "Augmetics (Restricted), Engineering, Security"
+    "Specialisations": "Augmetics (Restricted), Engineering, Security, Automata, Augmetics (Restricted), Biologis (Restricted), Engineering, Security, Forbidden (Various, Restricted), Xenos (Restricted)"
   }
 ]
