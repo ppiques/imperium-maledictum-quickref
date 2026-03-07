@@ -26,7 +26,7 @@ const Footer: React.FC = () => {
         </p>
       </div>
       <div className="footer-social">
-        <a href="mailto:apple_the_apple@proton.me">Contact</a>
+        <a href="mailto:apple_the_apple@proton.me">Contact me at apple_the_apple@proton.me</a>
       </div>
     </footer>
   );
