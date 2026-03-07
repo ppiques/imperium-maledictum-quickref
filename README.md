@@ -9,27 +9,13 @@ weapons, armour, psychic powers, and other game elements.
 Data is stored as JSON under `src/data` and rendered with reusable components such as `Table` and `SearchBar`.
 The project is intended for quick deployment as a static site.
 
+I hope it can be of help during your adventures in the grim darkness of the 41st Millenium.
+
 ## ⚠️ Disclaimer
 
 *Imperium Maledictum* is not my proprietary work. This project is a fan-made reference tool and can be removed at any time upon request from the rights holder.
 
 ---
-
-## 🛠 Getting started
-
-```bash
-# install dependencies
-npm install
-
-# start development server with hot reload
-npm run dev
-```
-
-Visit http://localhost:3000 and navigate through the pages in the sidebar.
-Search and sort any column; the `Requirement` column now sorts logically (no requirement first,
-then advances-only, then characteristic requirements).
-
-Changes you make to `src/` files automatically reload the browser.
 
 ## 📁 Project structure
 
@@ -45,19 +31,6 @@ Changes you make to `src/` files automatically reload the browser.
 - Sortable tables with custom logic (e.g. requirements, availability, difficulty)
 - Hover tooltips for trait descriptions
 - Responsive layout with simple navigation
-
-## 🧪 Testing changes locally
-
-Run the development server (see above).  No git push required – you can verify any modification
-immediately in the browser.
-
-## 📦 Building for production
-
-```bash
-npm run build   # outputs to dist/
-```
-
-Deploy the `dist` folder to your favourite static hosting provider.
 
 ## 🙌 Contributions
 
