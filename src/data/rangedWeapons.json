@@ -92,11 +92,11 @@
     "Encumbrance": "1",
     "Cost (Mag)": "800 (200)",
     "Availability": "Common",
-    "Traits": "Rapid Fire, Loud, Reliable, Two-handed",
+    "Traits": "Rapid Fire (2), Loud, Reliable, Two-handed",
     "Source": "Core Rulebook"
   },
   {
-    "Name": "Long-Las",
+    "Name": "Long Las",
     "Specialisation": "Long Gun",
     "Damage": "6",
     "Range": "Extreme",
