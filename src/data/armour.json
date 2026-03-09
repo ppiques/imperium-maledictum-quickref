@@ -326,7 +326,7 @@
     "Encumbrance": "3 (4)",
     "Cost": "2000",
     "Availability": "Exotic",
-    "Traits": "-",
+    "Traits": "Flak",
     "Source": "Macharian Requisition Guide"
   },
   {
@@ -336,7 +336,7 @@
     "Encumbrance": "2 (3)",
     "Cost": "1000",
     "Availability": "Scarce",
-    "Traits": "-",
+    "Traits": "Flak",
     "Source": "Macharian Requisition Guide"
   },
   {
