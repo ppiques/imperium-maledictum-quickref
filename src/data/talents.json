@@ -514,7 +514,7 @@
   {
     "Name": "Sure-Footed",
     "Requirement": "1 Advance in each of Athletics, Fortitude, and Reflexes",
-    "Description": "Gain Advantage on Tests to resist being moved or knocked Prone.",
+    "Description": "Become fast when at at least 1 Superiority. Gain Advantage on Tests to resist being moved or knocked Prone. Stand up from Prone as a Free Action.",
     "Source": "Core Rulebook"
   },
   {
