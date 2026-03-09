@@ -566,6 +566,48 @@
     "Source": "Inquisitor Player's Guide"
   },
   {
+    "Name": "Apostle of the Lex",
+    "Requirement": "-",
+    "Description": "Can be taken multiple times. Each time, choose one : +2 SL on Lore Tests to recall Law, +2 SL on Presence (Interrogation) or Presence (Intimidation) Tests on criminals, +2 SL on Rapport Tests to work with Enforcers.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Ballistics Forensics",
+    "Requirement": "1 Advance in both Logic (Investigation) and Ranged",
+    "Description": "Gain additional information on shooter and ballistics when using Logic (Investigation) on a scene.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Blunt Force Authority",
+    "Requirement": "2 Advances in Presence (Intimidation)",
+    "Description": "Can decrease Subtlety by 1 to gain Advantage on Presence (Interrogation) or Presence (Intimidation) Tests or to gain +3 SL on any Rapport Tests using Influence.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Clandestine",
+    "Requirement": "2 Advances in both Rapport and Presence",
+    "Description": "While party's Subtlety is at Suspiscious, Overt or below, spend 1 Fate Point to make it Covert for yourself for a day.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Condemnor's Boon",
+    "Requirement": "Willpower 40, Psyker Talent or Condemn The Witch Talent",
+    "Description": "Gain Advantage when using Deny The Witch!. Can be taken two additional times to increase range by one Step each time.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Cult Infiltrator",
+    "Requirement": "2 Advances in both Discipline and Rapport",
+    "Description": "Gain 2 Corruption Points to be able to gain one of the following disguises : Heretek (+2 SL on Tech tests), Aristocrat (+2 SL on Rapport Tests when interacting with people you know well), Tolerant (Advantage on Tests to resist drugs and poisons) or Tainted (Infiltrate chaos cults). Can be taken multiple times.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
+    "Name": "Cypherist",
+    "Requirement": "2 Advances in both Linguistics (Cypher) and Logic",
+    "Description": "Gain Advantage on Tests to recognise or decipher symbols, marks and secret codes.",
+    "Source": "Inquisitor Player's Guide"
+  },
+  {
     "Name": "Familiar Bonded",
     "Requirement": "-",
     "Description": "Bond with a Regular Familiar. Can be taken multiple times. Subsequent picks allow bonding with Cyber/Psyber-Familiars, then remaining types.",
