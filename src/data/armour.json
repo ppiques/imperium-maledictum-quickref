@@ -282,7 +282,7 @@
   {
     "Name": "Crusader Storm Shield",
     "Locations": "Special",
-    "Armour": "4",
+    "Armour": "*",
     "Encumbrance": "4",
     "Cost": "1000",
     "Availability": "Exotic",
@@ -292,7 +292,7 @@
   {
     "Name": "Praesidium Protectiva",
     "Locations": "Special",
-    "Armour": "4",
+    "Armour": "*",
     "Encumbrance": "4",
     "Cost": "1500",
     "Availability": "Exotic",
