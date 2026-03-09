@@ -74,7 +74,7 @@
   {
     "Name": "Disguise Kit",
     "Cost": "100",
-    "Availability": "Very Rare",
+    "Availability": "Exotic",
     "Encumbrance": "1",
     "Effect": "Alters appearance to fool guards and pict scanners, requiring a Challenging (+0) or harder Dexterity Test for complex disguises.",
     "Source": "Core Rulebook"
