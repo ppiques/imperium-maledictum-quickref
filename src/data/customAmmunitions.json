@@ -11,7 +11,7 @@
   {
     "Name": "Executioner Rounds",
     "Damage": "-",
-    "Cost": "x1",
+    "Cost": "x2",
     "Availability": "Rare",
     "Used With": "Bolt weapons, Shotguns",
     "Traits": "Range (Extreme)",
