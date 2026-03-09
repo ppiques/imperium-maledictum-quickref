@@ -30,7 +30,7 @@
     "Name": "Photo Sight/Omnispex",
     "Cost": "200",
     "Availability": "Rare",
-    "Type": "Sights",
+    "Type": "Sight Attachment",
     "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
     "Effects": "Removes Disavdantage when firing into a Zone that is Dark or Poorly Lit.",
     "Source": "Core Rulebook"
@@ -39,7 +39,7 @@
     "Name": "Laser Sight",
     "Cost": "50",
     "Availability": "Scarce",
-    "Type": "Sights",
+    "Type": "Sight Attachment",
     "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
     "Effects": "Adds +1 SL to Ranged Attacks made with the weapon, but targets have Advantage on Awareness Tests to spot the wielder. If the target sees the red-dot, they may attempt to Dodge the ranged attack. The sight may be switched on or off once per round as a Free Action.",
     "Source": "Core Rulebook"
@@ -48,7 +48,7 @@
     "Name": "Telescopic Sight/Omniscope",
     "Cost": "50",
     "Availability": "Common",
-    "Type": "Sights",
+    "Type": "Sight Attachment",
     "Used With": "Any Ranged Weapon without the Blast, or Flamer Traits.",
     "Effects": "Increases Range by one step, but removes Close Trait. Can be used as Magnoculars.",
     "Source": "Core Rulebook"
