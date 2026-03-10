@@ -522,7 +522,7 @@
   {
     "Name": "Shock Knuckles",
     "Specialisation": "Brawling",
-    "Damage": "StrB",
+    "Damage": "0+StrB",
     "Encumbrance": "0",
     "Cost": "1000",
     "Availability": "Rare",
