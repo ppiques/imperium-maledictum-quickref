@@ -63,33 +63,6 @@
     "Source": "Inquisition Player's Guide"
   },
   {
-    "Name": "Exitus Hellfire",
-    "Damage": "+2",
-    "Cost": "x2",
-    "Availability": "Exotic",
-    "Used With": "Exitus Weapons",
-    "Traits": "Inflict (Poison)",
-    "Source": "Inquisition Player's Guide"
-  },
-  {
-    "Name": "Exitus Shield-breaker",
-    "Damage": "-",
-    "Cost": "x3",
-    "Availability": "Exotic",
-    "Used With": "Exitus Weapons",
-    "Traits": "Rend (6)",
-    "Source": "Inquisition Player's Guide"
-  },
-  {
-    "Name": "Exitus Turbo-penetrator",
-    "Damage": "+2",
-    "Cost": "x3",
-    "Availability": "Exotic",
-    "Used With": "Exitus Weapons",
-    "Traits": "Penetrating (8)",
-    "Source": "Inquisition Player's Guide"
-  },
-  {
     "Name": "Poison Stake",
     "Damage": "-",
     "Cost": "x2",
