@@ -48,5 +48,9 @@ Furthermore, if you spot any mistakes in the data, feel free to open an issue ab
 
 ## 📜 License
 
-This project is released under the **CC0 1.0 Universal** license, dedicating all content to the public domain. See [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/).
+This work is licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International License.
+
+You may obtain a copy of the License at:
+https://creativecommons.org/licenses/by-nc/4.0/
 
