@@ -14,6 +14,7 @@ I hope it can be of help during your adventures in the grim darkness of the 41st
 ## ⚠️ Disclaimer
 
 *Imperium Maledictum* is not my proprietary work. This project is a fan-made reference tool and can be removed at any time upon request from the rights holder.
+
 Imperium Maledictum is © Cubicle 7 Entertainment Ltd and
 Games Workshop Ltd.
 
@@ -40,7 +41,9 @@ with or endorsed by Cubicle 7 or Games Workshop.
 ## 🙌 Contributions
 
 Feel free to adjust data files, add new pages, or improve sorting/search behavior.
+
 This repo is a personal quick‑reference project, so pull requests are welcome but not required.
+
 Furthermore, if you spot any mistakes in the data, feel free to open an issue about it.
 
 ## 📜 License
