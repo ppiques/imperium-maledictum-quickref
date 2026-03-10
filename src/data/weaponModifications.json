@@ -59,7 +59,7 @@
     "Availability": "Same as linked Weapon",
     "Type": "Support Attachments",
     "Used With": "Any Ranged Weapon",
-    "Effects": "Quadruples linked weapon's magazine size. Adds +2 Encumbrance when worn. Takes 5 minutes to reload. If you suffer a Critical Hit while wearing it, roll 1d10. On 7+, the Backpack detonates, dealing double the weapon's damage to your Torso, and is permanently destroyed. Enough ammo to fill the Backpack costs four times the listed price for reloads for the linked weapon.",
+    "Effects": "Quadruples linked weapon's magazine size. Adds +1 Encumbrance when worn. Takes 5 minutes to reload. If you suffer a Critical Hit while wearing it, roll 1d10. On 7+, the Backpack detonates, dealing double the weapon's damage to your Torso, and is permanently destroyed. Enough ammo to fill the Backpack costs four times the listed price for reloads for the linked weapon.",
     "Source": "Core Rulebook"
   },
   {
