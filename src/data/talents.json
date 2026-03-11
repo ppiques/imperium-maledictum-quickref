@@ -8,7 +8,7 @@
   {
     "Name": "Adrenaline Acceleration",
     "Requirement": "-",
-    "Description": "Your speed is Fast when Fleeing or being Pursued.",
+    "Description": "Speed increases by one step while having a Critical Wound. Gain Advantage on Athletics Tests during a Pursuit or Fleeing.",
     "Source": "Core Rulebook"
   },
   {
