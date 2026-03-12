@@ -50,7 +50,7 @@
   {
     "Name": "Blank",
     "Requirement": "Only during Character Creation",
-    "Description": "Immune to Psychic Powers, cannot be detected by Psyniscience, and cause discomfort to psykers.",
+    "Description": "Immune to Psychic Powers, cannot be detected by Psyniscience, cannot be corrupted and cause discomfort to psykers and daemons.",
     "Source": "Core Rulebook"
   },
   {
