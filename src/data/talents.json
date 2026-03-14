@@ -729,7 +729,7 @@
   },
   {
     "Name": "Faithful (Cult of Mars)",
-    "Requirement": "Member of the Adeptus Mechanicus or +2 Adeptus Mechanicus Influence, or 2 Advances in Lore (Theology – Cult Mechanicus)",
+    "Requirement": "Adeptus Mechanicus OR +2 Adeptus Mechanicus Influence OR 2 Advances in Lore (Theology – Cult Mechanicus)",
     "Description": "Once per session, when making a Test related to your faith, you may add your Willpower Bonus as SL.",
     "Source": "Adeptus Mechanicus Player's Guide"
   },
