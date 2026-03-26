@@ -54,3 +54,4 @@ Attribution-NonCommercial 4.0 International License.
 You may obtain a copy of the License at:
 https://creativecommons.org/licenses/by-nc/4.0/
 
+[![Support me on Ko-fi](https://img.shields.io/badge/Ko--fi-Support%20me-FF5E5B?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/appletheapple)
