@@ -25,8 +25,15 @@ const Footer: React.FC = () => {
           </a>
         </p>
       </div>
+      <p>
+        <div className="footer-social">
+          <a href="mailto:apple_the_apple@proton.me">
+            Contact me at apple_the_apple@proton.me
+          </a>
+        </div>
+      </p>
       <div className="footer-social">
-        <a href="mailto:apple_the_apple@proton.me">Contact me at apple_the_apple@proton.me</a>
+        <a href="https://ko-fi.com/appletheapple">Buy me a coffee</a>
       </div>
     </footer>
   );
