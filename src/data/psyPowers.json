@@ -798,29 +798,18 @@
     "Range": "Immediate",
     "Target": "1 Creature",
     "Duration": "Permanent",
-    "Effect": "Implant a psychic message in a creature's mind, triggered by a specific condition or phrase.",
-    "Discipline": "Minor Psychic Power",
-    "Source": "Inquisitor Player's Guide"
-  },
-  {
-    "Name": "Cipher Seed",
-    "Warp Rating": "1",
-    "Difficulty": "Easy (+40)",
-    "Range": "Immediate",
-    "Target": "1 Creature",
-    "Duration": "Permanent",
     "Effect": "Implant a psychic message in a creature's mind, triggered by a specific condition or phrase. The creature recites the message when the recipient is near. The target doesn't remember implanting or delivering the message.",
     "Discipline": "Minor Psychic Power",
     "Source": "Inquisitor Player's Guide"
   },
   {
     "Name": "Force Bolt",
-    "Warp Rating": "3",
-    "Difficulty": "Hard (-20)",
+    "Warp Rating": "2",
+    "Difficulty": "Difficult (-10)",
     "Range": "Long",
     "Target": "1 Creature or Object",
     "Duration": "Instant",
-    "Effect": "Hurl a bolt of telekinetic force at a target, dealing Damage equal to 3 + Willpower Bonus + SL of Manifest Test. Choose the location of Damage if the target is a creature.",
+    "Effect": "Hurl a bolt of telekinetic force at a target, dealing Damage equal to 6 + Willpower Bonus + SL of Manifest Test. Choose the location of Damage if the target is a creature.",
     "Discipline": "Minor Psychic Power",
     "Source": "Inquisitor Player's Guide"
   },
