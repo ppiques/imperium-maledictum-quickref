@@ -472,7 +472,7 @@
   {
     "Name": "Sanctioned Psyker",
     "Requirement": "The Psyker Talent. Only during character creation.",
-    "Description": "Immune to unsanctioned penalties. Gain symbol of sanctioned status.",
+    "Description": "Warp Threshold is now equal to double your Willpower Bonus. Gain a symbol of sanctioned status.",
     "Source": "Core Rulebook"
   },
   {
@@ -692,40 +692,40 @@
     "Source": "Inquisitor Player's Guide"
   },
   {
-  "Name": "Architectural Mind",
-  "Requirement": "2 Advances in Tech (Engineering)",
-  "Description": "In machine-heavy environments, you may use Tech (Engineering) instead of Navigation (Surface or Tracking). When searching architectural schematics or maps of such locations, you may use Tech (Engineering) instead of any Lore or Logic Test.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Architectural Mind",
+    "Requirement": "2 Advances in Tech (Engineering)",
+    "Description": "In machine-heavy environments, you may use Tech (Engineering) instead of Navigation (Surface or Tracking). When searching architectural schematics or maps of such locations, you may use Tech (Engineering) instead of any Lore or Logic Test.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
-  "Name": "Battle Protocols",
-  "Requirement": "2 Advances in Tech (Automata)",
-  "Description": "Spend an Action to make a Challenging (+0) Tech (Automata) Test on a friendly Construct in immediate range. On success, choose one protocol active for SL turns (from end of current turn). Only one protocol may be active at a time. If the target is a Familiar, you may instead alter its Combat or Preservation Instincts. Aegis Protocol: Advantage on Defend or Overwatch Tests. Conqueror Protocol: Advantage on melee attacks. Protector Protocol: Advantage on ranged attacks.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Battle Protocols",
+    "Requirement": "2 Advances in Tech (Automata)",
+    "Description": "Spend an Action to make a Challenging (+0) Tech (Automata) Test on a friendly Construct in immediate range. On success, choose one protocol active for SL turns (from end of current turn). Only one protocol may be active at a time. If the target is a Familiar, you may instead alter its Combat or Preservation Instincts. Aegis Protocol: Advantage on Defend or Overwatch Tests. Conqueror Protocol: Advantage on melee attacks. Protector Protocol: Advantage on ranged attacks.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
-  "Name": "Burden of Knowledge",
-  "Requirement": "2 Advances in Tech (Forbidden)",
-  "Description": "When making a Tech Test, after rolling but before resolving results, you may gain 1 Corruption to add your Advances in Tech (Forbidden) to the Test. This may be done multiple times for the same cost.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Burden of Knowledge",
+    "Requirement": "2 Advances in Tech (Forbidden)",
+    "Description": "When making a Tech Test, after rolling but before resolving results, you may gain 1 Corruption to add your Advances in Tech (Forbidden) to the Test. This may be done multiple times for the same cost.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
-  "Name": "Cartogrammetrist",
-  "Requirement": "2 Advances in Navigation (Surface)",
-  "Description": "As an Endeavour, you may inload geophysical data for a single world. Gain Advantage on Navigation Tests regarding that world, Lore Tests about its physical features, and Piloting Tests within its atmosphere or surface. Inloading data for a new world deletes previous data.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Cartogrammetrist",
+    "Requirement": "2 Advances in Navigation (Surface)",
+    "Description": "As an Endeavour, you may inload geophysical data for a single world. Gain Advantage on Navigation Tests regarding that world, Lore Tests about its physical features, and Piloting Tests within its atmosphere or surface. Inloading data for a new world deletes previous data.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
-  "Name": "Cognis Communion",
-  "Requirement": "2 Advances in Tech (Security)",
-  "Description": "When wielding a weapon with the Secrets of Mars Trait, you may use Tech instead of Weapon Skill.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Cognis Communion",
+    "Requirement": "2 Advances in Tech (Security)",
+    "Description": "When wielding a weapon with the Secrets of Mars Trait, you may use Tech instead of Weapon Skill.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
-  "Name": "Emotionless Clarity",
-  "Requirement": "Rite of Pure Thought Augmetic",
-  "Description": "When attempting to learn something through conversation, you may use Logic instead of Intuition or Rapport.",
-  "Source": "Adeptus Mechanicus Player's Guide"
+    "Name": "Emotionless Clarity",
+    "Requirement": "Rite of Pure Thought Augmetic",
+    "Description": "When attempting to learn something through conversation, you may use Logic instead of Intuition or Rapport.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
     "Name": "Faithful (Cult of Mars)",
