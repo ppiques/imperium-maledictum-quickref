@@ -20,7 +20,7 @@ function Psy() {
     "Source",
   ];
   const psychicPhenomenaHeaders = ["1d100", "Phenomenon", "Lingering"];
-  const perilsOfTheWarpHeaders = ["1d100", "Peril"];
+  const perilsOfTheWarpHeaders = ["1d100", "Corruption", "Peril"];
 
   // État pour la recherche
   const [query, setQuery] = useState("");
@@ -445,7 +445,7 @@ function Psy() {
   // Fonction pour transformer les descriptions
   const renderDescription = (description: string) => {
     const parts = description.split(
-      /(Soulsight Table|Shape Flesh Table|Psychometry Table|Watchward Table|Plasma Torch Profile|Breach Table|Objuration Mechanicum Table|Mental Interrogation Table|Discern Falsehoods Table|Exploding Object|Erupting Object|Psychic Blade Profile)/i
+      /(Soulsight Table|Shape Flesh Table|Psychometry Table|Watchward Table|Plasma Torch Profile|Breach Table|Objuration Mechanicum Table|Mental Interrogation Table|Discern Falsehoods Table|Exploding Object|Erupting Object|Psychic Blade Profile)/i,
     );
     return parts.map((part, index) =>
       tableMappings[part] ? (
@@ -454,7 +454,7 @@ function Psy() {
         </Tooltip>
       ) : (
         part
-      )
+      ),
     );
   };
 
@@ -465,8 +465,8 @@ function Psy() {
         power[header as keyof typeof power]
           ?.toString()
           .toLowerCase()
-          .includes(query.toLowerCase())
-      )
+          .includes(query.toLowerCase()),
+      ),
     )
     .map((power) => ({
       ...power,
@@ -479,8 +479,8 @@ function Psy() {
       phenomenon[header as keyof typeof phenomenon]
         ?.toString()
         .toLowerCase()
-        .includes(query.toLowerCase())
-    )
+        .includes(query.toLowerCase()),
+    ),
   );
 
   // Filtrage des périls du Warp
@@ -489,8 +489,8 @@ function Psy() {
       peril[header as keyof typeof peril]
         ?.toString()
         .toLowerCase()
-        .includes(query.toLowerCase())
-    )
+        .includes(query.toLowerCase()),
+    ),
   );
 
   return (
