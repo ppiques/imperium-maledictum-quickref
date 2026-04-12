@@ -28,7 +28,7 @@
       {
         "Roll": "5",
         "Description": "Dislocated Jaw",
-        "Effect": "The blow dislocates your jaw, dislocating your jaw. You are Stunned until the start of your next turn.",
+        "Effect": "The blow dislocates your jaw. You are Stunned until the start of your next turn.",
         "Treatment": "A Challenging (+0) Medicae Test to pop the jaw back into place."
       },
       {
