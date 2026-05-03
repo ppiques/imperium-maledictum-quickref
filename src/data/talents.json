@@ -747,8 +747,8 @@
   },
   {
     "Name": "Martian Pistoleer",
-    "Requirement": "2 Advances in Ranged (Pistol)",
-    "Description": "You do not suffer Disadvantage for attacking with Pistols at Immediate Range. Increase the range of Pistols you wield by one step.",
+    "Requirement": "1 Advance in Ranged (Pistol)",
+    "Description": "Increase the range of Pistols you wield by one step.",
     "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
