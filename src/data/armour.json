@@ -388,5 +388,75 @@
     "Availability": "Scarce",
     "Traits": "Heavy (4), Loud",
     "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Amulet of Warding",
+    "Locations": "All",
+    "Armour": "-",
+    "Encumbrance": "0",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Ornamental, Shield (3), Subtle, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Blessed Raiments",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "3 (4)",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Traits": "Durable, Subtle, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Dragon Scale",
+    "Locations": "All",
+    "Armour": "8",
+    "Encumbrance": "8 (10)",
+    "Cost": "500000",
+    "Availability": "Exotic",
+    "Traits": "Durable, Heavy (4), Ornamental, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Mantle of the Gnosticar",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "2",
+    "Encumbrance": "2 (3)",
+    "Cost": "400",
+    "Availability": "Rare",
+    "Traits": "Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Mechanicus Robes",
+    "Locations": "Arms, Body, Legs",
+    "Armour": "1",
+    "Encumbrance": "1 (2)",
+    "Cost": "100",
+    "Availability": "Common",
+    "Traits": "Subtle, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Sicarian Battle Armour",
+    "Locations": "All",
+    "Armour": "4",
+    "Encumbrance": "2 (3)",
+    "Cost": "3000",
+    "Availability": "Exotic",
+    "Traits": "Durable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Skitarii War Plate",
+    "Locations": "All",
+    "Armour": "6",
+    "Encumbrance": "3 (4)",
+    "Cost": "3000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (3), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]

@@ -142,5 +142,32 @@
     "Used With": "Any Ranged Weapon",
     "Effects": "Weapon gains Reliable trait. Reduces value of Heavy trait by 2.",
     "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Phase Helix Rifling (Combat)",
+    "Cost": "500",
+    "Availability": "Rare",
+    "Type": "Combat Attachment",
+    "Used With": "Solid Projectile ranged weapons",
+    "Effects": "Increases the weapon’s effective Range by one step.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Rapid Tracking Optics (Sight)",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Type": "Sight Attachment",
+    "Used With": "Any Ranged Weapon",
+    "Effects": "Taking Aim or Overwatch grants Advantage on the next attack with this weapon. Requires ocular augmetic or technological sight.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Vent Shielding (Support)",
+    "Cost": "300",
+    "Availability": "Scarce",
+    "Type": "Support Attachment",
+    "Used With": "Arc, Galvanic, Gamma, Eradication, Las, Plasma, and Volkite ranged weapons",
+    "Effects": "For weapons with Unstable, only a Fumble of 8+ causes self-destruction.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]

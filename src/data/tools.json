@@ -470,5 +470,63 @@
     "Encumbrance": "1",
     "Effect": "Contains cleaning agents, lubricants, and repair tools. A Routine (+20) Tech (Engineering) Test restores a weapon, removing the effects of the first Fumble rolled while it is being used.",
     "Source": "Macharian Requisition Guide"
-  }
+  },
+  [
+    {
+      "Name": "Censer",
+      "Cost": "150",
+      "Availability": "Common",
+      "Encumbrance": "1",
+      "Effect": "Used for rituals. A lit censer makes the current Zone Lightly Obscured.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Doctrina Wafer",
+      "Cost": "4000",
+      "Availability": "Exotic",
+      "Encumbrance": "0",
+      "Effect": "Programs robotic troops with preset orders using a Challenging (+0) Tech (Automata) Test. Orders cannot be modified once inserted.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Guardian Skull",
+      "Cost": "5000",
+      "Availability": "Scarce",
+      "Encumbrance": "0 (1)",
+      "Effect": "Monotask Servo-Skull. Choose one: Gun-skull (+1 Damage per SL on attack rolls), Dissector-skull (+1 SL on Medicae Tests, equipped with Mono-Blade Scalpel), Injector Skull (Can sneak using character's Skills, equipped with Silen Needle weapon), or Infoslave Skull (Counts as an Auspex, Comm Leech and Pict Recorder which can be used as a Free Action).",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Omnispex",
+      "Cost": "2000",
+      "Availability": "Rare",
+      "Encumbrance": "1",
+      "Effect": "As an Action, scans Medium Range for energy, life signs, and movement, revealing Hidden creatures. Removes Disadvantage when firing into Dark or Poorly Lit Zones during an Aim. Can be used as Magnoculars.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Opus Machina",
+      "Cost": "300",
+      "Availability": "Rare",
+      "Encumbrance": "0",
+      "Effect": "Counts as a Holy Icon for Adeptus Mechanicus characters. Grants +1 SL on Discipline (Fear) Tests.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Pteraxii Wing-pack",
+      "Cost": "2500",
+      "Availability": "Exotic",
+      "Encumbrance": "2 (3)",
+      "Effect": "Make a Piloting Test to gain Fly (Normal) Speed until end of turn or glide while descending. Implanted users gain Advantage on Piloting and Athletics Tests using the wings.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    },
+    {
+      "Name": "Servo Harness",
+      "Cost": "5000",
+      "Availability": "Scarce",
+      "Encumbrance": "2 (3)",
+      "Effect": "Provides 4 slots for tools or cogitators. Attached tools are always readily available and do not need to be drawn or stored.",
+      "Source": "Adeptus Mechanicus Player's Guide"
+    }
+  ]
 ]

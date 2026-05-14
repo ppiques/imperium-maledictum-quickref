@@ -33,5 +33,19 @@
     "Availability": "Rare",
     "Effect": "While worn, grants Advantage on Tests to resist effects causing the Blinded Condition.",
     "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Adamantine Plating",
+    "Cost": "1000",
+    "Availability": "Scarce",
+    "Effect": "Can only be fitted to augmetic limbs. Provides +1 Armour to that location and counts as an additional augment. May grant Advantage on Presence Tests or Disadvantage on Stealth Tests, depending on situation.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Neurostatic Generator",
+    "Cost": "2500",
+    "Availability": "Exotic",
+    "Effect": "Must be tuned to one known species. Creatures of that species suffer -2 SL on melee or ranged attack rolls made in the same Zone as the wearer.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]

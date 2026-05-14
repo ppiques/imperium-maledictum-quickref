@@ -218,5 +218,45 @@
     "Availability": "Rare",
     "Traits": "Inflict (Frightened), Loud, Thrown (Medium), Unstable",
     "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Arc Grenades",
+    "Specialisation": "Thrown",
+    "Damage": "6",
+    "Encumbrance": "0",
+    "Cost": "800",
+    "Availability": "Scarce",
+    "Traits": "Blast, Inflict (Stunned — Minor), Loud, Thrown (Medium), Unstable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Cant Grenades",
+    "Specialisation": "Thrown",
+    "Damage": "0",
+    "Encumbrance": "1",
+    "Cost": "1000",
+    "Availability": "Rare",
+    "Traits": "Inflict (Deafened), Loud, Thrown (Short), Unstable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Haywire Grenades",
+    "Specialisation": "Thrown",
+    "Damage": "0",
+    "Encumbrance": "0",
+    "Cost": "800",
+    "Availability": "Scarce",
+    "Traits": "Loud, Thrown (Short), Unstable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Mindscrambler Grenades",
+    "Specialisation": "Thrown",
+    "Damage": "4",
+    "Encumbrance": "0",
+    "Cost": "1000",
+    "Availability": "Exotic",
+    "Traits": "Blast, Inflict (Restrained), Loud, Thrown (Medium), Unstable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]
