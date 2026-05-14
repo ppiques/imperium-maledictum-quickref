@@ -31,6 +31,8 @@
 
   "Rend": "When an attack with this weapon that dealt one or more Wounds resolves, the outermost Armour on the Hit Location is reduced by the Rend rating until it is repaired. Armour can be reduced more than once in this way, and if it is reduced to 0 it is completely destroyed.",
 
+  "Secret of Mars": "Characters outside the Adeptus Mechanicus Faction, or those without Forbidden Knowledge (Adeptus Mechanicus), are always at Disadvantage when wielding, repairing or modifying this item.",
+
   "Shield": "When you use this shield to brace against incoming fire, you gain additional Armour equal to the Rating.",
 
   "Spread": "All creatures within Immediate Range of the target, other than the attacker, must make a Challenging (+0) Reflexes (Dodge) Test or suffer half Damage from the attack. If a weapon already has the Spread Trait and would gain it in another way, such as by using Rapid Fire, creatures within Immediate Range who fail their Reflexes Test suffer full damage instead.",

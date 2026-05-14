@@ -804,5 +804,35 @@
     "Requirement": "2 Advances in Tech (Xenos)",
     "Description": "Choose a xenos species. During the next mission, Corruption from interacting with that species' technology is halved (rounded down). If you understand a Xenos machine's function, you may spend an Action and a Fate Point to activate, disrupt, or shut it down without a Test.",
     "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electro-Priest Indoctrination",
+    "Requirement": "-",
+    "Description": "You are trained to capture, conserve and share the sacred Motive Force. When your Motive Force Charges are above half your Maximum Threshold, you gain +1 Armour (All Locations). You may spend 1 minute connected to a power source to increase your Motive Force Charges to your threshold, potentially deactivating the machine. You may also spend 1 minute connected to a power source to reduce your Motive Force Charges to 0, feeding it your stored energy and potentially powering it.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Corpuscarii Benedictions",
+    "Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
+    "Description": "As a Free Action, you may touch an electronically powered device or machine and expend 1 Motive Force Charge. For the next round, creatures have Advantage on any Tech or Piloting Test attempted on or while using the device.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Corpuscarii Mastery",
+    "Requirement": "Electro-Priest Indoctrination, You have no ‘Fulgurite’ named Talents",
+    "Description": "You may activate electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine activates and you expend Motive Force Charges based on its size. You cannot activate devices requiring more Charges than you currently have.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Fulgurite Hex",
+    "Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
+    "Description": "As a Free Action, you may touch an electronically powered device and gain 1 Motive Force Charge. For the next round, creatures have Disadvantage on any Tech or Piloting Test attempted using the device.",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Fulgurite Mastery",
+    "Requirement": "Electro-Priest Indoctrination, You have no ‘Corpuscarii’ named Talents",
+    "Description": "You may shut down electronically powered devices and vehicles you touch. Make a Fortitude (Endurance) Test as an Action, with Difficulty based on the target’s size. On success, the machine shuts down and you gain Motive Force Charges based on its size. You cannot use this Talent if doing so would exceed your maximum threshold.",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]

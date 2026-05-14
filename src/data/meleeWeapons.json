@@ -538,5 +538,195 @@
     "Availability": "Common",
     "Traits": "Defensive, Inflict (Stunned), Loud, Two-handed",
     "Source": "Macharian Requisition Guide"
+  },
+  {
+    "Name": "Skitarii Cavalry Arc Maul",
+    "Specialisation": "One-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "1",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Inflict (Stunned), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Skitarii Cavalry Sabre",
+    "Specialisation": "One-handed",
+    "Damage": "5+StrB",
+    "Encumbrance": "1",
+    "Cost": "3000",
+    "Availability": "Scarce",
+    "Traits": "Penetrating (3), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Skitarii Taser Lance",
+    "Specialisation": "One-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "2",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Heavy (3), Inflict (Stunned), Reach, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electrostatic Gauntlets",
+    "Specialisation": "Brawling",
+    "Damage": "6+StrB",
+    "Encumbrance": "2",
+    "Cost": "4000",
+    "Availability": "Exotic",
+    "Traits": "Inflict (Stunned), Reach, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Electroleech Stave",
+    "Specialisation": "Two-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "3",
+    "Cost": "4000",
+    "Availability": "Exotic",
+    "Traits": "Defensive, Inflict (Stunned), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Omnissian Axe (One-Handed)",
+    "Specialisation": "One-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "1",
+    "Cost": "4000",
+    "Availability": "Exotic",
+    "Traits": "Master Crafted, Ornamental, Penetrating (4), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Omnissian Axe (Two-Handed)",
+    "Specialisation": "Two-handed",
+    "Damage": "6+StrB",
+    "Encumbrance": "3",
+    "Cost": "6000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (3), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Omnissian Glaive",
+    "Specialisation": "Two-handed",
+    "Damage": "7+StrB",
+    "Encumbrance": "3",
+    "Cost": "6000",
+    "Availability": "Exotic",
+    "Traits": "Heavy (5), Master Crafted, Ornamental, Penetrating (6), Two-handed, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Omnissian Rod",
+    "Specialisation": "Two-handed",
+    "Damage": "4+StrB",
+    "Encumbrance": "3",
+    "Cost": "10000",
+    "Availability": "Exotic",
+    "Traits": "Master Crafted, Ornamental, Penetrating (5), Two-handed, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Transonic Blade",
+    "Specialisation": "One-handed",
+    "Damage": "3+StrB",
+    "Encumbrance": "2",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Transonic Chordclaw",
+    "Specialisation": "Brawling",
+    "Damage": "3+StrB",
+    "Encumbrance": "2",
+    "Cost": "5000",
+    "Availability": "Rare",
+    "Traits": "Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Transonic Razor",
+    "Specialisation": "One-handed",
+    "Damage": "2+StrB",
+    "Encumbrance": "1",
+    "Cost": "4000",
+    "Availability": "Rare",
+    "Traits": "Lightweight, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Breacher",
+    "Specialisation": "One-handed",
+    "Damage": "5+StrB",
+    "Encumbrance": "3",
+    "Cost": "7000",
+    "Availability": "Scarce",
+    "Traits": "Heavy (2), Loud, Rend (4), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Control Stave",
+    "Specialisation": "One-handed",
+    "Damage": "3+StrB",
+    "Encumbrance": "1",
+    "Cost": "2000",
+    "Availability": "Exotic",
+    "Traits": "Defensive, Inflict (Stunned), Ornamental, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Pteraxii Talons",
+    "Specialisation": "Brawling",
+    "Damage": "3+StrB",
+    "Encumbrance": "1",
+    "Cost": "2000",
+    "Availability": "Rare",
+    "Traits": "Inflict (Bleeding), Rend (4), Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Rod of Office",
+    "Specialisation": "One-handed",
+    "Damage": "2+StrB",
+    "Encumbrance": "1",
+    "Cost": "3000",
+    "Availability": "Exotic",
+    "Traits": "Defensive, Ornamental, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Servo Arm",
+    "Specialisation": "Brawling",
+    "Damage": "6+StrB",
+    "Encumbrance": "2",
+    "Cost": "4000",
+    "Availability": "Rare",
+    "Traits": "Heavy (4), Loud, Penetrating, Reliable, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Taser Goad",
+    "Specialisation": "One-handed",
+    "Damage": "2+StrB",
+    "Encumbrance": "1",
+    "Cost": "900",
+    "Availability": "Rare",
+    "Traits": "Inflict (Stunned), Loud, Defensive, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
+  },
+  {
+    "Name": "Vivisector",
+    "Specialisation": "Brawling",
+    "Damage": "2+StrB",
+    "Encumbrance": "1",
+    "Cost": "10000",
+    "Availability": "Rare",
+    "Traits": "Master Crafted, Secret of Mars",
+    "Source": "Adeptus Mechanicus Player's Guide"
   }
 ]
