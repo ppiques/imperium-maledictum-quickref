@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useSourceFilter } from "../contexts/SourceFilterContext";
 import traitsDescriptions from "../data/traits.json";
 import conditionsDescriptions from "../data/conditions.json";
 import "./Table.css";
@@ -46,6 +47,7 @@ const Table: React.FC<TableProps> = ({
   disableSorting = false,
   defaultSort = { key: headers[0], direction: "asc" }, // Tri par défaut sur la première colonne
 }) => {
+  const sourceFilter = useSourceFilter();
   const [tooltip, setTooltip] = useState<string | null>(null);
   const [tooltipPosition, setTooltipPosition] = useState<{
     x: number;
@@ -117,10 +119,13 @@ const Table: React.FC<TableProps> = ({
     });
   };
 
-  const sortedData = React.useMemo(() => {
-    if (!sortConfig) return data;
+  // Filtrage par source (livre)
+  const filteredData = sourceFilter.filterData(data);
 
-    return [...data].sort((a, b) => {
+  const sortedData = React.useMemo(() => {
+    if (!sortConfig) return filteredData;
+
+    return [...filteredData].sort((a, b) => {
       let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
       let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
 
@@ -246,7 +251,7 @@ const Table: React.FC<TableProps> = ({
       }
       return 0;
     });
-  }, [data, sortConfig]);
+  }, [data, sortConfig, sourceFilter.activeSources]);
 
   return (
     <div className="table-container">

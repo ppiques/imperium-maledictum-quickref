@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { SourceFilterProvider } from "./contexts/SourceFilterContext";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import Weapons from "./pages/Weapons";
@@ -11,25 +12,29 @@ import Combat from "./pages/Combat";
 import Talents from "./pages/Talents";
 import CriticalWounds from "./pages/CriticalWounds";
 import Footer from "./components/Footer";
+import SourceFilter from "./components/SourceFilter";
 import "./styles/App.css";
 
 function App() {
   return (
     <BrowserRouter basename="/imperium-maledictum-quickref">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/weapons" element={<Weapons />} />
-        <Route path="/protection" element={<Protection />} />
-        <Route path="/equipment" element={<Equipment />} />
-        <Route path="/augmetics" element={<Augmetics />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/psy" element={<Psy />} />
-        <Route path="/combat" element={<Combat />} />
-        <Route path="/talents" element={<Talents />} />
-        <Route path="/criticalwounds" element={<CriticalWounds />} />
-      </Routes>
-      <Footer />
+      <SourceFilterProvider>
+        <Navbar />
+        <SourceFilter />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/weapons" element={<Weapons />} />
+          <Route path="/protection" element={<Protection />} />
+          <Route path="/equipment" element={<Equipment />} />
+          <Route path="/augmetics" element={<Augmetics />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/psy" element={<Psy />} />
+          <Route path="/combat" element={<Combat />} />
+          <Route path="/talents" element={<Talents />} />
+          <Route path="/criticalwounds" element={<CriticalWounds />} />
+        </Routes>
+        <Footer />
+      </SourceFilterProvider>
     </BrowserRouter>
   );
 }

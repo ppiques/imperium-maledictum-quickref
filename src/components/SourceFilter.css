@@ -1,0 +1,138 @@
+/* Source Filter - ligne unique compacte */
+.source-filter {
+  display: flex;
+  align-items: center;
+  padding: 0.35rem 0;
+}
+
+.source-filter-row {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.source-filter-label {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #777;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.source-filter-buttons {
+  display: flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.source-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 9px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.7rem;
+  font-family: "Cinzel", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+  background: transparent;
+  white-space: nowrap;
+}
+
+.source-btn-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.source-btn.active {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+
+.source-btn.active .source-btn-indicator {
+  background: #d4af37;
+  border-color: #d4af37;
+  box-shadow: 0 0 4px rgba(212, 175, 55, 0.5);
+}
+
+.source-btn.inactive {
+  border-color: #333;
+  color: #555;
+}
+
+.source-btn.inactive .source-btn-indicator {
+  background: transparent;
+  border-color: #555;
+}
+
+.source-btn:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+
+.source-filter-toggle-all {
+  font-size: 0.6rem;
+  padding: 2px 7px;
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 3px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+  transition: all 0.2s ease;
+  white-space: nowrap;
+}
+
+.source-filter-toggle-all.on {
+  color: #d4af37;
+  border-color: #d4af37;
+}
+
+.source-filter-toggle-all.off {
+  color: #555;
+  border-color: #444;
+}
+
+.source-filter-toggle-all:hover {
+  border-color: #d4af37;
+  color: #d4af37;
+}
+
+.source-filter-count {
+  font-size: 0.6rem;
+  color: #666;
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+/* Mobile: empiler */
+@media (max-width: 1080px) {
+  .source-filter {
+    padding: 0.5rem 0;
+  }
+
+  .source-filter-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+  }
+
+  .source-filter-buttons {
+    flex-wrap: wrap;
+  }
+
+  .source-btn {
+    width: auto;
+    justify-content: flex-start;
+    padding: 5px 10px;
+  }
+}
