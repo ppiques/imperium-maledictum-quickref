@@ -1,0 +1,76 @@
+/* DetailProfileRenderer — styles des mini-tables dans les tooltips */
+
+.detail-profile {
+  width: max-content;
+  max-width: 420px;
+}
+
+.detail-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  background: var(--bg-primary, #1a1a1a);
+  color: var(--text-primary, #e0e0e0);
+}
+
+.detail-table caption.detail-table-header {
+  caption-side: top;
+  font-weight: 600;
+  padding: 6px 0;
+  text-align: left;
+  color: var(--gold, #d4af37);
+  font-size: 0.9rem;
+  border-bottom: 1px solid var(--gold, #d4af37);
+}
+
+.detail-table th,
+.detail-table td {
+  padding: 5px 10px;
+  text-align: left;
+  border-bottom: 1px solid rgba(212, 175, 55, 0.15);
+  vertical-align: top;
+}
+
+.detail-table thead th {
+  color: var(--gold, #d4af37);
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  border-bottom: 1px solid var(--gold, #d4af37);
+}
+
+.detail-table .sl-cell {
+  font-weight: 600;
+  color: var(--gold, #d4af37);
+  white-space: nowrap;
+  width: 1%;
+}
+
+/* Assure que les traits dans les profils d'arme gardent le style */
+.detail-table td .trait {
+  color: #7ec8e3;
+  cursor: help;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+  max-width: 430px;
+  max-height: calc(100vh - 20px);
+  overflow: auto;
+}
+
+.tooltip-trigger {
+  color: #d4af37;
+  cursor: pointer;
+  text-decoration: underline;
+}

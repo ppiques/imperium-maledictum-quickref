@@ -1,0 +1,290 @@
+[
+  {
+    "id": "Soulsight Table",
+    "type": "sl_table",
+    "header": "You know... (Cumulative)",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "How many sentient creaturs are within range."
+      },
+      {
+        "sl": "+2",
+        "effect": "The species of each sentient creature within range."
+      },
+      {
+        "sl": "+3",
+        "effect": "How many sentient creatures are in each Zone within range."
+      },
+      {
+        "sl": "+4 or more",
+        "effect": "The exact location of each sentient creature within range."
+      }
+    ]
+  },
+  {
+    "id": "Shape Flesh Table",
+    "type": "sl_table",
+    "header": "You can... (Cumulative)",
+    "table": [
+      {
+        "sl": "+1 - +2",
+        "effect": "Alter minor cosmetic features such as hair/eye/skin colour, facial features or blemishes."
+      },
+      {
+        "sl": "+3 - +4",
+        "effect": "Moderately alter height, weight, natural posture and physique."
+      },
+      {
+        "sl": "+5 or more",
+        "effect": "Drastically alter features and body structure. This includes rebuilding, removing, or disabling body parts such as limbs and sensory organs. You can cause or repair one Injury or Amputation (see page 217)."
+      }
+    ]
+  },
+  {
+    "id": "Psychometry Table",
+    "type": "sl_table",
+    "header": "Results (Cumulative)",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "You receive general, vague impressions of the most recent strong emotions creatures felt while nearby or interacting with the target"
+      },
+      {
+        "sl": "+2",
+        "effect": "You know how recently the emotions were experienced."
+      },
+      {
+        "sl": "+3",
+        "effect": "You witness a hazy memory of the events that caused the strong emotions."
+      },
+      {
+        "sl": "+4",
+        "effect": "You witness a clear, detailed memory of the events."
+      },
+      {
+        "sl": "+5",
+        "effect": "You learn the identities of the people who left emotional impressions on the target"
+      },
+      {
+        "sl": "+6 or more",
+        "effect": "You gain a deep understanding of what transpired involving the target. Ask the GM a single question about the event, which they answer truthfully"
+      }
+    ]
+  },
+  {
+    "id": "Watchward Table",
+    "type": "sl_table",
+    "header": "Results (Cumulative)",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "You know you're being watched by something."
+      },
+      {
+        "sl": "+2",
+        "effect": "You know how many beings or devices are watching you."
+      },
+      {
+        "sl": "+3",
+        "effect": "You know the means of observation (such as natural senses, technological, or psychic)."
+      },
+      {
+        "sl": "+4",
+        "effect": "You know generally which direction and how far your observers are from you."
+      },
+      {
+        "sl": "+5",
+        "effect": "You know the exact location of your observers."
+      },
+      {
+        "sl": "+6 or more",
+        "effect": "You know what your observers look like."
+      }
+    ]
+  },
+  {
+    "id": "Plasma Torch Profile",
+    "type": "weapon_profile",
+    "headers": [
+      "Name",
+      "Spec",
+      "Dmg",
+      "Enc",
+      "Traits"
+    ],
+    "rows": [
+      {
+        "Name": "Plasma Torch",
+        "Spec": "Brawling",
+        "Dmg": "4+WilB",
+        "Enc": "0",
+        "Traits": "Inflict (Ablaze), Loud, Rend (WilB)."
+      }
+    ]
+  },
+  {
+    "id": "Breach Table",
+    "type": "sl_table",
+    "header": "You can Destroy...",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "A fragile object, such as a glass window or pictrecorder"
+      },
+      {
+        "sl": "+2",
+        "effect": "A common object, such as a plastic tray or wooden stool."
+      },
+      {
+        "sl": "+3",
+        "effect": "A rugged object, such as a Lasgun or a wooden door."
+      },
+      {
+        "sl": "+4",
+        "effect": "An exceptionally sturdy object, such as a Bolt Pistol or a compressed gas canister."
+      },
+      {
+        "sl": "+5",
+        "effect": "An object designed to withstand severe stress, such as a plasteel wall or ferrocrete pillar."
+      },
+      {
+        "sl": "+6 or more",
+        "effect": "An object made from nigh-unbreakable materials like ceramite or adamantium."
+      }
+    ]
+  },
+  {
+    "id": "Objuration Mechanicum Table",
+    "type": "sl_table",
+    "header": "Results",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "The machine becomes momentarily glitchy. Until the start of your next turn, roll 1d10 each time it should function. On a result of 6+, the machine does nothing."
+      },
+      {
+        "sl": "+2",
+        "effect": "The machine jams, unable to function until the start of your next turn."
+      },
+      {
+        "sl": "+3",
+        "effect": "The machine breaks, unable to function at all until it’s repaired."
+      },
+      {
+        "sl": "+4",
+        "effect": "The machine suffers irreparable damage and is destroyed."
+      },
+      {
+        "sl": "+5 or more",
+        "effect": "The machine is destroyed and fails catastrophically, inflicting 4 Damage to everything within Immediate Range."
+      }
+    ]
+  },
+  {
+    "id": "Mental Interrogation Table",
+    "type": "sl_table",
+    "header": "Results (Cumulative)",
+    "table": [
+      {
+        "sl": "+1",
+        "effect": "You can learn basic information about the target, such as name, age, mood, and general physical/mental health, as well as surface thoughts in the target’s mind, such as opinions about you, overarching motivations, immediate concerns, and conscious lies."
+      },
+      {
+        "sl": "+2",
+        "effect": "You can learn about an object, location, or creature significant to the target and the nature of its importance."
+      },
+      {
+        "sl": "+3",
+        "effect": "You can access the target’s memories of the last day from their perspective."
+      },
+      {
+        "sl": "+4",
+        "effect": "You can access the target’s memories of the last year from their perspective."
+      },
+      {
+        "sl": "+5",
+        "effect": "You can reveal the target’s innermost thoughts, feelings, motivations, fears, relationships, secrets, and agendas."
+      },
+      {
+        "sl": "+6 or more",
+        "effect": "The target is an open book to you. You have full access to the target’s mind and the information within."
+      }
+    ]
+  },
+  {
+    "id": "Discern Falsehoods Table",
+    "type": "sl_table",
+    "header": "You know... (Cumulative)",
+    "table": [
+      {
+        "sl": "+1 to +2",
+        "effect": "When someone speaks an outright lie."
+      },
+      {
+        "sl": "+3 to +4",
+        "effect": "When someone speaks something technically true, or with deceptive intent."
+      },
+      {
+        "sl": "+5 or more",
+        "effect": "A general idea of the speaker's motivation for speaking a falsehood (greed, duress, malice, etc...)."
+      }
+    ]
+  },
+  {
+    "id": "Exploding Object",
+    "type": "weapon_profile",
+    "headers": [
+      "Name",
+      "Dmg",
+      "Enc",
+      "Traits"
+    ],
+    "rows": [
+      {
+        "Name": "Exploding Object",
+        "Dmg": "3+WilB",
+        "Enc": "0",
+        "Traits": "Blast, Loud"
+      }
+    ]
+  },
+  {
+    "id": "Erupting Object",
+    "type": "weapon_profile",
+    "headers": [
+      "Name",
+      "Dmg",
+      "Enc",
+      "Traits"
+    ],
+    "rows": [
+      {
+        "Name": "Erupting Object",
+        "Dmg": "-",
+        "Enc": "0",
+        "Traits": "Inflict (Ablaze), Spread"
+      }
+    ]
+  },
+  {
+    "id": "Psychic Blade Profile",
+    "type": "weapon_profile",
+    "headers": [
+      "Name",
+      "Specialisation",
+      "Dmg",
+      "Enc",
+      "Traits"
+    ],
+    "rows": [
+      {
+        "Name": "Psychic Blade",
+        "Specialisation": "One-Handed",
+        "Dmg": "3+WilB",
+        "Enc": "0",
+        "Traits": "Penetrating (SL)"
+      }
+    ]
+  }
+]
