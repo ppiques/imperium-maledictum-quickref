@@ -1,11 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
-import Tooltip from "../components/Tooltip";
 import psyPowers from "../data/psyPowers.json";
 import psychicPhenomena from "../data/psychicPhenomena.json";
 import perilsOfTheWarp from "../data/perilsOfTheWarp.json";
-import psyDetailProfiles from "../data/psyDetailProfiles.json";
+import psyDetailProfilesRaw from "../data/psyDetailProfiles.json";
+import type { DetailProfile } from "../components/DetailProfileRenderer";
+const psyDetailProfiles = psyDetailProfilesRaw as DetailProfile[];
 import "../styles/Psy.css";
 import { useProfileLinks } from "../hooks/useProfileLinks";
 

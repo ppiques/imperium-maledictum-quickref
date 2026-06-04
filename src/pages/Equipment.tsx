@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import Table from "../components/Table";
 import SearchBar from "../components/SearchBar";
+import { useProfileLinks } from "../hooks/useProfileLinks";
 import clothingAndPersonalGear from "../data/clothingAndPersonalGear.json";
 import tools from "../data/tools.json";
 import medicaeEquipment from "../data/medicaeEquipement.json";
+import toolDetailProfilesRaw from "../data/toolDetailProfiles.json";
+import type { DetailProfile } from "../components/DetailProfileRenderer";
+const toolDetailProfiles = toolDetailProfilesRaw as DetailProfile[];
 import "../styles/Equipment.css";
 
 function Equipment() {
@@ -48,14 +52,20 @@ function Equipment() {
       )
   );
 
-  const filteredTools = tools.filter((item) =>
-    toolsHeaders.some((header) =>
-      item[header as keyof typeof item]
-        ?.toString()
-        .toLowerCase()
-        .includes(query.toLowerCase())
-    )
-  );
+  const renderProfileLinks = useProfileLinks(toolDetailProfiles);
+
+  const filteredTools = useMemo(() => {
+    return tools
+      .filter((item) =>
+        toolsHeaders.some((header) =>
+          item[header as keyof typeof item]
+            ?.toString()
+            .toLowerCase()
+            .includes(query.toLowerCase())
+        )
+      )
+      .map((t) => ({ ...t, Effect: renderProfileLinks(t.Effect) }));
+  }, [tools, query, renderProfileLinks]);
 
   const filteredMedicaeEquipment = medicaeEquipment.filter((item) =>
     medicaeEquipmentHeaders.some((header) =>

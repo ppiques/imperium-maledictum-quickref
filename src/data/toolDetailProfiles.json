@@ -1,0 +1,32 @@
+[
+  {
+    "id": "Mono-Blade Scalpel Profile",
+    "type": "weapon_profile",
+    "headers": ["Spec", "DMG", "Cost", "Avail", "Enc", "Traits"],
+    "rows": [
+      {
+        "Spec": "One-handed",
+        "DMG": "1 + StrB",
+        "Cost": "400",
+        "Avail": "Rare",
+        "Enc": "0",
+        "Traits": "Penetrating (2)"
+      }
+    ]
+  },
+  {
+    "id": "Silent Needle Profile",
+    "type": "weapon_profile",
+    "headers": ["Spec", "DMG", "Cost", "Avail", "Enc", "Traits"],
+    "rows": [
+      {
+        "Spec": "One-handed",
+        "DMG": "1 + StrB",
+        "Cost": "600",
+        "Avail": "Rare",
+        "Enc": "0",
+        "Traits": "Inflict (Poisoned). While Poisoned, character takes 1 Damage at the start of their turn, ignoring Armour."
+      }
+    ]
+  }
+]

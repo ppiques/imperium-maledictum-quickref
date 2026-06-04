@@ -16,7 +16,7 @@
     "Source": "Core Rulebook"
   },
   {
-    "Name": "Chirurgeon’s Kit (5 uses)",
+    "Name": "Chirurgeon's Kit (5 uses)",
     "Cost": "500",
     "Availability": "Rare",
     "Encumbrance": "1",
@@ -60,7 +60,7 @@
     "Cost": "100",
     "Availability": "Common",
     "Encumbrance": "0",
-    "Effect": "Can be used to interface with many machines by making a Routine (+20) Tech Test, though obscure or well-protected machinery might require a more difficult Test, or may simply lack the necessary interfaces entirely. A Dataslate can store and display multiple text data, picts, and vid files. Each can be locked with a biometric password, requiring a Hard (−20) Tech Test to bypass.",
+    "Effect": "Can be used to interface with many machines by making a Routine (+20) Tech Test, though obscure or well-protected machinery might require a more difficult Test, or may simply lack the necessary interfaces entirely. A Dataslate can store and display multiple text data, picts, and vid files. Each can be locked with a biometric password, requiring a Hard (-20) Tech Test to bypass.",
     "Source": "Core Rulebook"
   },
   {
@@ -80,7 +80,7 @@
     "Source": "Core Rulebook"
   },
   {
-    "Name": "Emperor’s Tarot",
+    "Name": "Emperor's Tarot",
     "Cost": "10000",
     "Availability": "Rare",
     "Encumbrance": "0",
@@ -148,7 +148,7 @@
     "Cost": "200",
     "Availability": "Rare",
     "Encumbrance": "0",
-    "Effect": "Aids in divination, with effects depending on the psyker’s power and influence.",
+    "Effect": "Aids in divination, with effects depending on the psyker's power and influence.",
     "Source": "Core Rulebook"
   },
   {
@@ -376,7 +376,7 @@
     "Source": "Macharian Requisition Guide"
   },
   {
-    "Name": "Infantryman’s Grooming Kit",
+    "Name": "Infantryman's Grooming Kit",
     "Cost": "10",
     "Availability": "Common",
     "Encumbrance": "0",
@@ -404,7 +404,7 @@
     "Cost": "10",
     "Availability": "Scarce",
     "Encumbrance": "0",
-    "Effect": "Durable adhesive tape usable for sealing, repairs, or strapping. Requires 2 Damage or a Difficult (–10) Athletics Test to break. Holds up to Encumbrance 2 effectively.",
+    "Effect": "Durable adhesive tape usable for sealing, repairs, or strapping. Requires 2 Damage or a Difficult (-10) Athletics Test to break. Holds up to Encumbrance 2 effectively.",
     "Source": "Macharian Requisition Guide"
   },
   {
@@ -428,7 +428,7 @@
     "Cost": "1500",
     "Availability": "Rare",
     "Encumbrance": "2",
-    "Effect": "Geophysical scanner for measuring material density. Provides detailed scans of a Zone with a Challenging (+0) Tech Test. Grants Advantage to allies’ ranged attacks against targets in the scanned Zone.",
+    "Effect": "Geophysical scanner for measuring material density. Provides detailed scans of a Zone with a Challenging (+0) Tech Test. Grants Advantage to allies' ranged attacks against targets in the scanned Zone.",
     "Source": "Macharian Requisition Guide"
   },
   {
@@ -492,7 +492,7 @@
     "Cost": "5000",
     "Availability": "Scarce",
     "Encumbrance": "0 (1)",
-    "Effect": "Monotask Servo-Skull. Choose one: Gun-skull (+1 Damage per SL on attack rolls), Dissector-skull (+1 SL on Medicae Tests, equipped with Mono-Blade Scalpel), Injector Skull (Can sneak using character's Skills, equipped with Silen Needle weapon), or Infoslave Skull (Counts as an Auspex, Comm Leech and Pict Recorder which can be used as a Free Action).",
+    "Effect": "Functions as a Monotask Servo-Skull with one of the following: GUN-SKULL: Attack deals +1 Damage for every SL. DISSECTOR-SKULL: +1 SL when operating on biological matter. Also equipped with a mono-bladed scalpel, using the Mono-Blade Scalpel Profile. INJECTOR-SKULL: May use character's Skills commanding when sneaking unnoticed and attacking. The Silent Needle uses the following profile, but its payload can be swapped for different chemicals, using the Silent Needle Profile. INFOSLAVE SKULL: Counts as an Auspex, Comm Leech and Pict Recorder, used as a free action.",
     "Source": "Adeptus Mechanicus Player's Guide"
   },
   {
