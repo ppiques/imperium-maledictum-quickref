@@ -1,7 +1,42 @@
 import React from "react";
 import { useSelection } from "../contexts/SelectionContext";
-import { generateSelectionPDF } from "../utils/pdfGenerator";
+import { generateSelectionPDF } from "../utils/pdfGenerator/pdfGenerator";
 import "./SelectionPanel.css";
+
+// Helper function to extract key details for tile display
+const getTileDetails = (
+  data: Record<string, string | number | null | React.ReactNode>,
+  category: string
+): Array<{ label: string; value: string }> => {
+  const tileDetailsMap: Record<string, string[]> = {
+    Talents: ["Requirement"],
+    Weapons: ["Damage", "Cost"],
+    Protection: ["Armour", "Cost"],
+    Equipment: ["Cost", "Availability"],
+    Augmetics: ["Cost", "Effect"],
+    Psy: ["Warp Rating", "Difficulty"],
+    Services: ["Cost", "Duration"],
+    Combat: ["Effect"],
+  };
+
+  const fieldsToShow = tileDetailsMap[category] || [];
+  const details: Array<{ label: string; value: string }> = [];
+
+  fieldsToShow.forEach((field) => {
+    const value = data[field];
+    if (value && value !== "-") {
+      const stringValue =
+        typeof value === "string" || typeof value === "number"
+          ? String(value)
+          : "";
+      if (stringValue) {
+        details.push({ label: field, value: stringValue });
+      }
+    }
+  });
+
+  return details;
+};
 
 const SelectionPanel: React.FC = () => {
   const selection = useSelection();
@@ -69,21 +104,31 @@ const SelectionPanel: React.FC = () => {
               <h3 className="selection-category-title">
                 {category} ({selectionsByCategory[category].length})
               </h3>
-              <ul className="selection-items">
+              <div className="selection-tiles-grid">
                 {selectionsByCategory[category].map((item) => (
-                  <li key={item.id} className="selection-item">
-                    <span className="selection-item-name">{item.name}</span>
+                  <div key={item.id} className="selection-tile">
+                    <div className="selection-tile-content">
+                      <h4 className="selection-tile-name">{item.name}</h4>
+                      <div className="selection-tile-details">
+                        {getTileDetails(item.data, category).map((detail, idx) => (
+                          <div key={idx} className="selection-tile-detail">
+                            <span className="detail-label">{detail.label}:</span>
+                            <span className="detail-value">{detail.value}</span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
                     <button
-                      className="btn-remove"
+                      className="selection-tile-remove"
                       onClick={() => selection.removeSelection(item.id)}
                       aria-label={`Remove ${item.name}`}
                       title="Remove from selection"
                     >
                       ✕
                     </button>
-                  </li>
+                  </div>
                 ))}
-              </ul>
+              </div>
             </div>
           ))}
         </div>
