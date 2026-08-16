@@ -116,15 +116,15 @@ function Weapons() {
         onSearch={(searchQuery) => setQuery(searchQuery)}
       />
       <h3>Ranged Weapons</h3>
-      <Table headers={rangedHeaders} data={filteredRangedWeapons} />
+      <Table headers={rangedHeaders} data={filteredRangedWeapons} enableSelection categoryName="Weapons" />
       <h3>Melee Weapons</h3>
-      <Table headers={meleeHeaders} data={filteredMeleeWeapons} />
+      <Table headers={meleeHeaders} data={filteredMeleeWeapons} enableSelection categoryName="Weapons" />
       <h3>Grenades and Explosives</h3>
-      <Table headers={explosiveHeaders} data={filteredExplosiveWeapons} />
+      <Table headers={explosiveHeaders} data={filteredExplosiveWeapons} enableSelection categoryName="Weapons" />
       <h3>Custom Ammunition</h3>
-      <Table headers={ammunitionHeaders} data={filteredAmmunition} />
+      <Table headers={ammunitionHeaders} data={filteredAmmunition} enableSelection categoryName="Weapons" />
       <h3>Weapon Modifications</h3>
-      <Table headers={modificationHeaders} data={filteredModifications} />
+      <Table headers={modificationHeaders} data={filteredModifications} enableSelection categoryName="Weapons" />
     </div>
   );
 }

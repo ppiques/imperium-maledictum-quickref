@@ -1,9 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import { useSelection } from "../contexts/SelectionContext";
 import "./Navbar.css";
 
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const selection = useSelection();
+  const selectionCount = selection.getSelectionCount();
 
   const toggleNavbar = () => {
     setIsOpen(!isOpen);
@@ -107,6 +110,18 @@ function Navbar() {
                 onClick={handleLinkClick}
               >
                 Wounds & Injuries
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                className="nav-link selection-link"
+                to="/selection"
+                onClick={handleLinkClick}
+              >
+                Selection
+                {selectionCount > 0 && (
+                  <span className="selection-badge">{selectionCount}</span>
+                )}
               </Link>
             </li>
           </ul>

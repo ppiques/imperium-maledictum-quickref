@@ -86,6 +86,8 @@ function Psy() {
         headers={psyPowersHeaders}
         data={filteredPsyPowers}
         defaultSort={{ key: "Discipline", direction: "asc" }}
+        enableSelection
+        categoryName="Psy"
       />
       <h3>Psychic Phenomena</h3>
       <Table

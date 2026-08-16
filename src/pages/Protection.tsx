@@ -97,14 +97,14 @@ function Protection() {
         onSearch={(searchQuery) => setQuery(searchQuery)}
       />
       <h3>Armour</h3>
-      <Table headers={armourHeaders} data={filteredArmour} />
+      <Table headers={armourHeaders} data={filteredArmour} enableSelection categoryName="Protection" />
       <h3
         onMouseEnter={handleMouseEnterForceFields}
         onMouseLeave={handleMouseLeaveForceFields}
       >
         Force Fields
       </h3>
-      <Table headers={forceFieldHeaders} data={filteredForceFields} />
+      <Table headers={forceFieldHeaders} data={filteredForceFields} enableSelection categoryName="Protection" />
       {tooltip && tooltipPosition && (
         <div
           className="tooltip"
@@ -120,6 +120,8 @@ function Protection() {
       <Table
         headers={armourModificationsHeaders}
         data={filteredArmourModifications}
+        enableSelection
+        categoryName="Protection"
       />
     </div>
   );

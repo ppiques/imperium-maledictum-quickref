@@ -116,6 +116,8 @@ function Services() {
         data={filteredCityHiveTravel}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>Planetary Travel</h3>
       <Table
@@ -123,6 +125,8 @@ function Services() {
         data={filteredPlanetaryTravel}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>System Travel</h3>
       <Table
@@ -130,6 +134,8 @@ function Services() {
         data={filteredSystemTravel}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>Interstellar Travel</h3>
       <Table
@@ -137,6 +143,8 @@ function Services() {
         data={filteredInterstellarTravel}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>Accomodations and Lodgings</h3>
       <Table
@@ -144,6 +152,8 @@ function Services() {
         data={filteredAccomodationsServices}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>Provisions and Meals</h3>
       <Table
@@ -151,6 +161,8 @@ function Services() {
         data={filteredProvisionsServices}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
       <h3>Medical Care</h3>
       <Table
@@ -158,6 +170,8 @@ function Services() {
         data={filteredMedicalServices}
         disableSorting={true}
         defaultSort="unsorted"
+        enableSelection
+        categoryName="Services"
       />
     </div>
   );

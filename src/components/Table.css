@@ -68,3 +68,16 @@
     opacity: 1;
   }
 }
+
+.checkbox-column {
+  width: 50px;
+  text-align: center;
+  padding: 0.8rem;
+}
+
+.checkbox-column input[type="checkbox"] {
+  cursor: pointer;
+  width: 18px;
+  height: 18px;
+  accent-color: #d4af37;
+}

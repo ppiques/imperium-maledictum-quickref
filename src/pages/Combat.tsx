@@ -102,15 +102,17 @@ function Combat() {
         onSearch={(searchQuery) => setQuery(searchQuery)}
       />
       <h3>Combat Actions</h3>
-      <Table headers={combatActionsHeaders} data={filteredCombatActions} />
+      <Table headers={combatActionsHeaders} data={filteredCombatActions} enableSelection categoryName="Combat" />
       <h3>Traits</h3>
-      <Table headers={traitsHeaders} data={filteredTraits} />
+      <Table headers={traitsHeaders} data={filteredTraits} enableSelection categoryName="Combat" />
       <h3>Conditions</h3>
-      <Table headers={conditionsHeaders} data={filteredConditions} />
+      <Table headers={conditionsHeaders} data={filteredConditions} enableSelection categoryName="Combat" />
       <h3>Environmental Traits</h3>
       <Table
         headers={environmentalTraitsHeaders}
         data={filteredEnvironmentalTraits}
+        enableSelection
+        categoryName="Combat"
       />
       <h3>Hit Locations</h3>
       <Table

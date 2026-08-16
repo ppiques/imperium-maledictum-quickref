@@ -87,13 +87,17 @@ function Equipment() {
       <Table
         headers={clothingAndPersonalGearHeaders}
         data={filteredClothingAndPersonalGear}
+        enableSelection
+        categoryName="Equipment"
       />
       <h3>Tools</h3>
-      <Table headers={toolsHeaders} data={filteredTools} />
+      <Table headers={toolsHeaders} data={filteredTools} enableSelection categoryName="Equipment" />
       <h3>Medicae Equipment</h3>
       <Table
         headers={medicaeEquipmentHeaders}
         data={filteredMedicaeEquipment}
+        enableSelection
+        categoryName="Equipment"
       />
     </div>
   );

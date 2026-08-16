@@ -154,3 +154,36 @@
     text-align: left;
   }
 }
+
+.selection-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.selection-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d4af37;
+  color: #1a1a1a;
+  border-radius: 50%;
+  min-width: 24px;
+  height: 24px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  margin-left: 0.5rem;
+  box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.8);
+  }
+}

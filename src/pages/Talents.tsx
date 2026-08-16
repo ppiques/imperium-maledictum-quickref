@@ -43,9 +43,9 @@ function Talents() {
         onSearch={(searchQuery) => setQuery(searchQuery)}
       />
       <h3>Talents</h3>
-      <Table headers={talentsHeaders} data={filteredTalents} />
+      <Table headers={talentsHeaders} data={filteredTalents} enableSelection categoryName="Talents" />
       <h3>Skills</h3>
-      <Table headers={skillsHeaders} data={filteredSkills} />
+      <Table headers={skillsHeaders} data={filteredSkills} enableSelection categoryName="Talents" />
       <div className="tables-container">
         <div className="table-wrapper">
           <h3>Characteristic Improvement XP Cost</h3>

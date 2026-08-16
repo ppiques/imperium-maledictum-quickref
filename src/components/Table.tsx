@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useSourceFilter } from "../contexts/SourceFilterContext";
+import { useSelection, SelectedItem } from "../contexts/SelectionContext";
 import traitsDescriptions from "../data/traits.json";
 import conditionsDescriptions from "../data/conditions.json";
 import "./Table.css";
@@ -9,6 +10,8 @@ interface TableProps {
   data: { [key: string]: string | number | null | React.ReactNode }[];
   disableSorting?: boolean;
   defaultSort?: { key: string; direction: "asc" | "desc" } | "unsorted";
+  enableSelection?: boolean;
+  categoryName?: string;
 }
 // Fonction pour normaliser les noms des traits
 const normalizeTraitName = (trait: string): string => {
@@ -46,8 +49,11 @@ const Table: React.FC<TableProps> = ({
   data,
   disableSorting = false,
   defaultSort = { key: headers[0], direction: "asc" }, // Tri par défaut sur la première colonne
+  enableSelection = false,
+  categoryName = "",
 }) => {
   const sourceFilter = useSourceFilter();
+  const selection = useSelection();
   const [tooltip, setTooltip] = useState<string | null>(null);
   const [tooltipPosition, setTooltipPosition] = useState<{
     x: number;
@@ -126,8 +132,8 @@ const Table: React.FC<TableProps> = ({
     if (!sortConfig) return filteredData;
 
     return [...filteredData].sort((a, b) => {
-      let aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
-      let bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
+      const aValue = a[sortConfig.key] === "-" ? 0 : a[sortConfig.key];
+      const bValue = b[sortConfig.key] === "-" ? 0 : b[sortConfig.key];
 
       // Gestion spéciale pour les colonnes string non triées par l'alphabétique
       if (sortConfig.key === "Availability") {
@@ -258,6 +264,37 @@ const Table: React.FC<TableProps> = ({
       <table className="table">
         <thead>
           <tr>
+            {enableSelection && (
+              <th className="checkbox-column">
+                <input
+                  type="checkbox"
+                  aria-label="Select all rows"
+                  onChange={(e) => {
+                    sortedData.forEach((row) => {
+                      const itemName = (row["Name"] || row[headers[0]])?.toString() || "";
+                      const id = `${categoryName}-${itemName}`;
+                      const isCurrentlySelected = selection.isSelected(id);
+                      if (e.target.checked && !isCurrentlySelected) {
+                        const selectedItem: SelectedItem = {
+                          id,
+                          name: itemName,
+                          category: categoryName,
+                          data: row,
+                        };
+                        selection.addSelection(selectedItem);
+                      } else if (!e.target.checked && isCurrentlySelected) {
+                        selection.removeSelection(id);
+                      }
+                    });
+                  }}
+                  checked={sortedData.length > 0 && sortedData.every((row) => {
+                    const itemName = (row["Name"] || row[headers[0]])?.toString() || "";
+                    const id = `${categoryName}-${itemName}`;
+                    return selection.isSelected(id);
+                  })}
+                />
+              </th>
+            )}
             {headers.map((header, index) => (
               <th key={index} onClick={() => handleSort(header)}>
                 {header}
@@ -271,11 +308,33 @@ const Table: React.FC<TableProps> = ({
         <tbody>
           {sortedData.map((row, rowIndex) => {
             const discipline = row["Discipline"]?.toString().toLowerCase(); // Récupère la discipline
+            const itemName = (row["Name"] || row[headers[0]])?.toString() || "";
+            const itemId = `${categoryName}-${itemName}`;
+            const isRowSelected = selection.isSelected(itemId);
+            
             return (
               <tr
                 key={rowIndex}
                 className={discipline ? `discipline-${discipline}` : ""}
               >
+                {enableSelection && (
+                  <td className="checkbox-column">
+                    <input
+                      type="checkbox"
+                      checked={isRowSelected}
+                      onChange={() => {
+                        const selectedItem: SelectedItem = {
+                          id: itemId,
+                          name: itemName,
+                          category: categoryName,
+                          data: row,
+                        };
+                        selection.toggleSelection(selectedItem);
+                      }}
+                      aria-label={`Select ${itemName}`}
+                    />
+                  </td>
+                )}
                 {headers.map((header, colIndex) => (
                   <td key={colIndex}>
                     {header === "Traits" && row[header]

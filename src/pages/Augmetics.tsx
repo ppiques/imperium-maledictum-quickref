@@ -34,7 +34,7 @@ function Augmetics() {
         onSearch={(searchQuery) => setQuery(searchQuery)}
       />
       <h3>Strength in Steel</h3>
-      <Table headers={augmeticsHeaders} data={filteredAugmetics} />
+      <Table headers={augmeticsHeaders} data={filteredAugmetics} enableSelection categoryName="Augmetics" />
     </div>
   );
 }

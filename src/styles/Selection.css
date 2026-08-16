@@ -1,0 +1,20 @@
+.selection-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 100%);
+  padding: 2rem 1rem;
+}
+
+.selection-page-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .selection-page {
+    padding: 1rem 0.5rem;
+  }
+
+  .selection-page-container {
+    margin: 0 0.5rem;
+  }
+}
