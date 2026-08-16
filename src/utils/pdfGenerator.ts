@@ -107,13 +107,19 @@ export const generateSelectionPDF = (
             doc.addPage();
             yPosition = margin;
           }
-          doc.text(
-            detail,
-            margin + 10,
-            yPosition,
-            { maxWidth: contentWidth - 10 }
-          );
-          yPosition += 4;
+          
+          // Split text to handle wrapping properly
+          const splitText = doc.splitTextToSize(detail, contentWidth - 10);
+          const lineHeight = 4;
+          
+          splitText.forEach((line: string) => {
+            if (yPosition > pageHeight - 15) {
+              doc.addPage();
+              yPosition = margin;
+            }
+            doc.text(line, margin + 10, yPosition);
+            yPosition += lineHeight;
+          });
         });
       }
 
