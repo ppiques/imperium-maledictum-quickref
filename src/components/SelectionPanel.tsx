@@ -1,42 +1,7 @@
 import React from "react";
 import { useSelection } from "../contexts/SelectionContext";
-import { generateSelectionPDF } from "../utils/pdfGenerator/pdfGenerator";
+import { generateSelectionPDF, getTileDetailsForPDF } from "../utils/pdfGenerator/pdfGenerator";
 import "./SelectionPanel.css";
-
-// Helper function to extract key details for tile display
-const getTileDetails = (
-  data: Record<string, string | number | null | React.ReactNode>,
-  category: string
-): Array<{ label: string; value: string }> => {
-  const tileDetailsMap: Record<string, string[]> = {
-    Talents: ["Requirement"],
-    Weapons: ["Damage", "Cost"],
-    Protection: ["Armour", "Cost"],
-    Equipment: ["Cost", "Availability"],
-    Augmetics: ["Cost", "Effect"],
-    Psy: ["Warp Rating", "Difficulty"],
-    Services: ["Cost", "Duration"],
-    Combat: ["Effect"],
-  };
-
-  const fieldsToShow = tileDetailsMap[category] || [];
-  const details: Array<{ label: string; value: string }> = [];
-
-  fieldsToShow.forEach((field) => {
-    const value = data[field];
-    if (value && value !== "-") {
-      const stringValue =
-        typeof value === "string" || typeof value === "number"
-          ? String(value)
-          : "";
-      if (stringValue) {
-        details.push({ label: field, value: stringValue });
-      }
-    }
-  });
-
-  return details;
-};
 
 const SelectionPanel: React.FC = () => {
   const selection = useSelection();
@@ -110,7 +75,7 @@ const SelectionPanel: React.FC = () => {
                     <div className="selection-tile-content">
                       <h4 className="selection-tile-name">{item.name}</h4>
                       <div className="selection-tile-details">
-                        {getTileDetails(item.data, category).map((detail, idx) => (
+                        {getTileDetailsForPDF(item.data, category).map((detail, idx) => (
                           <div key={idx} className="selection-tile-detail">
                             <span className="detail-label">{detail.label}:</span>
                             <span className="detail-value">{detail.value}</span>

@@ -207,7 +207,7 @@ function generateTileTitle(doc: jsPDF,
 }
 
 // Helper function to extract key details for tile display (same as SelectionPanel)
-const getTileDetailsForPDF = (
+export const getTileDetailsForPDF = (
     data: Record<string, string | number | null | React.ReactNode>,
     category: string
 ): Array<{ label: string; value: string }> => {
