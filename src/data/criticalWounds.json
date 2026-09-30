@@ -259,8 +259,8 @@
       },
       {
         "Roll": "14-15",
-        "Description": "Played Flesh",
-        "Effect": "Your flesh is mangled and torn apart, with only the barest piece of flesh attaching it to your body. Your arm is completely useless, and you drop any item held in the hand. Additionally, you must make a Very Hard (-30) Fortitude (Pain) Test or be Stunned for 1 hour. If you suffer any further Damage to the arm, you automatically suffer the Brutal Dismemberment Critical Wound and die.",
+        "Description": "Flayed Flesh",
+        "Effect": "A chunk of the flesh of your torso is blasted away, leaving an ugly, open wound that exposes the bones and organs beneath. You are Bleeding (Major) and Prone. Additionally, you are Stunned for 1 hour. Injury: A Difficult (−10) Medicae Test performed by someone with the Chirurgeon Talent is required to repair the damaged tissue.",
         "Treatment": "A Very Hard (-30) Medicae Test performed by someone with the Chirurgeon Talent or similar expertise."
       },
       {
